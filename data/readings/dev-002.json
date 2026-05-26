@@ -1,0 +1,35 @@
+{
+  "deviceId": "DEV-002",
+  "date": "2026-05-26",
+  "stats": [
+    { "channel": "温度 (°C)",   "min": "19.2", "max": "22.1", "avg": "20.6", "std": "0.9" },
+    { "channel": "湿度 (%)",    "min": "41",   "max": "46",   "avg": "43",   "std": "1.5" },
+    { "channel": "気圧 (hPa)", "min": "1012.3","max": "1013.6","avg": "1012.9","std": "0.4" }
+  ],
+  "data": [
+    { "time": "00:00", "temp": 19.8, "humidity": 44, "pressure": 1013.2 },
+    { "time": "01:00", "temp": 19.6, "humidity": 44, "pressure": 1013.0 },
+    { "time": "02:00", "temp": 19.4, "humidity": 45, "pressure": 1012.8 },
+    { "time": "03:00", "temp": 19.3, "humidity": 45, "pressure": 1012.7 },
+    { "time": "04:00", "temp": 19.2, "humidity": 46, "pressure": 1012.5 },
+    { "time": "05:00", "temp": 19.4, "humidity": 45, "pressure": 1012.4 },
+    { "time": "06:00", "temp": 19.7, "humidity": 44, "pressure": 1012.3 },
+    { "time": "07:00", "temp": 20.2, "humidity": 43, "pressure": 1012.4 },
+    { "time": "08:00", "temp": 20.8, "humidity": 43, "pressure": 1012.6 },
+    { "time": "09:00", "temp": 21.3, "humidity": 42, "pressure": 1012.8 },
+    { "time": "10:00", "temp": 21.9, "humidity": 41, "pressure": 1013.0 },
+    { "time": "11:00", "temp": 21.4, "humidity": 42, "pressure": 1013.2 },
+    { "time": "12:00", "temp": 20.8, "humidity": 43, "pressure": 1013.3 },
+    { "time": "13:00", "temp": 21.2, "humidity": 42, "pressure": 1013.4 },
+    { "time": "14:00", "temp": 21.8, "humidity": 41, "pressure": 1013.5 },
+    { "time": "15:00", "temp": 22.1, "humidity": 41, "pressure": 1013.6 },
+    { "time": "16:00", "temp": 21.7, "humidity": 42, "pressure": 1013.5 },
+    { "time": "17:00", "temp": 21.0, "humidity": 43, "pressure": 1013.4 },
+    { "time": "18:00", "temp": 20.4, "humidity": 44, "pressure": 1013.3 },
+    { "time": "19:00", "temp": 19.9, "humidity": 44, "pressure": 1013.2 },
+    { "time": "20:00", "temp": 19.7, "humidity": 45, "pressure": 1013.1 },
+    { "time": "21:00", "temp": 19.5, "humidity": 45, "pressure": 1013.1 },
+    { "time": "22:00", "temp": 19.3, "humidity": 45, "pressure": 1013.0 },
+    { "time": "23:00", "temp": 19.2, "humidity": 46, "pressure": 1012.9 }
+  ]
+}

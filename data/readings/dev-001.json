@@ -1,0 +1,36 @@
+{
+  "deviceId": "DEV-001",
+  "date": "2026-05-26",
+  "stats": [
+    { "channel": "温度 (°C)",   "min": "20.1",   "max": "30.2",   "avg": "24.4", "std": "3.1"  },
+    { "channel": "湿度 (%)",    "min": "44",     "max": "75",     "avg": "62",   "std": "9.4"  },
+    { "channel": "気圧 (hPa)", "min": "1011.8", "max": "1013.8", "avg": "1012.8","std": "0.6"  },
+    { "channel": "CO₂ (ppm)", "min": "395",    "max": "822",    "avg": "558",  "std": "148"  }
+  ],
+  "data": [
+    { "time": "00:00", "temp": 21.1, "humidity": 71, "pressure": 1013.5, "co2": 408 },
+    { "time": "01:00", "temp": 20.8, "humidity": 72, "pressure": 1013.2, "co2": 403 },
+    { "time": "02:00", "temp": 20.5, "humidity": 73, "pressure": 1012.9, "co2": 399 },
+    { "time": "03:00", "temp": 20.3, "humidity": 74, "pressure": 1012.6, "co2": 397 },
+    { "time": "04:00", "temp": 20.1, "humidity": 75, "pressure": 1012.4, "co2": 395 },
+    { "time": "05:00", "temp": 20.4, "humidity": 73, "pressure": 1012.2, "co2": 398 },
+    { "time": "06:00", "temp": 21.8, "humidity": 69, "pressure": 1012.0, "co2": 412 },
+    { "time": "07:00", "temp": 23.6, "humidity": 64, "pressure": 1011.9, "co2": 445 },
+    { "time": "08:00", "temp": 27.4, "humidity": 55, "pressure": 1011.8, "co2": 531 },
+    { "time": "09:00", "temp": 29.1, "humidity": 50, "pressure": 1011.8, "co2": 648 },
+    { "time": "10:00", "temp": 26.3, "humidity": 56, "pressure": 1011.9, "co2": 712 },
+    { "time": "11:00", "temp": 24.9, "humidity": 59, "pressure": 1012.0, "co2": 754 },
+    { "time": "12:00", "temp": 26.8, "humidity": 53, "pressure": 1012.2, "co2": 698 },
+    { "time": "13:00", "temp": 28.5, "humidity": 48, "pressure": 1012.4, "co2": 763 },
+    { "time": "14:00", "temp": 30.2, "humidity": 44, "pressure": 1012.6, "co2": 822 },
+    { "time": "15:00", "temp": 28.9, "humidity": 47, "pressure": 1012.8, "co2": 791 },
+    { "time": "16:00", "temp": 27.3, "humidity": 52, "pressure": 1013.0, "co2": 734 },
+    { "time": "17:00", "temp": 25.6, "humidity": 57, "pressure": 1013.2, "co2": 621 },
+    { "time": "18:00", "temp": 23.7, "humidity": 62, "pressure": 1013.4, "co2": 512 },
+    { "time": "19:00", "temp": 22.9, "humidity": 65, "pressure": 1013.5, "co2": 443 },
+    { "time": "20:00", "temp": 22.3, "humidity": 67, "pressure": 1013.6, "co2": 421 },
+    { "time": "21:00", "temp": 21.8, "humidity": 69, "pressure": 1013.7, "co2": 415 },
+    { "time": "22:00", "temp": 21.4, "humidity": 70, "pressure": 1013.7, "co2": 411 },
+    { "time": "23:00", "temp": 21.1, "humidity": 71, "pressure": 1013.8, "co2": 407 }
+  ]
+}

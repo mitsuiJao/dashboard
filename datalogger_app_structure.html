@@ -1,0 +1,166 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+.wrap{display:flex;gap:0;min-height:480px;border:1px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);overflow:hidden}
+.sidebar{width:160px;flex-shrink:0;border-right:1px solid var(--color-border-tertiary);background:var(--color-background-secondary);padding:12px 0}
+.nav-item{display:flex;align-items:center;gap:8px;padding:8px 14px;cursor:pointer;font-size:13px;color:var(--color-text-secondary);border-left:2px solid transparent;transition:all .15s}
+.nav-item i{font-size:15px;flex-shrink:0}
+.nav-item:hover{color:var(--color-text-primary);background:var(--color-background-primary)}
+.nav-item.active{color:var(--color-text-primary);border-left-color:var(--color-text-primary);background:var(--color-background-primary);font-weight:500}
+.nav-label{font-size:10px;color:var(--color-text-tertiary);padding:10px 14px 4px;letter-spacing:.04em;font-weight:500}
+.main{flex:1;padding:16px;overflow:auto}
+.page{display:none}
+.page.active{display:block}
+.page-title{font-size:14px;font-weight:500;color:var(--color-text-primary);margin-bottom:12px}
+.section-label{font-size:11px;color:var(--color-text-tertiary);margin-bottom:6px;margin-top:12px;font-weight:500;letter-spacing:.04em}
+.component-grid{display:grid;gap:8px}
+.component-grid.col2{grid-template-columns:1fr 1fr}
+.component-grid.col3{grid-template-columns:1fr 1fr 1fr}
+.comp{border:1px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);padding:9px 11px;background:var(--color-background-primary)}
+.comp-name{font-size:12px;font-weight:500;color:var(--color-text-primary);margin-bottom:2px}
+.comp-desc{font-size:11px;color:var(--color-text-secondary);line-height:1.5}
+.comp.highlight{border-color:var(--color-border-secondary);background:var(--color-background-secondary)}
+.tab-strip{display:flex;gap:4px;margin-bottom:10px;border-bottom:1px solid var(--color-border-tertiary);padding-bottom:0}
+.tab-pill{font-size:11px;padding:4px 10px;color:var(--color-text-secondary);border-radius:4px 4px 0 0;border:1px solid transparent;border-bottom:none;cursor:default}
+.tab-pill.active{color:var(--color-text-primary);font-weight:500;background:var(--color-background-primary);border-color:var(--color-border-tertiary)}
+.badge{display:inline-block;font-size:10px;padding:1px 5px;border-radius:3px;font-weight:500}
+.badge-blue{background:var(--color-background-info);color:var(--color-text-info)}
+.badge-orange{background:var(--color-background-warning);color:var(--color-text-warning)}
+.badge-green{background:var(--color-background-success);color:var(--color-text-success)}
+.flow-arrow{text-align:center;color:var(--color-text-tertiary);font-size:16px;padding:2px 0}
+</style>
+
+<div class="wrap">
+<nav class="sidebar">
+  <div class="nav-label">メイン</div>
+  <div class="nav-item active" data-page="dashboard"><i class="ti ti-layout-dashboard" aria-hidden="true"></i>ダッシュボード</div>
+  <div class="nav-item" data-page="dataview"><i class="ti ti-chart-line" aria-hidden="true"></i>データ閲覧</div>
+  <div class="nav-item" data-page="devices"><i class="ti ti-cpu" aria-hidden="true"></i>デバイス管理</div>
+  <div class="nav-item" data-page="alerts"><i class="ti ti-bell" aria-hidden="true"></i>アラート</div>
+  <div class="nav-item" data-page="reports"><i class="ti ti-file-export" aria-hidden="true"></i>レポート</div>
+  <div class="nav-label">システム</div>
+  <div class="nav-item" data-page="settings"><i class="ti ti-settings" aria-hidden="true"></i>設定</div>
+</nav>
+
+<div class="main">
+
+  <!-- ダッシュボード -->
+  <div class="page active" id="page-dashboard">
+    <div class="page-title">ダッシュボード <span class="badge badge-blue">トップ画面</span></div>
+    <div class="section-label">KPI サマリー</div>
+    <div class="component-grid col3">
+      <div class="comp highlight"><div class="comp-name">総デバイス数</div><div class="comp-desc">接続中 / 切断中の件数。Stat カード。</div></div>
+      <div class="comp highlight"><div class="comp-name">アクティブアラート</div><div class="comp-desc">未対応アラート件数。クリックでアラートページへ。</div></div>
+      <div class="comp highlight"><div class="comp-name">最終受信時刻</div><div class="comp-desc">直近データ受信のタイムスタンプ。</div></div>
+    </div>
+    <div class="section-label">概要グラフ</div>
+    <div class="component-grid col2">
+      <div class="comp"><div class="comp-name">全体トレンド</div><div class="comp-desc">代表チャンネルの直近 24h。LineChart (Tremor)。</div></div>
+      <div class="comp"><div class="comp-name">デバイスステータス一覧</div><div class="comp-desc">接続状態バッジ付きテーブル。行クリックでデバイス詳細へ遷移。</div></div>
+    </div>
+  </div>
+
+  <!-- データ閲覧 -->
+  <div class="page" id="page-dataview">
+    <div class="page-title">データ閲覧 <span class="badge badge-blue">メイン機能</span></div>
+    <div class="section-label">フィルタバー（常時表示）</div>
+    <div class="component-grid col3">
+      <div class="comp highlight"><div class="comp-name">デバイス選択</div><div class="comp-desc">MultiSelect で複数デバイス同時比較可。</div></div>
+      <div class="comp highlight"><div class="comp-name">期間指定</div><div class="comp-desc">DateRangePicker。プリセット（今日 / 今週 / 今月）付き。</div></div>
+      <div class="comp highlight"><div class="comp-name">チャンネル選択</div><div class="comp-desc">温度・湿度・圧力などをチェックボックスで絞り込み。</div></div>
+    </div>
+    <div class="section-label">表示モード（Tab 切り替え）</div>
+    <div class="tab-strip">
+      <div class="tab-pill active">グラフ</div>
+      <div class="tab-pill">テーブル</div>
+      <div class="tab-pill">統計</div>
+    </div>
+    <div class="component-grid col2">
+      <div class="comp"><div class="comp-name">グラフビュー</div><div class="comp-desc">LineChart。Y 軸は単位別に複数軸。ズーム・パン対応。</div></div>
+      <div class="comp"><div class="comp-name">テーブルビュー</div><div class="comp-desc">タイムスタンプ + 各チャンネル値。ページネーション付き。ソート可。</div></div>
+    </div>
+    <div class="component-grid col1" style="margin-top:8px">
+      <div class="comp"><div class="comp-name">統計ビュー</div><div class="comp-desc">選択期間の max / min / 平均 / 標準偏差をチャンネル別に表示（Tremor の Table）。</div></div>
+    </div>
+  </div>
+
+  <!-- デバイス管理 -->
+  <div class="page" id="page-devices">
+    <div class="page-title">デバイス管理</div>
+    <div class="section-label">デバイス一覧（親画面）</div>
+    <div class="component-grid col2">
+      <div class="comp highlight"><div class="comp-name">デバイステーブル</div><div class="comp-desc">ID・名称・接続状態・最終通信・チャンネル数。行クリックで詳細へ。</div></div>
+      <div class="comp highlight"><div class="comp-name">ステータスフィルタ</div><div class="comp-desc">接続中 / 切断 / エラーでフィルタ。</div></div>
+    </div>
+    <div class="flow-arrow">↓ 行クリックでドリルダウン</div>
+    <div class="section-label">デバイス詳細（サブ画面 / スライドオーバー）</div>
+    <div class="component-grid col3">
+      <div class="comp"><div class="comp-name">基本情報</div><div class="comp-desc">デバイス名・モデル・ファームウェアバージョン・設置場所。</div></div>
+      <div class="comp"><div class="comp-name">チャンネル定義</div><div class="comp-desc">各チャンネルの名称・単位・表示レンジを編集。</div></div>
+      <div class="comp"><div class="comp-name">通信ログ</div><div class="comp-desc">直近のポーリング履歴・エラーログ。</div></div>
+    </div>
+  </div>
+
+  <!-- アラート -->
+  <div class="page" id="page-alerts">
+    <div class="page-title">アラート</div>
+    <div class="section-label">表示切り替え（Tab）</div>
+    <div class="tab-strip">
+      <div class="tab-pill active">アクティブ <span class="badge badge-orange">3</span></div>
+      <div class="tab-pill">履歴</div>
+    </div>
+    <div class="component-grid col2">
+      <div class="comp highlight"><div class="comp-name">アクティブアラート一覧</div><div class="comp-desc">デバイス・チャンネル・閾値超過値・発生時刻。対応済みマーク操作付き。</div></div>
+      <div class="comp highlight"><div class="comp-name">履歴テーブル</div><div class="comp-desc">日付・デバイス・種別フィルタ付き。発生〜解除の期間を表示。</div></div>
+    </div>
+    <div class="section-label">閾値ルール一覧（設定へのショートカット）</div>
+    <div class="comp"><div class="comp-name">ルール一覧</div><div class="comp-desc">チャンネルごとの上下限設定を確認。「編集」クリックで設定 → アラート設定へ遷移。</div></div>
+  </div>
+
+  <!-- レポート -->
+  <div class="page" id="page-reports">
+    <div class="page-title">レポート</div>
+    <div class="section-label">エクスポート設定</div>
+    <div class="component-grid col3">
+      <div class="comp highlight"><div class="comp-name">対象デバイス</div><div class="comp-desc">MultiSelect。</div></div>
+      <div class="comp highlight"><div class="comp-name">期間</div><div class="comp-desc">DateRangePicker（データ閲覧と共通コンポーネント）。</div></div>
+      <div class="comp highlight"><div class="comp-name">チャンネル</div><div class="comp-desc">出力対象チャンネルを選択。</div></div>
+    </div>
+    <div class="section-label">出力形式と操作</div>
+    <div class="component-grid col2">
+      <div class="comp"><div class="comp-name">CSV エクスポート</div><div class="comp-desc">タイムスタンプ × チャンネルの生データ。文字コード選択可（UTF-8 / Shift_JIS）。</div></div>
+      <div class="comp"><div class="comp-name">PDF レポート</div><div class="comp-desc">グラフ＋統計サマリーを含む帳票。プレビュー → ダウンロード。</div></div>
+    </div>
+  </div>
+
+  <!-- 設定 -->
+  <div class="page" id="page-settings">
+    <div class="page-title">設定 <span class="badge badge-green">必須</span></div>
+    <div class="section-label">設定カテゴリ（Tab）</div>
+    <div class="tab-strip">
+      <div class="tab-pill active">接続</div>
+      <div class="tab-pill">アラート</div>
+      <div class="tab-pill">表示</div>
+      <div class="tab-pill">ユーザー</div>
+    </div>
+    <div class="component-grid col2">
+      <div class="comp highlight"><div class="comp-name">接続設定</div><div class="comp-desc">データロガー API エンドポイント・認証情報・ポーリング間隔。</div></div>
+      <div class="comp highlight"><div class="comp-name">アラート設定</div><div class="comp-desc">チャンネルごとの上下限閾値ルール。通知先（メール / Webhook）。</div></div>
+      <div class="comp"><div class="comp-name">表示設定</div><div class="comp-desc">テーマ（ライト / ダーク）・タイムゾーン・単位系・グラフデフォルト期間。</div></div>
+      <div class="comp"><div class="comp-name">ユーザー管理</div><div class="comp-desc">閲覧専用 / 編集者 / 管理者のロール設定。</div></div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<script>
+document.querySelectorAll('.nav-item').forEach(item => {
+  item.addEventListener('click', () => {
+    document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    item.classList.add('active');
+    document.getElementById('page-' + item.dataset.page).classList.add('active');
+  });
+});
+</script>

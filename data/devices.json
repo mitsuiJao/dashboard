@@ -1,0 +1,82 @@
+[
+  {
+    "id": "DEV-001",
+    "name": "センサー A",
+    "model": "DL-3000",
+    "firmware": "v2.4.1",
+    "location": "1F 機械室",
+    "status": "online",
+    "lastComm": "2026-05-26 14:32:05",
+    "lastCommRelative": "2分前",
+    "channels": [
+      { "name": "温度",  "unit": "°C",  "min": 0,   "max": 50   },
+      { "name": "湿度",  "unit": "%",   "min": 0,   "max": 100  },
+      { "name": "気圧",  "unit": "hPa", "min": 900, "max": 1100 },
+      { "name": "CO₂", "unit": "ppm", "min": 0,   "max": 5000 }
+    ],
+    "logs": [
+      { "time": "14:32:05", "message": "データ受信成功",  "level": "info" },
+      { "time": "14:32:00", "message": "ポーリング実行",  "level": "info" },
+      { "time": "14:31:55", "message": "接続確認 OK",    "level": "info" }
+    ]
+  },
+  {
+    "id": "DEV-002",
+    "name": "センサー B",
+    "model": "DL-3000",
+    "firmware": "v2.4.1",
+    "location": "2F サーバー室",
+    "status": "online",
+    "lastComm": "2026-05-26 14:30:12",
+    "lastCommRelative": "5分前",
+    "channels": [
+      { "name": "温度", "unit": "°C",  "min": 0,   "max": 50   },
+      { "name": "湿度", "unit": "%",   "min": 0,   "max": 100  },
+      { "name": "気圧", "unit": "hPa", "min": 900, "max": 1100 }
+    ],
+    "logs": [
+      { "time": "14:30:12", "message": "データ受信成功", "level": "info" },
+      { "time": "14:30:07", "message": "ポーリング実行", "level": "info" }
+    ]
+  },
+  {
+    "id": "DEV-003",
+    "name": "センサー C",
+    "model": "DL-2500",
+    "firmware": "v2.3.0",
+    "location": "屋外 北側",
+    "status": "offline",
+    "lastComm": "2026-05-26 12:15:33",
+    "lastCommRelative": "2時間前",
+    "channels": [
+      { "name": "温度", "unit": "°C",  "min": -20, "max": 60  },
+      { "name": "湿度", "unit": "%",   "min": 0,   "max": 100 },
+      { "name": "風速", "unit": "m/s", "min": 0,   "max": 50  },
+      { "name": "雨量", "unit": "mm",  "min": 0,   "max": 100 }
+    ],
+    "logs": [
+      { "time": "12:15:33", "message": "接続タイムアウト",      "level": "error" },
+      { "time": "12:15:28", "message": "再接続試行 (3/3)",      "level": "warn"  },
+      { "time": "12:15:23", "message": "再接続試行 (2/3)",      "level": "warn"  }
+    ]
+  },
+  {
+    "id": "DEV-004",
+    "name": "センサー D",
+    "model": "DL-2000",
+    "firmware": "v2.1.5",
+    "location": "地下 倉庫",
+    "status": "error",
+    "lastComm": "2026-05-26 14:01:45",
+    "lastCommRelative": "30分前",
+    "channels": [
+      { "name": "温度", "unit": "°C", "min": 0, "max": 50  },
+      { "name": "湿度", "unit": "%",  "min": 0, "max": 100 }
+    ],
+    "logs": [
+      { "time": "14:01:45", "message": "センサー値異常 (温度: 87.3°C)", "level": "error" },
+      { "time": "14:01:40", "message": "データ受信成功",                "level": "info"  },
+      { "time": "14:01:35", "message": "ポーリング実行",                "level": "info"  }
+    ]
+  }
+]
