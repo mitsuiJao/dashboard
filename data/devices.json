@@ -8,6 +8,7 @@
     "status": "online",
     "lastComm": "2026-05-26 14:32:05",
     "lastCommRelative": "2分前",
+    "tags": ["室内", "1F"],
     "channels": [
       { "name": "温度",  "unit": "°C",  "min": 0,   "max": 50   },
       { "name": "湿度",  "unit": "%",   "min": 0,   "max": 100  },
@@ -29,6 +30,7 @@
     "status": "online",
     "lastComm": "2026-05-26 14:30:12",
     "lastCommRelative": "5分前",
+    "tags": ["室内", "2F"],
     "channels": [
       { "name": "温度", "unit": "°C",  "min": 0,   "max": 50   },
       { "name": "湿度", "unit": "%",   "min": 0,   "max": 100  },
@@ -48,6 +50,7 @@
     "status": "offline",
     "lastComm": "2026-05-26 12:15:33",
     "lastCommRelative": "2時間前",
+    "tags": ["屋外"],
     "channels": [
       { "name": "温度", "unit": "°C",  "min": -20, "max": 60  },
       { "name": "湿度", "unit": "%",   "min": 0,   "max": 100 },
@@ -69,6 +72,7 @@
     "status": "error",
     "lastComm": "2026-05-26 14:01:45",
     "lastCommRelative": "30分前",
+    "tags": ["地下", "倉庫"],
     "channels": [
       { "name": "温度", "unit": "°C", "min": 0, "max": 50  },
       { "name": "湿度", "unit": "%",  "min": 0, "max": 100 }

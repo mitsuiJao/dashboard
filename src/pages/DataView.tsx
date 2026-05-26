@@ -4,8 +4,6 @@ import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-  ChartLegend,
-  ChartLegendContent,
 } from "@/components/ui/chart"
 import type { ChartConfig } from "@/components/ui/chart"
 import { Button } from "@/components/ui/button"
@@ -40,16 +38,6 @@ const ALL_CHANNELS = [
   { key: "rainfall",  label: "雨量",  unit: "mm",  chartIdx: 4 },
 ]
 
-const DEVICES = devicesJson.map(d => d.name)
-const PAGE_SIZE = 10
-
-const pillClass = (active: boolean) =>
-  `text-[11px] px-2.5 py-1 rounded border transition-colors ${
-    active
-      ? "border-foreground/60 bg-foreground text-background"
-      : "border-border text-muted-foreground hover:text-foreground hover:border-foreground/40"
-  }`
-
 const chartConfig: ChartConfig = {
   temp:      { label: "温度 (°C)",   color: "var(--chart-1)" },
   humidity:  { label: "湿度 (%)",    color: "var(--chart-2)" },
@@ -59,12 +47,44 @@ const chartConfig: ChartConfig = {
   rainfall:  { label: "雨量 (mm)",  color: "var(--chart-4)" },
 }
 
+const PAGE_SIZE = 10
+
+const pillClass = (active: boolean) =>
+  `text-[11px] px-2.5 py-1 rounded border transition-colors ${
+    active
+      ? "border-foreground/60 bg-foreground text-background"
+      : "border-border text-muted-foreground hover:text-foreground hover:border-foreground/40"
+  }`
+
+// Collect all unique tags across devices
+const ALL_TAGS = Array.from(
+  new Set(devicesJson.flatMap(d => (d as typeof d & { tags?: string[] }).tags ?? []))
+)
+
 export default function DataView() {
   const [activeTab, setActiveTab] = useState<"graph" | "table" | "stats">("graph")
+  const [selectedTag, setSelectedTag] = useState<string | null>(null)
   const [selectedDevice, setSelectedDevice] = useState<string>("センサー A")
-  const [selectedChannels, setSelectedChannels] = useState<string[]>(["temp", "humidity"])
   const [selectedPeriod, setSelectedPeriod] = useState<"今日" | "今週" | "今月">("今日")
   const [tablePage, setTablePage] = useState(0)
+
+  // Devices filtered by selected tag
+  const filteredDevices = useMemo(() => {
+    if (!selectedTag) return devicesJson.map(d => d.name)
+    return devicesJson
+      .filter(d => ((d as typeof d & { tags?: string[] }).tags ?? []).includes(selectedTag))
+      .map(d => d.name)
+  }, [selectedTag])
+
+  // When tag filter changes, reset device if current one isn't in filtered list
+  useEffect(() => {
+    if (!filteredDevices.includes(selectedDevice)) {
+      setSelectedDevice(filteredDevices[0] ?? "センサー A")
+    }
+  }, [filteredDevices, selectedDevice])
+
+  const currentDevice = devicesJson.find(d => d.name === selectedDevice)
+  const currentTags = (currentDevice as typeof currentDevice & { tags?: string[] })?.tags ?? []
 
   const currentReading = readingsMap[selectedDevice]
   const graphData      = currentReading?.data ?? []
@@ -77,21 +97,11 @@ export default function DataView() {
   const CHANNELS = ALL_CHANNELS.filter(c => availableKeys.includes(c.key))
 
   useEffect(() => {
-    setSelectedChannels(prev => {
-      const kept = prev.filter(c => availableKeys.includes(c))
-      return kept.length > 0 ? kept : availableKeys.slice(0, 2)
-    })
     setTablePage(0)
-  }, [selectedDevice, availableKeys])
-
-  function toggleChannel(c: string) {
-    setSelectedChannels(prev => prev.includes(c) ? prev.filter(x => x !== c) : [...prev, c])
-  }
+  }, [selectedDevice])
 
   const totalPages = Math.ceil(graphData.length / PAGE_SIZE)
   const pageRows   = graphData.slice(tablePage * PAGE_SIZE, (tablePage + 1) * PAGE_SIZE)
-
-  const activeGraphChannels = ALL_CHANNELS.filter(c => selectedChannels.includes(c.key) && availableKeys.includes(c.key))
 
   return (
     <div className="p-6 space-y-4">
@@ -99,38 +109,60 @@ export default function DataView() {
 
       {/* Filter bar */}
       <div className="border border-border rounded-lg bg-card px-4 py-3 space-y-2.5">
-        <div className="flex items-center gap-3">
-          <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-widest w-[68px] flex-shrink-0">デバイス</span>
-          <div className="relative">
-            <select
-              value={selectedDevice}
-              onChange={e => setSelectedDevice(e.target.value)}
-              className="appearance-none text-xs border border-border rounded px-2.5 py-1 pr-7 bg-background focus:outline-none focus:ring-1 focus:ring-ring cursor-pointer"
-            >
-              {DEVICES.map(d => (
-                <option key={d} value={d}>{d}</option>
-              ))}
-            </select>
-            <ChevronDown size={12} className="absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none text-muted-foreground" />
-          </div>
-        </div>
 
+        {/* Group tag filter */}
         <div className="flex items-center gap-3">
-          <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-widest w-[68px] flex-shrink-0">チャンネル</span>
-          <div className="flex gap-1.5">
-            {CHANNELS.map(c => (
+          <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-widest w-[68px] flex-shrink-0">グループ</span>
+          <div className="flex gap-1.5 flex-wrap">
+            <button
+              onClick={() => setSelectedTag(null)}
+              className={pillClass(selectedTag === null)}
+            >
+              すべて
+            </button>
+            {ALL_TAGS.map(tag => (
               <button
-                key={c.key}
-                onClick={() => toggleChannel(c.key)}
-                className={`${pillClass(selectedChannels.includes(c.key))} flex items-center gap-1.5`}
+                key={tag}
+                onClick={() => setSelectedTag(prev => prev === tag ? null : tag)}
+                className={pillClass(selectedTag === tag)}
               >
-                <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" style={{ backgroundColor: `var(--chart-${c.chartIdx})` }} />
-                {c.label}
+                {tag}
               </button>
             ))}
           </div>
         </div>
 
+        {/* Device selector */}
+        <div className="flex items-center gap-3">
+          <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-widest w-[68px] flex-shrink-0">デバイス</span>
+          <div className="flex items-center gap-2">
+            <div className="relative">
+              <select
+                value={selectedDevice}
+                onChange={e => setSelectedDevice(e.target.value)}
+                className="appearance-none text-xs border border-border rounded px-2.5 py-1 pr-7 bg-background focus:outline-none focus:ring-1 focus:ring-ring cursor-pointer"
+              >
+                {filteredDevices.map(d => (
+                  <option key={d} value={d}>{d}</option>
+                ))}
+              </select>
+              <ChevronDown size={12} className="absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none text-muted-foreground" />
+            </div>
+            {/* Current device tags */}
+            <div className="flex gap-1">
+              {currentTags.map(tag => (
+                <span
+                  key={tag}
+                  className="text-[10px] px-1.5 py-0.5 rounded border border-border/60 bg-muted/60 text-muted-foreground"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Period */}
         <div className="flex items-center gap-3">
           <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-widest w-[68px] flex-shrink-0">期間</span>
           <div className="flex items-center gap-1.5">
@@ -169,27 +201,60 @@ export default function DataView() {
         </div>
 
         <div className="pt-4">
+          {/* Graph tab — one chart per channel */}
           {activeTab === "graph" && (
-            <div className="border border-border rounded-lg p-4 bg-card">
-              <div className="flex items-baseline justify-between mb-3">
+            <div className="space-y-3">
+              <div className="flex items-baseline justify-between">
                 <p className="text-[13px] font-medium">{selectedDevice}</p>
                 <p className="text-[11px] text-muted-foreground font-mono">{currentReading?.date}  00:00 〜 23:00</p>
               </div>
-              <ChartContainer config={chartConfig} className="aspect-auto h-[280px]">
-                <LineChart data={graphData}>
-                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border)" />
-                  <XAxis dataKey="time" tick={{ fontSize: 10 }} tickLine={false} axisLine={false} interval={3} />
-                  <YAxis tick={{ fontSize: 10 }} tickLine={false} axisLine={false} width={40} />
-                  <ChartTooltip content={<ChartTooltipContent indicator="line" />} />
-                  <ChartLegend content={<ChartLegendContent />} />
-                  {activeGraphChannels.map(c => (
-                    <Line key={c.key} type="monotone" dataKey={c.key} stroke={`var(--color-${c.key})`} strokeWidth={1.5} dot={false} />
-                  ))}
-                </LineChart>
-              </ChartContainer>
+              <div className="grid grid-cols-1 xl:grid-cols-2 gap-3">
+                {CHANNELS.map(c => {
+                  const cfg: ChartConfig = { [c.key]: chartConfig[c.key] }
+                  return (
+                    <div key={c.key} className="border border-border rounded-lg p-4 bg-card">
+                      <div className="flex items-center gap-2 mb-3">
+                        <span
+                          className="w-2 h-2 rounded-full flex-shrink-0"
+                          style={{ backgroundColor: `var(--chart-${c.chartIdx})` }}
+                        />
+                        <span className="text-[13px] font-medium">{c.label}</span>
+                        <span className="text-[11px] text-muted-foreground font-mono">{c.unit}</span>
+                      </div>
+                      <ChartContainer config={cfg} className="aspect-auto h-[160px]">
+                        <LineChart data={graphData}>
+                          <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border)" />
+                          <XAxis
+                            dataKey="time"
+                            tick={{ fontSize: 10 }}
+                            tickLine={false}
+                            axisLine={false}
+                            interval={3}
+                          />
+                          <YAxis
+                            tick={{ fontSize: 10 }}
+                            tickLine={false}
+                            axisLine={false}
+                            width={44}
+                          />
+                          <ChartTooltip content={<ChartTooltipContent indicator="line" />} />
+                          <Line
+                            type="monotone"
+                            dataKey={c.key}
+                            stroke={`var(--color-${c.key})`}
+                            strokeWidth={1.5}
+                            dot={false}
+                          />
+                        </LineChart>
+                      </ChartContainer>
+                    </div>
+                  )
+                })}
+              </div>
             </div>
           )}
 
+          {/* Table tab */}
           {activeTab === "table" && (
             <div className="border border-border rounded-lg bg-card overflow-hidden">
               <table className="w-full">
@@ -232,6 +297,7 @@ export default function DataView() {
             </div>
           )}
 
+          {/* Stats tab */}
           {activeTab === "stats" && (
             <div className="border border-border rounded-lg bg-card overflow-hidden">
               <table className="w-full">
