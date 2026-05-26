@@ -1,6 +1,5 @@
 import { useState } from "react"
 import { CheckCircle, ExternalLink } from "lucide-react"
-import { Button } from "@/components/ui/button"
 import type { PageId } from "../App"
 
 interface ActiveAlert {
