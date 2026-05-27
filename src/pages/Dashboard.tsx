@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react"
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Legend } from "recharts"
+import { LineChart, Line, XAxis, YAxis, CartesianGrid } from "recharts"
 import {
   ChartContainer,
   ChartTooltip,
