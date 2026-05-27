@@ -19,724 +19,1450 @@
   ],
   "data": [
     {
-      "time": "00:00",
+      "datetime": "2026-05-26 00:00",
       "temp": 19.2,
       "humidity": 61
     },
     {
-      "time": "00:10",
+      "datetime": "2026-05-26 00:10",
       "temp": 19.1,
       "humidity": 61
     },
     {
-      "time": "00:20",
+      "datetime": "2026-05-26 00:20",
       "temp": 19.2,
       "humidity": 61
     },
     {
-      "time": "00:30",
+      "datetime": "2026-05-26 00:30",
       "temp": 19,
       "humidity": 61
     },
     {
-      "time": "00:40",
+      "datetime": "2026-05-26 00:40",
       "temp": 19,
       "humidity": 60
     },
     {
-      "time": "00:50",
+      "datetime": "2026-05-26 00:50",
       "temp": 18.9,
       "humidity": 60
     },
     {
-      "time": "01:00",
+      "datetime": "2026-05-26 01:00",
       "temp": 18.9,
       "humidity": 60
     },
     {
-      "time": "01:10",
+      "datetime": "2026-05-26 01:10",
       "temp": 18.9,
       "humidity": 60
     },
     {
-      "time": "01:20",
+      "datetime": "2026-05-26 01:20",
       "temp": 18.9,
       "humidity": 60
     },
     {
-      "time": "01:30",
+      "datetime": "2026-05-26 01:30",
       "temp": 18.8,
       "humidity": 61
     },
     {
-      "time": "01:40",
+      "datetime": "2026-05-26 01:40",
       "temp": 18.7,
       "humidity": 62
     },
     {
-      "time": "01:50",
+      "datetime": "2026-05-26 01:50",
       "temp": 18.7,
       "humidity": 61
     },
     {
-      "time": "02:00",
+      "datetime": "2026-05-26 02:00",
       "temp": 19,
       "humidity": 62
     },
     {
-      "time": "02:10",
+      "datetime": "2026-05-26 02:10",
       "temp": 19.1,
       "humidity": 62
     },
     {
-      "time": "02:20",
+      "datetime": "2026-05-26 02:20",
       "temp": 19.1,
       "humidity": 63
     },
     {
-      "time": "02:30",
+      "datetime": "2026-05-26 02:30",
       "temp": 19,
       "humidity": 63
     },
     {
-      "time": "02:40",
+      "datetime": "2026-05-26 02:40",
       "temp": 19,
       "humidity": 62
     },
     {
-      "time": "02:50",
+      "datetime": "2026-05-26 02:50",
       "temp": 19.3,
       "humidity": 61
     },
     {
-      "time": "03:00",
+      "datetime": "2026-05-26 03:00",
       "temp": 19.3,
       "humidity": 61
     },
     {
-      "time": "03:10",
+      "datetime": "2026-05-26 03:10",
       "temp": 18.9,
       "humidity": 61
     },
     {
-      "time": "03:20",
+      "datetime": "2026-05-26 03:20",
       "temp": 19,
       "humidity": 61
     },
     {
-      "time": "03:30",
+      "datetime": "2026-05-26 03:30",
       "temp": 18.9,
       "humidity": 61
     },
     {
-      "time": "03:40",
+      "datetime": "2026-05-26 03:40",
       "temp": 18.8,
       "humidity": 61
     },
     {
-      "time": "03:50",
+      "datetime": "2026-05-26 03:50",
       "temp": 18.8,
       "humidity": 60
     },
     {
-      "time": "04:00",
+      "datetime": "2026-05-26 04:00",
       "temp": 18.7,
       "humidity": 60
     },
     {
-      "time": "04:10",
+      "datetime": "2026-05-26 04:10",
       "temp": 18.5,
       "humidity": 60
     },
     {
-      "time": "04:20",
+      "datetime": "2026-05-26 04:20",
       "temp": 18.5,
       "humidity": 59
     },
     {
-      "time": "04:30",
+      "datetime": "2026-05-26 04:30",
       "temp": 18.7,
       "humidity": 59
     },
     {
-      "time": "04:40",
+      "datetime": "2026-05-26 04:40",
       "temp": 18.6,
       "humidity": 59
     },
     {
-      "time": "04:50",
+      "datetime": "2026-05-26 04:50",
       "temp": 18.7,
       "humidity": 59
     },
     {
-      "time": "05:00",
+      "datetime": "2026-05-26 05:00",
       "temp": 18.8,
       "humidity": 59
     },
     {
-      "time": "05:10",
+      "datetime": "2026-05-26 05:10",
       "temp": 18.8,
       "humidity": 60
     },
     {
-      "time": "05:20",
+      "datetime": "2026-05-26 05:20",
       "temp": 18.6,
       "humidity": 59
     },
     {
-      "time": "05:30",
+      "datetime": "2026-05-26 05:30",
       "temp": 18.8,
       "humidity": 58
     },
     {
-      "time": "05:40",
+      "datetime": "2026-05-26 05:40",
       "temp": 18.9,
       "humidity": 59
     },
     {
-      "time": "05:50",
+      "datetime": "2026-05-26 05:50",
       "temp": 18.6,
       "humidity": 58
     },
     {
-      "time": "06:00",
+      "datetime": "2026-05-26 06:00",
       "temp": 18.2,
       "humidity": 58
     },
     {
-      "time": "06:10",
+      "datetime": "2026-05-26 06:10",
       "temp": 18.2,
       "humidity": 58
     },
     {
-      "time": "06:20",
+      "datetime": "2026-05-26 06:20",
       "temp": 17.9,
       "humidity": 59
     },
     {
-      "time": "06:30",
+      "datetime": "2026-05-26 06:30",
       "temp": 18.1,
       "humidity": 59
     },
     {
-      "time": "06:40",
+      "datetime": "2026-05-26 06:40",
       "temp": 17.7,
       "humidity": 60
     },
     {
-      "time": "06:50",
+      "datetime": "2026-05-26 06:50",
       "temp": 17.9,
       "humidity": 61
     },
     {
-      "time": "07:00",
+      "datetime": "2026-05-26 07:00",
       "temp": 17.7,
       "humidity": 61
     },
     {
-      "time": "07:10",
+      "datetime": "2026-05-26 07:10",
       "temp": 17.9,
       "humidity": 60
     },
     {
-      "time": "07:20",
+      "datetime": "2026-05-26 07:20",
       "temp": 17.7,
       "humidity": 60
     },
     {
-      "time": "07:30",
+      "datetime": "2026-05-26 07:30",
       "temp": 17.5,
       "humidity": 59
     },
     {
-      "time": "07:40",
+      "datetime": "2026-05-26 07:40",
       "temp": 17.7,
       "humidity": 59
     },
     {
-      "time": "07:50",
+      "datetime": "2026-05-26 07:50",
       "temp": 17.5,
       "humidity": 59
     },
     {
-      "time": "08:00",
+      "datetime": "2026-05-26 08:00",
       "temp": 17.6,
       "humidity": 58
     },
     {
-      "time": "08:10",
+      "datetime": "2026-05-26 08:10",
       "temp": 17.9,
       "humidity": 58
     },
     {
-      "time": "08:20",
+      "datetime": "2026-05-26 08:20",
       "temp": 17.9,
       "humidity": 58
     },
     {
-      "time": "08:30",
+      "datetime": "2026-05-26 08:30",
       "temp": 18.1,
       "humidity": 58
     },
     {
-      "time": "08:40",
+      "datetime": "2026-05-26 08:40",
       "temp": 17.8,
       "humidity": 58
     },
     {
-      "time": "08:50",
+      "datetime": "2026-05-26 08:50",
       "temp": 17.5,
       "humidity": 57
     },
     {
-      "time": "09:00",
+      "datetime": "2026-05-26 09:00",
       "temp": 17.4,
       "humidity": 57
     },
     {
-      "time": "09:10",
+      "datetime": "2026-05-26 09:10",
       "temp": 17.3,
       "humidity": 59
     },
     {
-      "time": "09:20",
+      "datetime": "2026-05-26 09:20",
       "temp": 17,
       "humidity": 60
     },
     {
-      "time": "09:30",
+      "datetime": "2026-05-26 09:30",
       "temp": 17.3,
       "humidity": 59
     },
     {
-      "time": "09:40",
+      "datetime": "2026-05-26 09:40",
       "temp": 17.3,
       "humidity": 60
     },
     {
-      "time": "09:50",
+      "datetime": "2026-05-26 09:50",
       "temp": 17.3,
       "humidity": 60
     },
     {
-      "time": "10:00",
+      "datetime": "2026-05-26 10:00",
       "temp": 17.1,
       "humidity": 59
     },
     {
-      "time": "10:10",
+      "datetime": "2026-05-26 10:10",
       "temp": 17.2,
       "humidity": 60
     },
     {
-      "time": "10:20",
+      "datetime": "2026-05-26 10:20",
       "temp": 17,
       "humidity": 59
     },
     {
-      "time": "10:30",
+      "datetime": "2026-05-26 10:30",
       "temp": 17,
       "humidity": 59
     },
     {
-      "time": "10:40",
+      "datetime": "2026-05-26 10:40",
       "temp": 17.2,
       "humidity": 60
     },
     {
-      "time": "10:50",
+      "datetime": "2026-05-26 10:50",
       "temp": 17.1,
       "humidity": 59
     },
     {
-      "time": "11:00",
+      "datetime": "2026-05-26 11:00",
       "temp": 17.2,
       "humidity": 59
     },
     {
-      "time": "11:10",
+      "datetime": "2026-05-26 11:10",
       "temp": 17.5,
       "humidity": 59
     },
     {
-      "time": "11:20",
+      "datetime": "2026-05-26 11:20",
       "temp": 17.3,
       "humidity": 60
     },
     {
-      "time": "11:30",
+      "datetime": "2026-05-26 11:30",
       "temp": 17.3,
       "humidity": 59
     },
     {
-      "time": "11:40",
+      "datetime": "2026-05-26 11:40",
       "temp": 17.4,
       "humidity": 60
     },
     {
-      "time": "11:50",
+      "datetime": "2026-05-26 11:50",
       "temp": 17.3,
       "humidity": 59
     },
     {
-      "time": "12:00",
+      "datetime": "2026-05-26 12:00",
       "temp": 17.5,
       "humidity": 59
     },
     {
-      "time": "12:10",
+      "datetime": "2026-05-26 12:10",
       "temp": 17.3,
       "humidity": 59
     },
     {
-      "time": "12:20",
+      "datetime": "2026-05-26 12:20",
       "temp": 17.3,
       "humidity": 60
     },
     {
-      "time": "12:30",
+      "datetime": "2026-05-26 12:30",
       "temp": 17.2,
       "humidity": 59
     },
     {
-      "time": "12:40",
+      "datetime": "2026-05-26 12:40",
       "temp": 17.6,
       "humidity": 60
     },
     {
-      "time": "12:50",
+      "datetime": "2026-05-26 12:50",
       "temp": 18,
       "humidity": 60
     },
     {
-      "time": "13:00",
+      "datetime": "2026-05-26 13:00",
       "temp": 17.9,
       "humidity": 61
     },
     {
-      "time": "13:10",
+      "datetime": "2026-05-26 13:10",
       "temp": 17.9,
       "humidity": 60
     },
     {
-      "time": "13:20",
+      "datetime": "2026-05-26 13:20",
       "temp": 18.2,
       "humidity": 60
     },
     {
-      "time": "13:30",
+      "datetime": "2026-05-26 13:30",
       "temp": 18.5,
       "humidity": 60
     },
     {
-      "time": "13:40",
+      "datetime": "2026-05-26 13:40",
       "temp": 18.4,
       "humidity": 61
     },
     {
-      "time": "13:50",
+      "datetime": "2026-05-26 13:50",
       "temp": 18.4,
       "humidity": 61
     },
     {
-      "time": "14:00",
+      "datetime": "2026-05-26 14:00",
       "temp": 31.2,
       "humidity": 61
     },
     {
-      "time": "14:10",
-      "temp": 28.4,
-      "humidity": 61
+      "datetime": "2026-05-26 14:10",
+      "tempF": 28.4,
+      "humidityF": 61
     },
     {
-      "time": "14:20",
-      "temp": 24.1,
-      "humidity": 60
+      "datetime": "2026-05-26 14:20",
+      "tempF": 24.1,
+      "humidityF": 60
     },
     {
-      "time": "14:30",
-      "temp": 18.5,
-      "humidity": 61
+      "datetime": "2026-05-26 14:30",
+      "tempF": 18.5,
+      "humidityF": 61
     },
     {
-      "time": "14:40",
-      "temp": 18.4,
-      "humidity": 61
+      "datetime": "2026-05-26 14:40",
+      "tempF": 18.4,
+      "humidityF": 61
     },
     {
-      "time": "14:50",
-      "temp": 18.7,
-      "humidity": 60
+      "datetime": "2026-05-26 14:50",
+      "tempF": 18.7,
+      "humidityF": 60
     },
     {
-      "time": "15:00",
-      "temp": 18.6,
-      "humidity": 61
+      "datetime": "2026-05-26 15:00",
+      "tempF": 18.6,
+      "humidityF": 61
     },
     {
-      "time": "15:10",
-      "temp": 18.6,
-      "humidity": 62
+      "datetime": "2026-05-26 15:10",
+      "tempF": 18.6,
+      "humidityF": 62
     },
     {
-      "time": "15:20",
-      "temp": 18.6,
-      "humidity": 61
+      "datetime": "2026-05-26 15:20",
+      "tempF": 18.6,
+      "humidityF": 61
     },
     {
-      "time": "15:30",
-      "temp": 18.6,
-      "humidity": 60
+      "datetime": "2026-05-26 15:30",
+      "tempF": 18.6,
+      "humidityF": 60
     },
     {
-      "time": "15:40",
-      "temp": 18.7,
-      "humidity": 59
+      "datetime": "2026-05-26 15:40",
+      "tempF": 18.7,
+      "humidityF": 59
     },
     {
-      "time": "15:50",
-      "temp": 19,
-      "humidity": 60
+      "datetime": "2026-05-26 15:50",
+      "tempF": 19,
+      "humidityF": 60
     },
     {
-      "time": "16:00",
-      "temp": 19.1,
-      "humidity": 60
+      "datetime": "2026-05-26 16:00",
+      "tempF": 19.1,
+      "humidityF": 60
     },
     {
-      "time": "16:10",
-      "temp": 19.1,
-      "humidity": 61
+      "datetime": "2026-05-26 16:10",
+      "tempF": 19.1,
+      "humidityF": 61
     },
     {
-      "time": "16:20",
-      "temp": 19.4,
-      "humidity": 61
+      "datetime": "2026-05-26 16:20",
+      "tempF": 19.4,
+      "humidityF": 61
     },
     {
-      "time": "16:30",
-      "temp": 19.6,
-      "humidity": 60
+      "datetime": "2026-05-26 16:30",
+      "tempF": 19.6,
+      "humidityF": 60
     },
     {
-      "time": "16:40",
-      "temp": 19.7,
-      "humidity": 61
+      "datetime": "2026-05-26 16:40",
+      "tempF": 19.7,
+      "humidityF": 61
     },
     {
-      "time": "16:50",
-      "temp": 19.4,
-      "humidity": 62
+      "datetime": "2026-05-26 16:50",
+      "tempF": 19.4,
+      "humidityF": 62
     },
     {
-      "time": "17:00",
-      "temp": 19.4,
-      "humidity": 61
+      "datetime": "2026-05-26 17:00",
+      "tempF": 19.4,
+      "humidityF": 61
     },
     {
-      "time": "17:10",
-      "temp": 19.2,
-      "humidity": 61
+      "datetime": "2026-05-26 17:10",
+      "tempF": 19.2,
+      "humidityF": 61
     },
     {
-      "time": "17:20",
-      "temp": 19.1,
-      "humidity": 61
+      "datetime": "2026-05-26 17:20",
+      "tempF": 19.1,
+      "humidityF": 61
     },
     {
-      "time": "17:30",
-      "temp": 19.4,
-      "humidity": 61
+      "datetime": "2026-05-26 17:30",
+      "tempF": 19.4,
+      "humidityF": 61
     },
     {
-      "time": "17:40",
-      "temp": 19.2,
-      "humidity": 62
+      "datetime": "2026-05-26 17:40",
+      "tempF": 19.2,
+      "humidityF": 62
     },
     {
-      "time": "17:50",
-      "temp": 19.1,
-      "humidity": 62
+      "datetime": "2026-05-26 17:50",
+      "tempF": 19.1,
+      "humidityF": 62
     },
     {
-      "time": "18:00",
-      "temp": 19.2,
-      "humidity": 62
+      "datetime": "2026-05-26 18:00",
+      "tempF": 19.2,
+      "humidityF": 62
     },
     {
-      "time": "18:10",
-      "temp": 19.2,
-      "humidity": 63
+      "datetime": "2026-05-26 18:10",
+      "tempF": 19.2,
+      "humidityF": 63
     },
     {
-      "time": "18:20",
-      "temp": 19.5,
-      "humidity": 64
+      "datetime": "2026-05-26 18:20",
+      "tempF": 19.5,
+      "humidityF": 64
     },
     {
-      "time": "18:30",
-      "temp": 19.7,
-      "humidity": 64
+      "datetime": "2026-05-26 18:30",
+      "tempF": 19.7,
+      "humidityF": 64
     },
     {
-      "time": "18:40",
-      "temp": 19.5,
-      "humidity": 63
+      "datetime": "2026-05-26 18:40",
+      "tempF": 19.5,
+      "humidityF": 63
     },
     {
-      "time": "18:50",
-      "temp": 19.9,
-      "humidity": 63
+      "datetime": "2026-05-26 18:50",
+      "tempF": 19.9,
+      "humidityF": 63
     },
     {
-      "time": "19:00",
-      "temp": 19.7,
-      "humidity": 63
+      "datetime": "2026-05-26 19:00",
+      "tempF": 19.7,
+      "humidityF": 63
     },
     {
-      "time": "19:10",
-      "temp": 20,
-      "humidity": 63
+      "datetime": "2026-05-26 19:10",
+      "tempF": 20,
+      "humidityF": 63
     },
     {
-      "time": "19:20",
-      "temp": 20,
-      "humidity": 64
+      "datetime": "2026-05-26 19:20",
+      "tempF": 20,
+      "humidityF": 64
     },
     {
-      "time": "19:30",
-      "temp": 20.3,
-      "humidity": 63
+      "datetime": "2026-05-26 19:30",
+      "tempF": 20.3,
+      "humidityF": 63
     },
     {
-      "time": "19:40",
-      "temp": 20.6,
-      "humidity": 62
+      "datetime": "2026-05-26 19:40",
+      "tempF": 20.6,
+      "humidityF": 62
     },
     {
-      "time": "19:50",
-      "temp": 20.3,
-      "humidity": 61
+      "datetime": "2026-05-26 19:50",
+      "tempF": 20.3,
+      "humidityF": 61
     },
     {
-      "time": "20:00",
-      "temp": 20.1,
-      "humidity": 62
+      "datetime": "2026-05-26 20:00",
+      "tempF": 20.1,
+      "humidityF": 62
     },
     {
-      "time": "20:10",
-      "temp": 20.2,
-      "humidity": 61
+      "datetime": "2026-05-26 20:10",
+      "tempF": 20.2,
+      "humidityF": 61
     },
     {
-      "time": "20:20",
-      "temp": 20.3,
-      "humidity": 61
+      "datetime": "2026-05-26 20:20",
+      "tempF": 20.3,
+      "humidityF": 61
     },
     {
-      "time": "20:30",
-      "temp": 20.5,
-      "humidity": 62
+      "datetime": "2026-05-26 20:30",
+      "tempF": 20.5,
+      "humidityF": 62
     },
     {
-      "time": "20:40",
-      "temp": 20.7,
-      "humidity": 63
+      "datetime": "2026-05-26 20:40",
+      "tempF": 20.7,
+      "humidityF": 63
     },
     {
-      "time": "20:50",
-      "temp": 20.9,
-      "humidity": 62
+      "datetime": "2026-05-26 20:50",
+      "tempF": 20.9,
+      "humidityF": 62
     },
     {
-      "time": "21:00",
-      "temp": 20.9,
-      "humidity": 61
+      "datetime": "2026-05-26 21:00",
+      "tempF": 20.9,
+      "humidityF": 61
     },
     {
-      "time": "21:10",
-      "temp": 20.7,
-      "humidity": 61
+      "datetime": "2026-05-26 21:10",
+      "tempF": 20.7,
+      "humidityF": 61
     },
     {
-      "time": "21:20",
-      "temp": 21,
-      "humidity": 62
+      "datetime": "2026-05-26 21:20",
+      "tempF": 21,
+      "humidityF": 62
     },
     {
-      "time": "21:30",
-      "temp": 20.9,
-      "humidity": 63
+      "datetime": "2026-05-26 21:30",
+      "tempF": 20.9,
+      "humidityF": 63
     },
     {
-      "time": "21:40",
-      "temp": 20.5,
-      "humidity": 62
+      "datetime": "2026-05-26 21:40",
+      "tempF": 20.5,
+      "humidityF": 62
     },
     {
-      "time": "21:50",
-      "temp": 20.8,
-      "humidity": 63
+      "datetime": "2026-05-26 21:50",
+      "tempF": 20.8,
+      "humidityF": 63
     },
     {
-      "time": "22:00",
-      "temp": 20.8,
-      "humidity": 62
+      "datetime": "2026-05-26 22:00",
+      "tempF": 20.8,
+      "humidityF": 62
     },
     {
-      "time": "22:10",
-      "temp": 20.9,
-      "humidity": 63
+      "datetime": "2026-05-26 22:10",
+      "tempF": 20.9,
+      "humidityF": 63
     },
     {
-      "time": "22:20",
-      "temp": 20.8,
-      "humidity": 63
+      "datetime": "2026-05-26 22:20",
+      "tempF": 20.8,
+      "humidityF": 63
     },
     {
-      "time": "22:30",
-      "temp": 20.4,
-      "humidity": 62
+      "datetime": "2026-05-26 22:30",
+      "tempF": 20.4,
+      "humidityF": 62
     },
     {
-      "time": "22:40",
-      "temp": 20.7,
-      "humidity": 61
+      "datetime": "2026-05-26 22:40",
+      "tempF": 20.7,
+      "humidityF": 61
     },
     {
-      "time": "22:50",
-      "temp": 20.6,
-      "humidity": 62
+      "datetime": "2026-05-26 22:50",
+      "tempF": 20.6,
+      "humidityF": 62
     },
     {
-      "time": "23:00",
-      "temp": 20.5,
-      "humidity": 62
+      "datetime": "2026-05-26 23:00",
+      "tempF": 20.5,
+      "humidityF": 62
     },
     {
-      "time": "23:10",
-      "temp": 20.7,
-      "humidity": 61
+      "datetime": "2026-05-26 23:10",
+      "tempF": 20.7,
+      "humidityF": 61
     },
     {
-      "time": "23:20",
-      "temp": 20.6,
-      "humidity": 62
+      "datetime": "2026-05-26 23:20",
+      "tempF": 20.6,
+      "humidityF": 62
     },
     {
-      "time": "23:30",
-      "temp": 20.7,
-      "humidity": 62
+      "datetime": "2026-05-26 23:30",
+      "tempF": 20.7,
+      "humidityF": 62
     },
     {
-      "time": "23:40",
-      "temp": 20.4,
-      "humidity": 62
+      "datetime": "2026-05-26 23:40",
+      "tempF": 20.4,
+      "humidityF": 62
     },
     {
-      "time": "23:50",
-      "temp": 20.3,
-      "humidity": 62
+      "datetime": "2026-05-26 23:50",
+      "tempF": 20.3,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 00:00",
+      "tempF": 19,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 00:10",
+      "tempF": 19,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 00:20",
+      "tempF": 19,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 00:30",
+      "tempF": 19,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 00:40",
+      "tempF": 19,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 00:50",
+      "tempF": 20,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 01:00",
+      "tempF": 19,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 01:10",
+      "tempF": 19,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 01:20",
+      "tempF": 19,
+      "humidityF": 63
+    },
+    {
+      "datetime": "2026-05-27 01:30",
+      "tempF": 20,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 01:40",
+      "tempF": 19,
+      "humidityF": 63
+    },
+    {
+      "datetime": "2026-05-27 01:50",
+      "tempF": 19,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 02:00",
+      "tempF": 19,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 02:10",
+      "tempF": 20,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 02:20",
+      "tempF": 19,
+      "humidityF": 64
+    },
+    {
+      "datetime": "2026-05-27 02:30",
+      "tempF": 19,
+      "humidityF": 63
+    },
+    {
+      "datetime": "2026-05-27 02:40",
+      "tempF": 19,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 02:50",
+      "tempF": 19,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 03:00",
+      "tempF": 19,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 03:10",
+      "tempF": 19,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 03:20",
+      "tempF": 19,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 03:30",
+      "tempF": 19,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 03:40",
+      "tempF": 18,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 03:50",
+      "tempF": 19,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 04:00",
+      "tempF": 18,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 04:10",
+      "tempF": 18,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 04:20",
+      "tempF": 19,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 04:30",
+      "tempF": 19,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 04:40",
+      "tempF": 19,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 04:50",
+      "tempF": 18,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 05:00",
+      "tempF": 18,
+      "humidityF": 63
+    },
+    {
+      "datetime": "2026-05-27 05:10",
+      "tempF": 18,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 05:20",
+      "tempF": 18,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 05:30",
+      "tempF": 19,
+      "humidityF": 55
+    },
+    {
+      "datetime": "2026-05-27 05:40",
+      "tempF": 19,
+      "humidityF": 57
+    },
+    {
+      "datetime": "2026-05-27 05:50",
+      "tempF": 19,
+      "humidityF": 57
+    },
+    {
+      "datetime": "2026-05-27 06:00",
+      "tempF": 18,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 06:10",
+      "tempF": 18,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 06:20",
+      "tempF": 18,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 06:30",
+      "tempF": 18,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 06:40",
+      "tempF": 18,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 06:50",
+      "tempF": 18,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 07:00",
+      "tempF": 18,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 07:10",
+      "tempF": 18,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 07:20",
+      "tempF": 18,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 07:30",
+      "tempF": 17,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 07:40",
+      "tempF": 18,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 07:50",
+      "tempF": 17,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 08:00",
+      "tempF": 18,
+      "humidityF": 55
+    },
+    {
+      "datetime": "2026-05-27 08:10",
+      "tempF": 18,
+      "humidityF": 54
+    },
+    {
+      "datetime": "2026-05-27 08:20",
+      "tempF": 18,
+      "humidityF": 57
+    },
+    {
+      "datetime": "2026-05-27 08:30",
+      "tempF": 18,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 08:40",
+      "tempF": 18,
+      "humidityF": 57
+    },
+    {
+      "datetime": "2026-05-27 08:50",
+      "tempF": 18,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 09:00",
+      "tempF": 17,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 09:10",
+      "tempF": 17,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 09:20",
+      "tempF": 18,
+      "humidityF": 57
+    },
+    {
+      "datetime": "2026-05-27 09:30",
+      "tempF": 18,
+      "humidityF": 57
+    },
+    {
+      "datetime": "2026-05-27 09:40",
+      "tempF": 17,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 09:50",
+      "tempF": 18,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 10:00",
+      "tempF": 17,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 10:10",
+      "tempF": 17,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 10:20",
+      "tempF": 17,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 10:30",
+      "tempF": 17,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 10:40",
+      "tempF": 17,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 10:50",
+      "tempF": 17,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 11:00",
+      "tempF": 17,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 11:10",
+      "tempF": 17,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 11:20",
+      "tempF": 17,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 11:30",
+      "tempF": 17,
+      "humidityF": 57
+    },
+    {
+      "datetime": "2026-05-27 11:40",
+      "tempF": 18,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 11:50",
+      "tempF": 18,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 12:00",
+      "tempF": 17,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 12:10",
+      "tempF": 17,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 12:20",
+      "tempF": 17,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 12:30",
+      "tempF": 17,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 12:40",
+      "tempF": 17,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 12:50",
+      "tempF": 18,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 13:00",
+      "tempF": 18,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 13:10",
+      "tempF": 17,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 13:20",
+      "tempF": 19,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 13:30",
+      "tempF": 19,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 13:40",
+      "tempF": 18,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 13:50",
+      "tempF": 19,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 14:00",
+      "tempF": 31,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 14:10",
+      "tempF": 28,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 14:20",
+      "tempF": 24,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 14:30",
+      "tempF": 19,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 14:40",
+      "tempF": 18,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 14:50",
+      "tempF": 19,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 15:00",
+      "tempF": 18,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 15:10",
+      "tempF": 18,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 15:20",
+      "tempF": 19,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 15:30",
+      "tempF": 18,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 15:40",
+      "tempF": 18,
+      "humidityF": 57
+    },
+    {
+      "datetime": "2026-05-27 15:50",
+      "tempF": 19,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 16:00",
+      "tempF": 19,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 16:10",
+      "tempF": 19,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 16:20",
+      "tempF": 19,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 16:30",
+      "tempF": 19,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 16:40",
+      "tempF": 20,
+      "humidityF": 63
+    },
+    {
+      "datetime": "2026-05-27 16:50",
+      "tempF": 20,
+      "humidityF": 63
+    },
+    {
+      "datetime": "2026-05-27 17:00",
+      "tempF": 20,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 17:10",
+      "tempF": 19,
+      "humidityF": 58
+    },
+    {
+      "datetime": "2026-05-27 17:20",
+      "tempF": 19,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 17:30",
+      "tempF": 20,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 17:40",
+      "tempF": 19,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 17:50",
+      "tempF": 19,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 18:00",
+      "tempF": 19,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 18:10",
+      "tempF": 19,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 18:20",
+      "tempF": 19,
+      "humidityF": 65
+    },
+    {
+      "datetime": "2026-05-27 18:30",
+      "tempF": 19,
+      "humidityF": 63
+    },
+    {
+      "datetime": "2026-05-27 18:40",
+      "tempF": 19,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 18:50",
+      "tempF": 20,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 19:00",
+      "tempF": 20,
+      "humidityF": 64
+    },
+    {
+      "datetime": "2026-05-27 19:10",
+      "tempF": 20,
+      "humidityF": 64
+    },
+    {
+      "datetime": "2026-05-27 19:20",
+      "tempF": 20,
+      "humidityF": 65
+    },
+    {
+      "datetime": "2026-05-27 19:30",
+      "tempF": 20,
+      "humidityF": 65
+    },
+    {
+      "datetime": "2026-05-27 19:40",
+      "tempF": 21,
+      "humidityF": 63
+    },
+    {
+      "datetime": "2026-05-27 19:50",
+      "tempF": 21,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 20:00",
+      "tempF": 20,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 20:10",
+      "tempF": 20,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 20:20",
+      "tempF": 20,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 20:30",
+      "tempF": 21,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 20:40",
+      "tempF": 21,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 20:50",
+      "tempF": 21,
+      "humidityF": 64
+    },
+    {
+      "datetime": "2026-05-27 21:00",
+      "tempF": 21,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 21:10",
+      "tempF": 21,
+      "humidityF": 63
+    },
+    {
+      "datetime": "2026-05-27 21:20",
+      "tempF": 21,
+      "humidityF": 64
+    },
+    {
+      "datetime": "2026-05-27 21:30",
+      "tempF": 21,
+      "humidityF": 63
+    },
+    {
+      "datetime": "2026-05-27 21:40",
+      "tempF": 21,
+      "humidityF": 64
+    },
+    {
+      "datetime": "2026-05-27 21:50",
+      "tempF": 20,
+      "humidityF": 64
+    },
+    {
+      "datetime": "2026-05-27 22:00",
+      "tempF": 21,
+      "humidityF": 63
+    },
+    {
+      "datetime": "2026-05-27 22:10",
+      "tempF": 21,
+      "humidityF": 65
+    },
+    {
+      "datetime": "2026-05-27 22:20",
+      "tempF": 21,
+      "humidityF": 65
+    },
+    {
+      "datetime": "2026-05-27 22:30",
+      "tempF": 21,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 22:40",
+      "tempF": 21,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 22:50",
+      "tempF": 20,
+      "humidityF": 61
+    },
+    {
+      "datetime": "2026-05-27 23:00",
+      "tempF": 20,
+      "humidityF": 60
+    },
+    {
+      "datetime": "2026-05-27 23:10",
+      "tempF": 21,
+      "humidityF": 59
+    },
+    {
+      "datetime": "2026-05-27 23:20",
+      "tempF": 20,
+      "humidityF": 64
+    },
+    {
+      "datetime": "2026-05-27 23:30",
+      "tempF": 21,
+      "humidityF": 63
+    },
+    {
+      "datetime": "2026-05-27 23:40",
+      "tempF": 21,
+      "humidityF": 62
+    },
+    {
+      "datetime": "2026-05-27 23:50",
+      "tempF": 20,
+      "humidityF": 63
     }
+  ],
+  "multiDay": true,
+  "lastActual": "2026-05-26 14:00",
+  "forecastKeys": [
+    "temp",
+    "humidity"
   ]
 }

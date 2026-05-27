@@ -23,13 +23,15 @@ function NavItem({
   icon: Icon,
   active,
   onClick,
-  badge,
+  alertBadge,
+  warnBadge,
 }: {
   label: string
   icon: React.ElementType
   active: boolean
   onClick: () => void
-  badge?: number
+  alertBadge?: number
+  warnBadge?: number
 }) {
   return (
     <button
@@ -45,9 +47,14 @@ function NavItem({
       )}
       <Icon size={15} className="flex-shrink-0" />
       <span className={`flex-1 text-left text-[13px] ${active ? "font-medium" : ""}`}>{label}</span>
-      {badge != null && badge > 0 && (
+      {warnBadge != null && warnBadge > 0 && (
+        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-amber-400 text-white font-medium leading-none tabular-nums">
+          {warnBadge}
+        </span>
+      )}
+      {alertBadge != null && alertBadge > 0 && (
         <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-red-500 text-white font-medium leading-none tabular-nums">
-          {badge}
+          {alertBadge}
         </span>
       )}
     </button>
@@ -79,21 +86,17 @@ export default function App() {
 
         {/* ナビゲーション */}
         <div className="flex-1 overflow-y-auto py-3 space-y-0.5 px-1.5">
-          <p className="px-2 pt-1 pb-1.5 text-[10px] text-sidebar-foreground/35 font-semibold tracking-widest uppercase">
-            メイン
-          </p>
           {navMain.map((item) => (
             <NavItem
               key={item.id}
               {...item}
               active={page === item.id}
               onClick={() => setPage(item.id)}
-              badge={item.id === "alerts" ? 3 : undefined}
+              alertBadge={item.id === "alerts" ? 3 : undefined}
+              warnBadge={item.id === "alerts" ? 2 : undefined}
             />
           ))}
-          <p className="px-2 pt-4 pb-1.5 text-[10px] text-sidebar-foreground/35 font-semibold tracking-widest uppercase">
-            システム
-          </p>
+          <div className="border-t border-sidebar-border/50 mt-2 mb-2" />
           <NavItem
             label="設定"
             icon={Settings}

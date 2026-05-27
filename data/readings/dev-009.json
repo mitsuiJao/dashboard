@@ -33,1012 +33,2028 @@
   ],
   "data": [
     {
-      "time": "00:00",
+      "datetime": "2026-05-26 00:00",
       "temp": 21.9,
       "humidity": 65,
       "solarRad": 11,
       "windSpeed": 2.7
     },
     {
-      "time": "00:10",
+      "datetime": "2026-05-26 00:10",
       "temp": 23.1,
       "humidity": 61,
       "solarRad": 0,
       "windSpeed": 1.6
     },
     {
-      "time": "00:20",
+      "datetime": "2026-05-26 00:20",
       "temp": 24.1,
       "humidity": 60,
       "solarRad": 2,
       "windSpeed": 2.6
     },
     {
-      "time": "00:30",
+      "datetime": "2026-05-26 00:30",
       "temp": 23.6,
       "humidity": 57,
       "solarRad": 0,
       "windSpeed": 3.8
     },
     {
-      "time": "00:40",
+      "datetime": "2026-05-26 00:40",
       "temp": 23.1,
       "humidity": 58,
       "solarRad": 0,
       "windSpeed": 3.6
     },
     {
-      "time": "00:50",
+      "datetime": "2026-05-26 00:50",
       "temp": 23.9,
       "humidity": 57,
       "solarRad": 0,
       "windSpeed": 4
     },
     {
-      "time": "01:00",
+      "datetime": "2026-05-26 01:00",
       "temp": 23.8,
       "humidity": 54,
       "solarRad": 0,
       "windSpeed": 4.3
     },
     {
-      "time": "01:10",
+      "datetime": "2026-05-26 01:10",
       "temp": 23.9,
       "humidity": 51,
       "solarRad": 0,
       "windSpeed": 4.4
     },
     {
-      "time": "01:20",
+      "datetime": "2026-05-26 01:20",
       "temp": 23.4,
       "humidity": 50,
       "solarRad": 8,
       "windSpeed": 4.8
     },
     {
-      "time": "01:30",
+      "datetime": "2026-05-26 01:30",
       "temp": 24.2,
       "humidity": 51,
       "solarRad": 0,
       "windSpeed": 4.4
     },
     {
-      "time": "01:40",
+      "datetime": "2026-05-26 01:40",
       "temp": 23.4,
       "humidity": 54,
       "solarRad": 0,
       "windSpeed": 4
     },
     {
-      "time": "01:50",
+      "datetime": "2026-05-26 01:50",
       "temp": 23.1,
       "humidity": 53,
       "solarRad": 0,
       "windSpeed": 2.6
     },
     {
-      "time": "02:00",
+      "datetime": "2026-05-26 02:00",
       "temp": 23.6,
       "humidity": 56,
       "solarRad": 0,
       "windSpeed": 3.3
     },
     {
-      "time": "02:10",
+      "datetime": "2026-05-26 02:10",
       "temp": 23.9,
       "humidity": 55,
       "solarRad": 0,
       "windSpeed": 3.2
     },
     {
-      "time": "02:20",
+      "datetime": "2026-05-26 02:20",
       "temp": 22.9,
       "humidity": 53,
       "solarRad": 0,
       "windSpeed": 3
     },
     {
-      "time": "02:30",
+      "datetime": "2026-05-26 02:30",
       "temp": 23.7,
       "humidity": 55,
       "solarRad": 0,
       "windSpeed": 2.1
     },
     {
-      "time": "02:40",
+      "datetime": "2026-05-26 02:40",
       "temp": 24.3,
       "humidity": 56,
       "solarRad": 0,
       "windSpeed": 1.2
     },
     {
-      "time": "02:50",
+      "datetime": "2026-05-26 02:50",
       "temp": 24,
       "humidity": 61,
       "solarRad": 0,
       "windSpeed": 1.6
     },
     {
-      "time": "03:00",
+      "datetime": "2026-05-26 03:00",
       "temp": 24.1,
       "humidity": 63,
       "solarRad": 0,
       "windSpeed": 0.5
     },
     {
-      "time": "03:10",
+      "datetime": "2026-05-26 03:10",
       "temp": 23,
       "humidity": 61,
       "solarRad": 0,
       "windSpeed": 0.3
     },
     {
-      "time": "03:20",
+      "datetime": "2026-05-26 03:20",
       "temp": 23.1,
       "humidity": 60,
       "solarRad": 0,
       "windSpeed": 0
     },
     {
-      "time": "03:30",
+      "datetime": "2026-05-26 03:30",
       "temp": 21.9,
       "humidity": 60,
       "solarRad": 0,
       "windSpeed": 1.4
     },
     {
-      "time": "03:40",
+      "datetime": "2026-05-26 03:40",
       "temp": 20.9,
       "humidity": 63,
       "solarRad": 0,
       "windSpeed": 1
     },
     {
-      "time": "03:50",
+      "datetime": "2026-05-26 03:50",
       "temp": 19.4,
       "humidity": 62,
       "solarRad": 0,
       "windSpeed": 0
     },
     {
-      "time": "04:00",
+      "datetime": "2026-05-26 04:00",
       "temp": 18.7,
       "humidity": 61,
       "solarRad": 0,
       "windSpeed": 0
     },
     {
-      "time": "04:10",
+      "datetime": "2026-05-26 04:10",
       "temp": 18.3,
       "humidity": 64,
       "solarRad": 0,
       "windSpeed": 0
     },
     {
-      "time": "04:20",
+      "datetime": "2026-05-26 04:20",
       "temp": 17.5,
       "humidity": 65,
       "solarRad": 0,
       "windSpeed": 0
     },
     {
-      "time": "04:30",
+      "datetime": "2026-05-26 04:30",
       "temp": 17,
       "humidity": 69,
       "solarRad": 0,
       "windSpeed": 0.1
     },
     {
-      "time": "04:40",
+      "datetime": "2026-05-26 04:40",
       "temp": 15.6,
       "humidity": 73,
       "solarRad": 0,
       "windSpeed": 1
     },
     {
-      "time": "04:50",
+      "datetime": "2026-05-26 04:50",
       "temp": 15.1,
       "humidity": 71,
       "solarRad": 0,
       "windSpeed": 1.8
     },
     {
-      "time": "05:00",
+      "datetime": "2026-05-26 05:00",
       "temp": 16,
       "humidity": 73,
       "solarRad": 0,
       "windSpeed": 2.5
     },
     {
-      "time": "05:10",
+      "datetime": "2026-05-26 05:10",
       "temp": 15.3,
       "humidity": 75,
       "solarRad": 0,
       "windSpeed": 1.1
     },
     {
-      "time": "05:20",
+      "datetime": "2026-05-26 05:20",
       "temp": 15.9,
       "humidity": 73,
       "solarRad": 0,
       "windSpeed": 0.3
     },
     {
-      "time": "05:30",
+      "datetime": "2026-05-26 05:30",
       "temp": 15.8,
       "humidity": 77,
       "solarRad": 0,
       "windSpeed": 0
     },
     {
-      "time": "05:40",
+      "datetime": "2026-05-26 05:40",
       "temp": 16.5,
       "humidity": 79,
       "solarRad": 0,
       "windSpeed": 1.6
     },
     {
-      "time": "05:50",
+      "datetime": "2026-05-26 05:50",
       "temp": 15.5,
       "humidity": 82,
       "solarRad": 0,
       "windSpeed": 0.3
     },
     {
-      "time": "06:00",
+      "datetime": "2026-05-26 06:00",
       "temp": 16.1,
       "humidity": 84,
       "solarRad": 0,
       "windSpeed": 0.2
     },
     {
-      "time": "06:10",
+      "datetime": "2026-05-26 06:10",
       "temp": 16.4,
       "humidity": 81,
       "solarRad": 0,
       "windSpeed": 0
     },
     {
-      "time": "06:20",
+      "datetime": "2026-05-26 06:20",
       "temp": 15.8,
       "humidity": 80,
       "solarRad": 0,
       "windSpeed": 1.3
     },
     {
-      "time": "06:30",
+      "datetime": "2026-05-26 06:30",
       "temp": 14.6,
       "humidity": 81,
       "solarRad": 0,
       "windSpeed": 0.2
     },
     {
-      "time": "06:40",
+      "datetime": "2026-05-26 06:40",
       "temp": 14.2,
       "humidity": 80,
       "solarRad": 0,
       "windSpeed": 0
     },
     {
-      "time": "06:50",
+      "datetime": "2026-05-26 06:50",
       "temp": 14.8,
       "humidity": 81,
       "solarRad": 0,
       "windSpeed": 0.7
     },
     {
-      "time": "07:00",
+      "datetime": "2026-05-26 07:00",
       "temp": 15.4,
       "humidity": 81,
       "solarRad": 0,
       "windSpeed": 2.1
     },
     {
-      "time": "07:10",
+      "datetime": "2026-05-26 07:10",
       "temp": 16,
       "humidity": 83,
       "solarRad": 0,
       "windSpeed": 2.8
     },
     {
-      "time": "07:20",
+      "datetime": "2026-05-26 07:20",
       "temp": 15.3,
       "humidity": 84,
       "solarRad": 0,
       "windSpeed": 3.3
     },
     {
-      "time": "07:30",
+      "datetime": "2026-05-26 07:30",
       "temp": 14.4,
       "humidity": 83,
       "solarRad": 0,
       "windSpeed": 4
     },
     {
-      "time": "07:40",
+      "datetime": "2026-05-26 07:40",
       "temp": 13.9,
       "humidity": 83,
       "solarRad": 0,
       "windSpeed": 3.7
     },
     {
-      "time": "07:50",
+      "datetime": "2026-05-26 07:50",
       "temp": 13.8,
       "humidity": 86,
       "solarRad": 0,
       "windSpeed": 2
     },
     {
-      "time": "08:00",
+      "datetime": "2026-05-26 08:00",
       "temp": 14.1,
       "humidity": 88,
       "solarRad": 0,
       "windSpeed": 2.1
     },
     {
-      "time": "08:10",
+      "datetime": "2026-05-26 08:10",
       "temp": 13.2,
       "humidity": 86,
       "solarRad": 0,
       "windSpeed": 2.7
     },
     {
-      "time": "08:20",
+      "datetime": "2026-05-26 08:20",
       "temp": 12.7,
       "humidity": 84,
       "solarRad": 0,
       "windSpeed": 2.7
     },
     {
-      "time": "08:30",
+      "datetime": "2026-05-26 08:30",
       "temp": 13.3,
       "humidity": 86,
       "solarRad": 0,
       "windSpeed": 1
     },
     {
-      "time": "08:40",
+      "datetime": "2026-05-26 08:40",
       "temp": 12.6,
       "humidity": 84,
       "solarRad": 0,
       "windSpeed": 1.2
     },
     {
-      "time": "08:50",
+      "datetime": "2026-05-26 08:50",
       "temp": 12.1,
       "humidity": 84,
       "solarRad": 0,
       "windSpeed": 1.7
     },
     {
-      "time": "09:00",
+      "datetime": "2026-05-26 09:00",
       "temp": 11.8,
       "humidity": 85,
       "solarRad": 0,
       "windSpeed": 0.3
     },
     {
-      "time": "09:10",
+      "datetime": "2026-05-26 09:10",
       "temp": 12.7,
       "humidity": 82,
       "solarRad": 0,
       "windSpeed": 0.1
     },
     {
-      "time": "09:20",
+      "datetime": "2026-05-26 09:20",
       "temp": 13.4,
       "humidity": 86,
       "solarRad": 0,
       "windSpeed": 1.6
     },
     {
-      "time": "09:30",
+      "datetime": "2026-05-26 09:30",
       "temp": 13,
       "humidity": 87,
       "solarRad": 0,
       "windSpeed": 2.9
     },
     {
-      "time": "09:40",
+      "datetime": "2026-05-26 09:40",
       "temp": 13.6,
       "humidity": 84,
       "solarRad": 0,
       "windSpeed": 3.5
     },
     {
-      "time": "09:50",
+      "datetime": "2026-05-26 09:50",
       "temp": 13.4,
       "humidity": 86,
       "solarRad": 0,
       "windSpeed": 2
     },
     {
-      "time": "10:00",
+      "datetime": "2026-05-26 10:00",
       "temp": 13.6,
       "humidity": 86,
       "solarRad": 0,
       "windSpeed": 3
     },
     {
-      "time": "10:10",
+      "datetime": "2026-05-26 10:10",
       "temp": 13,
       "humidity": 85,
       "solarRad": 0,
       "windSpeed": 1.6
     },
     {
-      "time": "10:20",
+      "datetime": "2026-05-26 10:20",
       "temp": 14,
       "humidity": 82,
       "solarRad": 0,
       "windSpeed": 1.9
     },
     {
-      "time": "10:30",
+      "datetime": "2026-05-26 10:30",
       "temp": 14.2,
       "humidity": 86,
       "solarRad": 0,
       "windSpeed": 2.5
     },
     {
-      "time": "10:40",
+      "datetime": "2026-05-26 10:40",
       "temp": 13.8,
       "humidity": 84,
       "solarRad": 2,
       "windSpeed": 3.6
     },
     {
-      "time": "10:50",
+      "datetime": "2026-05-26 10:50",
       "temp": 14.4,
       "humidity": 87,
       "solarRad": 0,
       "windSpeed": 1.9
     },
     {
-      "time": "11:00",
+      "datetime": "2026-05-26 11:00",
       "temp": 14.4,
       "humidity": 87,
       "solarRad": 0,
       "windSpeed": 1.2
     },
     {
-      "time": "11:10",
+      "datetime": "2026-05-26 11:10",
       "temp": 13.3,
       "humidity": 86,
       "solarRad": 0,
       "windSpeed": 0.6
     },
     {
-      "time": "11:20",
+      "datetime": "2026-05-26 11:20",
       "temp": 12.6,
       "humidity": 87,
       "solarRad": 0,
       "windSpeed": 1.4
     },
     {
-      "time": "11:30",
+      "datetime": "2026-05-26 11:30",
       "temp": 12.2,
       "humidity": 84,
       "solarRad": 16,
       "windSpeed": 2.5
     },
     {
-      "time": "11:40",
+      "datetime": "2026-05-26 11:40",
       "temp": 13.2,
       "humidity": 86,
       "solarRad": 9,
       "windSpeed": 3.5
     },
     {
-      "time": "11:50",
-      "temp": 14,
-      "humidity": 83,
-      "solarRad": 0,
-      "windSpeed": 3.3
+      "datetime": "2026-05-26 11:50",
+      "tempF": 14,
+      "humidityF": 83,
+      "solarRadF": 0,
+      "windSpeedF": 3.3
     },
     {
-      "time": "12:00",
-      "temp": 14.8,
-      "humidity": 81,
-      "solarRad": 29,
-      "windSpeed": 3.8
+      "datetime": "2026-05-26 12:00",
+      "tempF": 14.8,
+      "humidityF": 81,
+      "solarRadF": 29,
+      "windSpeedF": 3.8
     },
     {
-      "time": "12:10",
-      "temp": 15.3,
-      "humidity": 83,
-      "solarRad": 41,
-      "windSpeed": 2.9
+      "datetime": "2026-05-26 12:10",
+      "tempF": 15.3,
+      "humidityF": 83,
+      "solarRadF": 41,
+      "windSpeedF": 2.9
     },
     {
-      "time": "12:20",
-      "temp": 14.3,
-      "humidity": 80,
-      "solarRad": 17,
-      "windSpeed": 2.2
+      "datetime": "2026-05-26 12:20",
+      "tempF": 14.3,
+      "humidityF": 80,
+      "solarRadF": 17,
+      "windSpeedF": 2.2
     },
     {
-      "time": "12:30",
-      "temp": 15.4,
-      "humidity": 80,
-      "solarRad": 2,
-      "windSpeed": 2.8
+      "datetime": "2026-05-26 12:30",
+      "tempF": 15.4,
+      "humidityF": 80,
+      "solarRadF": 2,
+      "windSpeedF": 2.8
     },
     {
-      "time": "12:40",
-      "temp": 14.8,
-      "humidity": 79,
-      "solarRad": 35,
-      "windSpeed": 2.4
+      "datetime": "2026-05-26 12:40",
+      "tempF": 14.8,
+      "humidityF": 79,
+      "solarRadF": 35,
+      "windSpeedF": 2.4
     },
     {
-      "time": "12:50",
-      "temp": 14.3,
-      "humidity": 75,
-      "solarRad": 53,
-      "windSpeed": 1.4
+      "datetime": "2026-05-26 12:50",
+      "tempF": 14.3,
+      "humidityF": 75,
+      "solarRadF": 53,
+      "windSpeedF": 1.4
     },
     {
-      "time": "13:00",
-      "temp": 15.3,
-      "humidity": 75,
-      "solarRad": 91,
-      "windSpeed": 0.3
+      "datetime": "2026-05-26 13:00",
+      "tempF": 15.3,
+      "humidityF": 75,
+      "solarRadF": 91,
+      "windSpeedF": 0.3
     },
     {
-      "time": "13:10",
-      "temp": 15.5,
-      "humidity": 78,
-      "solarRad": 98,
-      "windSpeed": 0
+      "datetime": "2026-05-26 13:10",
+      "tempF": 15.5,
+      "humidityF": 78,
+      "solarRadF": 98,
+      "windSpeedF": 0
     },
     {
-      "time": "13:20",
-      "temp": 16.5,
-      "humidity": 74,
-      "solarRad": 97,
-      "windSpeed": 1.9
+      "datetime": "2026-05-26 13:20",
+      "tempF": 16.5,
+      "humidityF": 74,
+      "solarRadF": 97,
+      "windSpeedF": 1.9
     },
     {
-      "time": "13:30",
-      "temp": 16.1,
-      "humidity": 75,
-      "solarRad": 130,
-      "windSpeed": 1.2
+      "datetime": "2026-05-26 13:30",
+      "tempF": 16.1,
+      "humidityF": 75,
+      "solarRadF": 130,
+      "windSpeedF": 1.2
     },
     {
-      "time": "13:40",
-      "temp": 17.6,
-      "humidity": 78,
-      "solarRad": 163,
-      "windSpeed": 2.2
+      "datetime": "2026-05-26 13:40",
+      "tempF": 17.6,
+      "humidityF": 78,
+      "solarRadF": 163,
+      "windSpeedF": 2.2
     },
     {
-      "time": "13:50",
-      "temp": 17.7,
-      "humidity": 76,
-      "solarRad": 177,
-      "windSpeed": 1.9
+      "datetime": "2026-05-26 13:50",
+      "tempF": 17.7,
+      "humidityF": 76,
+      "solarRadF": 177,
+      "windSpeedF": 1.9
     },
     {
-      "time": "14:00",
-      "temp": 18.3,
-      "humidity": 75,
-      "solarRad": 211,
-      "windSpeed": 1.4
+      "datetime": "2026-05-26 14:00",
+      "tempF": 18.3,
+      "humidityF": 75,
+      "solarRadF": 211,
+      "windSpeedF": 1.4
     },
     {
-      "time": "14:10",
-      "temp": 19.5,
-      "humidity": 73,
-      "solarRad": 238,
-      "windSpeed": 1.5
+      "datetime": "2026-05-26 14:10",
+      "tempF": 19.5,
+      "humidityF": 73,
+      "solarRadF": 238,
+      "windSpeedF": 1.5
     },
     {
-      "time": "14:20",
-      "temp": 20,
-      "humidity": 71,
-      "solarRad": 229,
-      "windSpeed": 1.5
+      "datetime": "2026-05-26 14:20",
+      "tempF": 20,
+      "humidityF": 71,
+      "solarRadF": 229,
+      "windSpeedF": 1.5
     },
     {
-      "time": "14:30",
-      "temp": 19.6,
-      "humidity": 71,
-      "solarRad": 222,
-      "windSpeed": 1.9
+      "datetime": "2026-05-26 14:30",
+      "tempF": 19.6,
+      "humidityF": 71,
+      "solarRadF": 222,
+      "windSpeedF": 1.9
     },
     {
-      "time": "14:40",
-      "temp": 20.8,
-      "humidity": 71,
-      "solarRad": 226,
-      "windSpeed": 2.3
+      "datetime": "2026-05-26 14:40",
+      "tempF": 20.8,
+      "humidityF": 71,
+      "solarRadF": 226,
+      "windSpeedF": 2.3
     },
     {
-      "time": "14:50",
-      "temp": 20.7,
-      "humidity": 71,
-      "solarRad": 226,
-      "windSpeed": 3.6
+      "datetime": "2026-05-26 14:50",
+      "tempF": 20.7,
+      "humidityF": 71,
+      "solarRadF": 226,
+      "windSpeedF": 3.6
     },
     {
-      "time": "15:00",
-      "temp": 21.9,
-      "humidity": 70,
-      "solarRad": 215,
-      "windSpeed": 3
+      "datetime": "2026-05-26 15:00",
+      "tempF": 21.9,
+      "humidityF": 70,
+      "solarRadF": 215,
+      "windSpeedF": 3
     },
     {
-      "time": "15:10",
-      "temp": 22.9,
-      "humidity": 70,
-      "solarRad": 216,
-      "windSpeed": 2.1
+      "datetime": "2026-05-26 15:10",
+      "tempF": 22.9,
+      "humidityF": 70,
+      "solarRadF": 216,
+      "windSpeedF": 2.1
     },
     {
-      "time": "15:20",
-      "temp": 24.2,
-      "humidity": 68,
-      "solarRad": 226,
-      "windSpeed": 3.5
+      "datetime": "2026-05-26 15:20",
+      "tempF": 24.2,
+      "humidityF": 68,
+      "solarRadF": 226,
+      "windSpeedF": 3.5
     },
     {
-      "time": "15:30",
-      "temp": 23.1,
-      "humidity": 70,
-      "solarRad": 268,
-      "windSpeed": 4.5
+      "datetime": "2026-05-26 15:30",
+      "tempF": 23.1,
+      "humidityF": 70,
+      "solarRadF": 268,
+      "windSpeedF": 4.5
     },
     {
-      "time": "15:40",
-      "temp": 23,
-      "humidity": 69,
-      "solarRad": 291,
-      "windSpeed": 4.1
+      "datetime": "2026-05-26 15:40",
+      "tempF": 23,
+      "humidityF": 69,
+      "solarRadF": 291,
+      "windSpeedF": 4.1
     },
     {
-      "time": "15:50",
-      "temp": 22.5,
-      "humidity": 65,
-      "solarRad": 293,
-      "windSpeed": 2.9
+      "datetime": "2026-05-26 15:50",
+      "tempF": 22.5,
+      "humidityF": 65,
+      "solarRadF": 293,
+      "windSpeedF": 2.9
     },
     {
-      "time": "16:00",
-      "temp": 21.8,
-      "humidity": 67,
-      "solarRad": 291,
-      "windSpeed": 2
+      "datetime": "2026-05-26 16:00",
+      "tempF": 21.8,
+      "humidityF": 67,
+      "solarRadF": 291,
+      "windSpeedF": 2
     },
     {
-      "time": "16:10",
-      "temp": 23.4,
-      "humidity": 62,
-      "solarRad": 286,
-      "windSpeed": 2.8
+      "datetime": "2026-05-26 16:10",
+      "tempF": 23.4,
+      "humidityF": 62,
+      "solarRadF": 286,
+      "windSpeedF": 2.8
     },
     {
-      "time": "16:20",
-      "temp": 23.9,
-      "humidity": 60,
-      "solarRad": 291,
-      "windSpeed": 4.6
+      "datetime": "2026-05-26 16:20",
+      "tempF": 23.9,
+      "humidityF": 60,
+      "solarRadF": 291,
+      "windSpeedF": 4.6
     },
     {
-      "time": "16:30",
-      "temp": 24.1,
-      "humidity": 60,
-      "solarRad": 336,
-      "windSpeed": 5.8
+      "datetime": "2026-05-26 16:30",
+      "tempF": 24.1,
+      "humidityF": 60,
+      "solarRadF": 336,
+      "windSpeedF": 5.8
     },
     {
-      "time": "16:40",
-      "temp": 23.9,
-      "humidity": 60,
-      "solarRad": 373,
-      "windSpeed": 6.9
+      "datetime": "2026-05-26 16:40",
+      "tempF": 23.9,
+      "humidityF": 60,
+      "solarRadF": 373,
+      "windSpeedF": 6.9
     },
     {
-      "time": "16:50",
-      "temp": 23.3,
-      "humidity": 56,
-      "solarRad": 363,
-      "windSpeed": 6.6
+      "datetime": "2026-05-26 16:50",
+      "tempF": 23.3,
+      "humidityF": 56,
+      "solarRadF": 363,
+      "windSpeedF": 6.6
     },
     {
-      "time": "17:00",
-      "temp": 22.7,
-      "humidity": 53,
-      "solarRad": 373,
-      "windSpeed": 5.7
+      "datetime": "2026-05-26 17:00",
+      "tempF": 22.7,
+      "humidityF": 53,
+      "solarRadF": 373,
+      "windSpeedF": 5.7
     },
     {
-      "time": "17:10",
-      "temp": 23.2,
-      "humidity": 49,
-      "solarRad": 361,
-      "windSpeed": 6.2
+      "datetime": "2026-05-26 17:10",
+      "tempF": 23.2,
+      "humidityF": 49,
+      "solarRadF": 361,
+      "windSpeedF": 6.2
     },
     {
-      "time": "17:20",
-      "temp": 25,
-      "humidity": 52,
-      "solarRad": 382,
-      "windSpeed": 6.9
+      "datetime": "2026-05-26 17:20",
+      "tempF": 25,
+      "humidityF": 52,
+      "solarRadF": 382,
+      "windSpeedF": 6.9
     },
     {
-      "time": "17:30",
-      "temp": 25.7,
-      "humidity": 55,
-      "solarRad": 395,
-      "windSpeed": 6.3
+      "datetime": "2026-05-26 17:30",
+      "tempF": 25.7,
+      "humidityF": 55,
+      "solarRadF": 395,
+      "windSpeedF": 6.3
     },
     {
-      "time": "17:40",
-      "temp": 26.8,
-      "humidity": 56,
-      "solarRad": 392,
-      "windSpeed": 7
+      "datetime": "2026-05-26 17:40",
+      "tempF": 26.8,
+      "humidityF": 56,
+      "solarRadF": 392,
+      "windSpeedF": 7
     },
     {
-      "time": "17:50",
-      "temp": 27.8,
-      "humidity": 54,
-      "solarRad": 381,
-      "windSpeed": 6.2
+      "datetime": "2026-05-26 17:50",
+      "tempF": 27.8,
+      "humidityF": 54,
+      "solarRadF": 381,
+      "windSpeedF": 6.2
     },
     {
-      "time": "18:00",
-      "temp": 27.3,
-      "humidity": 53,
-      "solarRad": 418,
-      "windSpeed": 5.1
+      "datetime": "2026-05-26 18:00",
+      "tempF": 27.3,
+      "humidityF": 53,
+      "solarRadF": 418,
+      "windSpeedF": 5.1
     },
     {
-      "time": "18:10",
-      "temp": 27.1,
-      "humidity": 51,
-      "solarRad": 395,
-      "windSpeed": 4.2
+      "datetime": "2026-05-26 18:10",
+      "tempF": 27.1,
+      "humidityF": 51,
+      "solarRadF": 395,
+      "windSpeedF": 4.2
     },
     {
-      "time": "18:20",
-      "temp": 27.9,
-      "humidity": 51,
-      "solarRad": 403,
-      "windSpeed": 5.9
+      "datetime": "2026-05-26 18:20",
+      "tempF": 27.9,
+      "humidityF": 51,
+      "solarRadF": 403,
+      "windSpeedF": 5.9
     },
     {
-      "time": "18:30",
-      "temp": 28.2,
-      "humidity": 52,
-      "solarRad": 413,
-      "windSpeed": 5
+      "datetime": "2026-05-26 18:30",
+      "tempF": 28.2,
+      "humidityF": 52,
+      "solarRadF": 413,
+      "windSpeedF": 5
     },
     {
-      "time": "18:40",
-      "temp": 29.2,
-      "humidity": 52,
-      "solarRad": 399,
-      "windSpeed": 5.4
+      "datetime": "2026-05-26 18:40",
+      "tempF": 29.2,
+      "humidityF": 52,
+      "solarRadF": 399,
+      "windSpeedF": 5.4
     },
     {
-      "time": "18:50",
-      "temp": 30,
-      "humidity": 50,
-      "solarRad": 406,
-      "windSpeed": 4.2
+      "datetime": "2026-05-26 18:50",
+      "tempF": 30,
+      "humidityF": 50,
+      "solarRadF": 406,
+      "windSpeedF": 4.2
     },
     {
-      "time": "19:00",
-      "temp": 30.2,
-      "humidity": 47,
-      "solarRad": 388,
-      "windSpeed": 3.2
+      "datetime": "2026-05-26 19:00",
+      "tempF": 30.2,
+      "humidityF": 47,
+      "solarRadF": 388,
+      "windSpeedF": 3.2
     },
     {
-      "time": "19:10",
-      "temp": 31.3,
-      "humidity": 47,
-      "solarRad": 408,
-      "windSpeed": 4.6
+      "datetime": "2026-05-26 19:10",
+      "tempF": 31.3,
+      "humidityF": 47,
+      "solarRadF": 408,
+      "windSpeedF": 4.6
     },
     {
-      "time": "19:20",
-      "temp": 32.3,
-      "humidity": 49,
-      "solarRad": 418,
-      "windSpeed": 5.1
+      "datetime": "2026-05-26 19:20",
+      "tempF": 32.3,
+      "humidityF": 49,
+      "solarRadF": 418,
+      "windSpeedF": 5.1
     },
     {
-      "time": "19:30",
-      "temp": 33,
-      "humidity": 46,
-      "solarRad": 432,
-      "windSpeed": 6.8
+      "datetime": "2026-05-26 19:30",
+      "tempF": 33,
+      "humidityF": 46,
+      "solarRadF": 432,
+      "windSpeedF": 6.8
     },
     {
-      "time": "19:40",
-      "temp": 32.8,
-      "humidity": 42,
-      "solarRad": 429,
-      "windSpeed": 5.7
+      "datetime": "2026-05-26 19:40",
+      "tempF": 32.8,
+      "humidityF": 42,
+      "solarRadF": 429,
+      "windSpeedF": 5.7
     },
     {
-      "time": "19:50",
-      "temp": 32.2,
-      "humidity": 43,
-      "solarRad": 452,
-      "windSpeed": 5.5
+      "datetime": "2026-05-26 19:50",
+      "tempF": 32.2,
+      "humidityF": 43,
+      "solarRadF": 452,
+      "windSpeedF": 5.5
     },
     {
-      "time": "20:00",
-      "temp": 31.6,
-      "humidity": 40,
-      "solarRad": 419,
-      "windSpeed": 6.9
+      "datetime": "2026-05-26 20:00",
+      "tempF": 31.6,
+      "humidityF": 40,
+      "solarRadF": 419,
+      "windSpeedF": 6.9
     },
     {
-      "time": "20:10",
-      "temp": 32.1,
-      "humidity": 41,
-      "solarRad": 388,
-      "windSpeed": 6.6
+      "datetime": "2026-05-26 20:10",
+      "tempF": 32.1,
+      "humidityF": 41,
+      "solarRadF": 388,
+      "windSpeedF": 6.6
     },
     {
-      "time": "20:20",
-      "temp": 32.4,
-      "humidity": 39,
-      "solarRad": 412,
-      "windSpeed": 5.3
+      "datetime": "2026-05-26 20:20",
+      "tempF": 32.4,
+      "humidityF": 39,
+      "solarRadF": 412,
+      "windSpeedF": 5.3
     },
     {
-      "time": "20:30",
-      "temp": 31.4,
-      "humidity": 37,
-      "solarRad": 433,
-      "windSpeed": 4.2
+      "datetime": "2026-05-26 20:30",
+      "tempF": 31.4,
+      "humidityF": 37,
+      "solarRadF": 433,
+      "windSpeedF": 4.2
     },
     {
-      "time": "20:40",
-      "temp": 30.9,
-      "humidity": 40,
-      "solarRad": 437,
-      "windSpeed": 4
+      "datetime": "2026-05-26 20:40",
+      "tempF": 30.9,
+      "humidityF": 40,
+      "solarRadF": 437,
+      "windSpeedF": 4
     },
     {
-      "time": "20:50",
-      "temp": 31.2,
-      "humidity": 42,
-      "solarRad": 423,
-      "windSpeed": 4.5
+      "datetime": "2026-05-26 20:50",
+      "tempF": 31.2,
+      "humidityF": 42,
+      "solarRadF": 423,
+      "windSpeedF": 4.5
     },
     {
-      "time": "21:00",
-      "temp": 31.9,
-      "humidity": 42,
-      "solarRad": 413,
-      "windSpeed": 5.9
+      "datetime": "2026-05-26 21:00",
+      "tempF": 31.9,
+      "humidityF": 42,
+      "solarRadF": 413,
+      "windSpeedF": 5.9
     },
     {
-      "time": "21:10",
-      "temp": 31,
-      "humidity": 44,
-      "solarRad": 372,
-      "windSpeed": 7.5
+      "datetime": "2026-05-26 21:10",
+      "tempF": 31,
+      "humidityF": 44,
+      "solarRadF": 372,
+      "windSpeedF": 7.5
     },
     {
-      "time": "21:20",
-      "temp": 31.6,
-      "humidity": 42,
-      "solarRad": 342,
-      "windSpeed": 6.1
+      "datetime": "2026-05-26 21:20",
+      "tempF": 31.6,
+      "humidityF": 42,
+      "solarRadF": 342,
+      "windSpeedF": 6.1
     },
     {
-      "time": "21:30",
-      "temp": 31.7,
-      "humidity": 41,
-      "solarRad": 313,
-      "windSpeed": 5.7
+      "datetime": "2026-05-26 21:30",
+      "tempF": 31.7,
+      "humidityF": 41,
+      "solarRadF": 313,
+      "windSpeedF": 5.7
     },
     {
-      "time": "21:40",
-      "temp": 30.9,
-      "humidity": 39,
-      "solarRad": 285,
-      "windSpeed": 5.7
+      "datetime": "2026-05-26 21:40",
+      "tempF": 30.9,
+      "humidityF": 39,
+      "solarRadF": 285,
+      "windSpeedF": 5.7
     },
     {
-      "time": "21:50",
-      "temp": 29.8,
-      "humidity": 38,
-      "solarRad": 285,
-      "windSpeed": 5.5
+      "datetime": "2026-05-26 21:50",
+      "tempF": 29.8,
+      "humidityF": 38,
+      "solarRadF": 285,
+      "windSpeedF": 5.5
     },
     {
-      "time": "22:00",
-      "temp": 30.3,
-      "humidity": 37,
-      "solarRad": 297,
-      "windSpeed": 5.8
+      "datetime": "2026-05-26 22:00",
+      "tempF": 30.3,
+      "humidityF": 37,
+      "solarRadF": 297,
+      "windSpeedF": 5.8
     },
     {
-      "time": "22:10",
-      "temp": 30,
-      "humidity": 37,
-      "solarRad": 285,
-      "windSpeed": 6.4
+      "datetime": "2026-05-26 22:10",
+      "tempF": 30,
+      "humidityF": 37,
+      "solarRadF": 285,
+      "windSpeedF": 6.4
     },
     {
-      "time": "22:20",
-      "temp": 30.7,
-      "humidity": 37,
-      "solarRad": 299,
-      "windSpeed": 5.1
+      "datetime": "2026-05-26 22:20",
+      "tempF": 30.7,
+      "humidityF": 37,
+      "solarRadF": 299,
+      "windSpeedF": 5.1
     },
     {
-      "time": "22:30",
-      "temp": 30.6,
-      "humidity": 39,
-      "solarRad": 259,
-      "windSpeed": 5.3
+      "datetime": "2026-05-26 22:30",
+      "tempF": 30.6,
+      "humidityF": 39,
+      "solarRadF": 259,
+      "windSpeedF": 5.3
     },
     {
-      "time": "22:40",
-      "temp": 29.6,
-      "humidity": 38,
-      "solarRad": 224,
-      "windSpeed": 6.1
+      "datetime": "2026-05-26 22:40",
+      "tempF": 29.6,
+      "humidityF": 38,
+      "solarRadF": 224,
+      "windSpeedF": 6.1
     },
     {
-      "time": "22:50",
-      "temp": 29,
-      "humidity": 39,
-      "solarRad": 225,
-      "windSpeed": 5.1
+      "datetime": "2026-05-26 22:50",
+      "tempF": 29,
+      "humidityF": 39,
+      "solarRadF": 225,
+      "windSpeedF": 5.1
     },
     {
-      "time": "23:00",
-      "temp": 28.7,
-      "humidity": 42,
-      "solarRad": 205,
-      "windSpeed": 6
+      "datetime": "2026-05-26 23:00",
+      "tempF": 28.7,
+      "humidityF": 42,
+      "solarRadF": 205,
+      "windSpeedF": 6
     },
     {
-      "time": "23:10",
-      "temp": 29,
-      "humidity": 40,
-      "solarRad": 213,
-      "windSpeed": 4.5
+      "datetime": "2026-05-26 23:10",
+      "tempF": 29,
+      "humidityF": 40,
+      "solarRadF": 213,
+      "windSpeedF": 4.5
     },
     {
-      "time": "23:20",
-      "temp": 27.8,
-      "humidity": 41,
-      "solarRad": 173,
-      "windSpeed": 5.3
+      "datetime": "2026-05-26 23:20",
+      "tempF": 27.8,
+      "humidityF": 41,
+      "solarRadF": 173,
+      "windSpeedF": 5.3
     },
     {
-      "time": "23:30",
-      "temp": 28.5,
-      "humidity": 41,
-      "solarRad": 181,
-      "windSpeed": 5.9
+      "datetime": "2026-05-26 23:30",
+      "tempF": 28.5,
+      "humidityF": 41,
+      "solarRadF": 181,
+      "windSpeedF": 5.9
     },
     {
-      "time": "23:40",
-      "temp": 27.2,
-      "humidity": 45,
-      "solarRad": 139,
-      "windSpeed": 4.8
+      "datetime": "2026-05-26 23:40",
+      "tempF": 27.2,
+      "humidityF": 45,
+      "solarRadF": 139,
+      "windSpeedF": 4.8
     },
     {
-      "time": "23:50",
-      "temp": 26.6,
-      "humidity": 48,
-      "solarRad": 144,
-      "windSpeed": 4.7
+      "datetime": "2026-05-26 23:50",
+      "tempF": 26.6,
+      "humidityF": 48,
+      "solarRadF": 144,
+      "windSpeedF": 4.7
+    },
+    {
+      "datetime": "2026-05-27 00:00",
+      "tempF": 22,
+      "humidityF": 62,
+      "solarRadF": 11,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 00:10",
+      "tempF": 23,
+      "humidityF": 60,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 00:20",
+      "tempF": 24,
+      "humidityF": 63,
+      "solarRadF": 2,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 00:30",
+      "tempF": 23,
+      "humidityF": 56,
+      "solarRadF": 0,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 00:40",
+      "tempF": 23,
+      "humidityF": 61,
+      "solarRadF": 0,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 00:50",
+      "tempF": 24,
+      "humidityF": 56,
+      "solarRadF": 0,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 01:00",
+      "tempF": 24,
+      "humidityF": 56,
+      "solarRadF": 0,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 01:10",
+      "tempF": 24,
+      "humidityF": 53,
+      "solarRadF": 0,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 01:20",
+      "tempF": 24,
+      "humidityF": 52,
+      "solarRadF": 8,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 01:30",
+      "tempF": 24,
+      "humidityF": 50,
+      "solarRadF": 0,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 01:40",
+      "tempF": 23,
+      "humidityF": 53,
+      "solarRadF": 0,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 01:50",
+      "tempF": 23,
+      "humidityF": 50,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 02:00",
+      "tempF": 24,
+      "humidityF": 56,
+      "solarRadF": 0,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 02:10",
+      "tempF": 24,
+      "humidityF": 55,
+      "solarRadF": 0,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 02:20",
+      "tempF": 24,
+      "humidityF": 53,
+      "solarRadF": 0,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 02:30",
+      "tempF": 24,
+      "humidityF": 54,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 02:40",
+      "tempF": 24,
+      "humidityF": 57,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 02:50",
+      "tempF": 24,
+      "humidityF": 63,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 03:00",
+      "tempF": 24,
+      "humidityF": 61,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 03:10",
+      "tempF": 23,
+      "humidityF": 62,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 03:20",
+      "tempF": 23,
+      "humidityF": 60,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 03:30",
+      "tempF": 22,
+      "humidityF": 58,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 03:40",
+      "tempF": 20,
+      "humidityF": 61,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 03:50",
+      "tempF": 19,
+      "humidityF": 61,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 04:00",
+      "tempF": 18,
+      "humidityF": 62,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 04:10",
+      "tempF": 18,
+      "humidityF": 63,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 04:20",
+      "tempF": 17,
+      "humidityF": 66,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 04:30",
+      "tempF": 16,
+      "humidityF": 70,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 04:40",
+      "tempF": 15,
+      "humidityF": 72,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 04:50",
+      "tempF": 15,
+      "humidityF": 74,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 05:00",
+      "tempF": 16,
+      "humidityF": 71,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 05:10",
+      "tempF": 15,
+      "humidityF": 74,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 05:20",
+      "tempF": 15,
+      "humidityF": 76,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 05:30",
+      "tempF": 16,
+      "humidityF": 81,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 05:40",
+      "tempF": 16,
+      "humidityF": 78,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 05:50",
+      "tempF": 15,
+      "humidityF": 83,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 06:00",
+      "tempF": 16,
+      "humidityF": 84,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 06:10",
+      "tempF": 16,
+      "humidityF": 80,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 06:20",
+      "tempF": 16,
+      "humidityF": 80,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 06:30",
+      "tempF": 14,
+      "humidityF": 81,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 06:40",
+      "tempF": 14,
+      "humidityF": 81,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 06:50",
+      "tempF": 15,
+      "humidityF": 79,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 07:00",
+      "tempF": 15,
+      "humidityF": 80,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 07:10",
+      "tempF": 16,
+      "humidityF": 86,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 07:20",
+      "tempF": 15,
+      "humidityF": 85,
+      "solarRadF": 0,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 07:30",
+      "tempF": 15,
+      "humidityF": 83,
+      "solarRadF": 0,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 07:40",
+      "tempF": 14,
+      "humidityF": 84,
+      "solarRadF": 0,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 07:50",
+      "tempF": 14,
+      "humidityF": 85,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 08:00",
+      "tempF": 14,
+      "humidityF": 89,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 08:10",
+      "tempF": 13,
+      "humidityF": 85,
+      "solarRadF": 0,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 08:20",
+      "tempF": 13,
+      "humidityF": 83,
+      "solarRadF": 0,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 08:30",
+      "tempF": 13,
+      "humidityF": 84,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 08:40",
+      "tempF": 12,
+      "humidityF": 86,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 08:50",
+      "tempF": 12,
+      "humidityF": 86,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 09:00",
+      "tempF": 12,
+      "humidityF": 87,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 09:10",
+      "tempF": 13,
+      "humidityF": 81,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 09:20",
+      "tempF": 14,
+      "humidityF": 86,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 09:30",
+      "tempF": 13,
+      "humidityF": 86,
+      "solarRadF": 0,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 09:40",
+      "tempF": 14,
+      "humidityF": 86,
+      "solarRadF": 0,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 09:50",
+      "tempF": 14,
+      "humidityF": 84,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 10:00",
+      "tempF": 13,
+      "humidityF": 85,
+      "solarRadF": 0,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 10:10",
+      "tempF": 13,
+      "humidityF": 85,
+      "solarRadF": 0,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 10:20",
+      "tempF": 13,
+      "humidityF": 81,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 10:30",
+      "tempF": 14,
+      "humidityF": 87,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 10:40",
+      "tempF": 13,
+      "humidityF": 86,
+      "solarRadF": 2,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 10:50",
+      "tempF": 15,
+      "humidityF": 87,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 11:00",
+      "tempF": 14,
+      "humidityF": 85,
+      "solarRadF": 0,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 11:10",
+      "tempF": 14,
+      "humidityF": 82,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 11:20",
+      "tempF": 13,
+      "humidityF": 85,
+      "solarRadF": 0,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 11:30",
+      "tempF": 12,
+      "humidityF": 86,
+      "solarRadF": 16,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 11:40",
+      "tempF": 13,
+      "humidityF": 87,
+      "solarRadF": 9,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 11:50",
+      "tempF": 14,
+      "humidityF": 83,
+      "solarRadF": 0,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 12:00",
+      "tempF": 15,
+      "humidityF": 80,
+      "solarRadF": 29,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 12:10",
+      "tempF": 15,
+      "humidityF": 80,
+      "solarRadF": 43,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 12:20",
+      "tempF": 15,
+      "humidityF": 78,
+      "solarRadF": 17,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 12:30",
+      "tempF": 16,
+      "humidityF": 80,
+      "solarRadF": 2,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 12:40",
+      "tempF": 15,
+      "humidityF": 78,
+      "solarRadF": 32,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 12:50",
+      "tempF": 14,
+      "humidityF": 73,
+      "solarRadF": 55,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 13:00",
+      "tempF": 16,
+      "humidityF": 76,
+      "solarRadF": 94,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 13:10",
+      "tempF": 17,
+      "humidityF": 77,
+      "solarRadF": 95,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 13:20",
+      "tempF": 17,
+      "humidityF": 75,
+      "solarRadF": 91,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 13:30",
+      "tempF": 16,
+      "humidityF": 74,
+      "solarRadF": 128,
+      "windSpeedF": 0
+    },
+    {
+      "datetime": "2026-05-27 13:40",
+      "tempF": 18,
+      "humidityF": 79,
+      "solarRadF": 164,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 13:50",
+      "tempF": 18,
+      "humidityF": 78,
+      "solarRadF": 161,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 14:00",
+      "tempF": 18,
+      "humidityF": 77,
+      "solarRadF": 213,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 14:10",
+      "tempF": 19,
+      "humidityF": 72,
+      "solarRadF": 255,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 14:20",
+      "tempF": 20,
+      "humidityF": 73,
+      "solarRadF": 216,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 14:30",
+      "tempF": 19,
+      "humidityF": 72,
+      "solarRadF": 202,
+      "windSpeedF": 1
+    },
+    {
+      "datetime": "2026-05-27 14:40",
+      "tempF": 21,
+      "humidityF": 72,
+      "solarRadF": 234,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 14:50",
+      "tempF": 20,
+      "humidityF": 73,
+      "solarRadF": 215,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 15:00",
+      "tempF": 22,
+      "humidityF": 70,
+      "solarRadF": 224,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 15:10",
+      "tempF": 23,
+      "humidityF": 72,
+      "solarRadF": 215,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 15:20",
+      "tempF": 24,
+      "humidityF": 70,
+      "solarRadF": 233,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 15:30",
+      "tempF": 23,
+      "humidityF": 71,
+      "solarRadF": 283,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 15:40",
+      "tempF": 22,
+      "humidityF": 69,
+      "solarRadF": 282,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 15:50",
+      "tempF": 23,
+      "humidityF": 66,
+      "solarRadF": 286,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 16:00",
+      "tempF": 21,
+      "humidityF": 67,
+      "solarRadF": 296,
+      "windSpeedF": 2
+    },
+    {
+      "datetime": "2026-05-27 16:10",
+      "tempF": 24,
+      "humidityF": 61,
+      "solarRadF": 255,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 16:20",
+      "tempF": 23,
+      "humidityF": 58,
+      "solarRadF": 287,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 16:30",
+      "tempF": 24,
+      "humidityF": 60,
+      "solarRadF": 321,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 16:40",
+      "tempF": 24,
+      "humidityF": 60,
+      "solarRadF": 364,
+      "windSpeedF": 7
+    },
+    {
+      "datetime": "2026-05-27 16:50",
+      "tempF": 23,
+      "humidityF": 55,
+      "solarRadF": 347,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 17:00",
+      "tempF": 23,
+      "humidityF": 55,
+      "solarRadF": 395,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 17:10",
+      "tempF": 24,
+      "humidityF": 50,
+      "solarRadF": 363,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 17:20",
+      "tempF": 24,
+      "humidityF": 52,
+      "solarRadF": 368,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 17:30",
+      "tempF": 26,
+      "humidityF": 54,
+      "solarRadF": 417,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 17:40",
+      "tempF": 27,
+      "humidityF": 55,
+      "solarRadF": 392,
+      "windSpeedF": 7
+    },
+    {
+      "datetime": "2026-05-27 17:50",
+      "tempF": 27,
+      "humidityF": 51,
+      "solarRadF": 380,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 18:00",
+      "tempF": 28,
+      "humidityF": 52,
+      "solarRadF": 398,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 18:10",
+      "tempF": 28,
+      "humidityF": 49,
+      "solarRadF": 353,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 18:20",
+      "tempF": 27,
+      "humidityF": 51,
+      "solarRadF": 382,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 18:30",
+      "tempF": 29,
+      "humidityF": 50,
+      "solarRadF": 394,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 18:40",
+      "tempF": 29,
+      "humidityF": 55,
+      "solarRadF": 406,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 18:50",
+      "tempF": 30,
+      "humidityF": 49,
+      "solarRadF": 406,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 19:00",
+      "tempF": 30,
+      "humidityF": 47,
+      "solarRadF": 365,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 19:10",
+      "tempF": 31,
+      "humidityF": 48,
+      "solarRadF": 415,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 19:20",
+      "tempF": 33,
+      "humidityF": 50,
+      "solarRadF": 404,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 19:30",
+      "tempF": 32,
+      "humidityF": 46,
+      "solarRadF": 381,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 19:40",
+      "tempF": 33,
+      "humidityF": 43,
+      "solarRadF": 403,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 19:50",
+      "tempF": 32,
+      "humidityF": 45,
+      "solarRadF": 385,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 20:00",
+      "tempF": 31,
+      "humidityF": 39,
+      "solarRadF": 410,
+      "windSpeedF": 7
+    },
+    {
+      "datetime": "2026-05-27 20:10",
+      "tempF": 32,
+      "humidityF": 40,
+      "solarRadF": 392,
+      "windSpeedF": 7
+    },
+    {
+      "datetime": "2026-05-27 20:20",
+      "tempF": 33,
+      "humidityF": 39,
+      "solarRadF": 376,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 20:30",
+      "tempF": 32,
+      "humidityF": 35,
+      "solarRadF": 430,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 20:40",
+      "tempF": 30,
+      "humidityF": 41,
+      "solarRadF": 451,
+      "windSpeedF": 3
+    },
+    {
+      "datetime": "2026-05-27 20:50",
+      "tempF": 31,
+      "humidityF": 42,
+      "solarRadF": 437,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 21:00",
+      "tempF": 32,
+      "humidityF": 43,
+      "solarRadF": 405,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 21:10",
+      "tempF": 31,
+      "humidityF": 45,
+      "solarRadF": 361,
+      "windSpeedF": 9
+    },
+    {
+      "datetime": "2026-05-27 21:20",
+      "tempF": 32,
+      "humidityF": 43,
+      "solarRadF": 351,
+      "windSpeedF": 7
+    },
+    {
+      "datetime": "2026-05-27 21:30",
+      "tempF": 32,
+      "humidityF": 41,
+      "solarRadF": 330,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 21:40",
+      "tempF": 31,
+      "humidityF": 41,
+      "solarRadF": 263,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 21:50",
+      "tempF": 29,
+      "humidityF": 37,
+      "solarRadF": 272,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 22:00",
+      "tempF": 30,
+      "humidityF": 37,
+      "solarRadF": 295,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 22:10",
+      "tempF": 30,
+      "humidityF": 36,
+      "solarRadF": 286,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 22:20",
+      "tempF": 30,
+      "humidityF": 34,
+      "solarRadF": 276,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 22:30",
+      "tempF": 30,
+      "humidityF": 38,
+      "solarRadF": 245,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 22:40",
+      "tempF": 30,
+      "humidityF": 42,
+      "solarRadF": 213,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 22:50",
+      "tempF": 29,
+      "humidityF": 39,
+      "solarRadF": 211,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 23:00",
+      "tempF": 28,
+      "humidityF": 42,
+      "solarRadF": 214,
+      "windSpeedF": 6
+    },
+    {
+      "datetime": "2026-05-27 23:10",
+      "tempF": 29,
+      "humidityF": 42,
+      "solarRadF": 215,
+      "windSpeedF": 4
+    },
+    {
+      "datetime": "2026-05-27 23:20",
+      "tempF": 27,
+      "humidityF": 42,
+      "solarRadF": 167,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 23:30",
+      "tempF": 28,
+      "humidityF": 43,
+      "solarRadF": 173,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 23:40",
+      "tempF": 27,
+      "humidityF": 44,
+      "solarRadF": 139,
+      "windSpeedF": 5
+    },
+    {
+      "datetime": "2026-05-27 23:50",
+      "tempF": 27,
+      "humidityF": 47,
+      "solarRadF": 140,
+      "windSpeedF": 4
     }
+  ],
+  "multiDay": true,
+  "lastActual": "2026-05-26 11:40",
+  "forecastKeys": [
+    "temp",
+    "humidity",
+    "solarRad",
+    "windSpeed"
   ]
 }

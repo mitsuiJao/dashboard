@@ -26,868 +26,1739 @@
   ],
   "data": [
     {
-      "time": "00:00",
+      "datetime": "2026-05-26 00:00",
       "temp": 32.8,
       "flow": 123.9,
       "power": 15.1
     },
     {
-      "time": "00:10",
+      "datetime": "2026-05-26 00:10",
       "temp": 32.4,
       "flow": 123.4,
       "power": 15.8
     },
     {
-      "time": "00:20",
+      "datetime": "2026-05-26 00:20",
       "temp": 33.2,
       "flow": 127.1,
       "power": 15.6
     },
     {
-      "time": "00:30",
+      "datetime": "2026-05-26 00:30",
       "temp": 33.7,
       "flow": 121.2,
       "power": 15.6
     },
     {
-      "time": "00:40",
+      "datetime": "2026-05-26 00:40",
       "temp": 33.4,
       "flow": 117.4,
       "power": 15.8
     },
     {
-      "time": "00:50",
+      "datetime": "2026-05-26 00:50",
       "temp": 33.2,
       "flow": 115.6,
       "power": 16.1
     },
     {
-      "time": "01:00",
+      "datetime": "2026-05-26 01:00",
       "temp": 34.3,
       "flow": 112.9,
       "power": 16
     },
     {
-      "time": "01:10",
+      "datetime": "2026-05-26 01:10",
       "temp": 35.3,
       "flow": 110.6,
       "power": 16.2
     },
     {
-      "time": "01:20",
+      "datetime": "2026-05-26 01:20",
       "temp": 35.3,
       "flow": 110.1,
       "power": 15.7
     },
     {
-      "time": "01:30",
+      "datetime": "2026-05-26 01:30",
       "temp": 34.9,
       "flow": 108.5,
       "power": 15.7
     },
     {
-      "time": "01:40",
+      "datetime": "2026-05-26 01:40",
       "temp": 35.4,
       "flow": 109.8,
       "power": 15.2
     },
     {
-      "time": "01:50",
+      "datetime": "2026-05-26 01:50",
       "temp": 35.8,
       "flow": 107.2,
       "power": 15.2
     },
     {
-      "time": "02:00",
+      "datetime": "2026-05-26 02:00",
       "temp": 35.9,
       "flow": 105.2,
       "power": 14.8
     },
     {
-      "time": "02:10",
+      "datetime": "2026-05-26 02:10",
       "temp": 35.6,
       "flow": 100,
       "power": 14.8
     },
     {
-      "time": "02:20",
+      "datetime": "2026-05-26 02:20",
       "temp": 35.7,
       "flow": 104.1,
       "power": 13.8
     },
     {
-      "time": "02:30",
+      "datetime": "2026-05-26 02:30",
       "temp": 34.8,
       "flow": 98.6,
       "power": 14.1
     },
     {
-      "time": "02:40",
+      "datetime": "2026-05-26 02:40",
       "temp": 33.7,
       "flow": 94.6,
       "power": 13.7
     },
     {
-      "time": "02:50",
+      "datetime": "2026-05-26 02:50",
       "temp": 33.5,
       "flow": 97.8,
       "power": 14.1
     },
     {
-      "time": "03:00",
+      "datetime": "2026-05-26 03:00",
       "temp": 33.6,
       "flow": 100.8,
       "power": 13.3
     },
     {
-      "time": "03:10",
+      "datetime": "2026-05-26 03:10",
       "temp": 33.6,
       "flow": 100.6,
       "power": 12.4
     },
     {
-      "time": "03:20",
+      "datetime": "2026-05-26 03:20",
       "temp": 33.4,
       "flow": 95.5,
       "power": 12.5
     },
     {
-      "time": "03:30",
+      "datetime": "2026-05-26 03:30",
       "temp": 32.7,
       "flow": 92.9,
       "power": 11.7
     },
     {
-      "time": "03:40",
+      "datetime": "2026-05-26 03:40",
       "temp": 31.8,
       "flow": 91.4,
       "power": 11.4
     },
     {
-      "time": "03:50",
+      "datetime": "2026-05-26 03:50",
       "temp": 31.7,
       "flow": 88.2,
       "power": 10.6
     },
     {
-      "time": "04:00",
+      "datetime": "2026-05-26 04:00",
       "temp": 30.7,
       "flow": 85.6,
       "power": 10.1
     },
     {
-      "time": "04:10",
+      "datetime": "2026-05-26 04:10",
       "temp": 30.8,
       "flow": 88.9,
       "power": 9.3
     },
     {
-      "time": "04:20",
+      "datetime": "2026-05-26 04:20",
       "temp": 31.3,
       "flow": 85.1,
       "power": 9.4
     },
     {
-      "time": "04:30",
+      "datetime": "2026-05-26 04:30",
       "temp": 30.4,
       "flow": 84.7,
       "power": 9.6
     },
     {
-      "time": "04:40",
+      "datetime": "2026-05-26 04:40",
       "temp": 30.5,
       "flow": 81.9,
       "power": 9.1
     },
     {
-      "time": "04:50",
+      "datetime": "2026-05-26 04:50",
       "temp": 30.3,
       "flow": 86.2,
       "power": 8.7
     },
     {
-      "time": "05:00",
+      "datetime": "2026-05-26 05:00",
       "temp": 30.2,
       "flow": 84.5,
       "power": 8.2
     },
     {
-      "time": "05:10",
+      "datetime": "2026-05-26 05:10",
       "temp": 28.8,
       "flow": 84.8,
       "power": 9
     },
     {
-      "time": "05:20",
+      "datetime": "2026-05-26 05:20",
       "temp": 28.5,
       "flow": 85.7,
       "power": 8.2
     },
     {
-      "time": "05:30",
+      "datetime": "2026-05-26 05:30",
       "temp": 27.5,
       "flow": 88.8,
       "power": 8
     },
     {
-      "time": "05:40",
+      "datetime": "2026-05-26 05:40",
       "temp": 27.1,
       "flow": 89.6,
       "power": 8
     },
     {
-      "time": "05:50",
+      "datetime": "2026-05-26 05:50",
       "temp": 26.2,
       "flow": 83.6,
       "power": 8
     },
     {
-      "time": "06:00",
+      "datetime": "2026-05-26 06:00",
       "temp": 26.4,
       "flow": 84.4,
       "power": 8
     },
     {
-      "time": "06:10",
+      "datetime": "2026-05-26 06:10",
       "temp": 25.6,
       "flow": 79.1,
       "power": 8.4
     },
     {
-      "time": "06:20",
+      "datetime": "2026-05-26 06:20",
       "temp": 25.5,
       "flow": 79.3,
       "power": 8.9
     },
     {
-      "time": "06:30",
+      "datetime": "2026-05-26 06:30",
       "temp": 25,
       "flow": 80.9,
       "power": 8
     },
     {
-      "time": "06:40",
+      "datetime": "2026-05-26 06:40",
       "temp": 25.7,
       "flow": 85.4,
       "power": 8
     },
     {
-      "time": "06:50",
+      "datetime": "2026-05-26 06:50",
       "temp": 26.2,
       "flow": 79.9,
       "power": 8
     },
     {
-      "time": "07:00",
+      "datetime": "2026-05-26 07:00",
       "temp": 25.9,
       "flow": 81.2,
       "power": 8
     },
     {
-      "time": "07:10",
+      "datetime": "2026-05-26 07:10",
       "temp": 25.5,
       "flow": 83.7,
       "power": 8
     },
     {
-      "time": "07:20",
+      "datetime": "2026-05-26 07:20",
       "temp": 25,
       "flow": 78.7,
       "power": 8
     },
     {
-      "time": "07:30",
+      "datetime": "2026-05-26 07:30",
       "temp": 25.6,
       "flow": 79.8,
       "power": 8
     },
     {
-      "time": "07:40",
+      "datetime": "2026-05-26 07:40",
       "temp": 25,
       "flow": 77.1,
       "power": 8.1
     },
     {
-      "time": "07:50",
+      "datetime": "2026-05-26 07:50",
       "temp": 25.5,
       "flow": 73.2,
       "power": 8
     },
     {
-      "time": "08:00",
+      "datetime": "2026-05-26 08:00",
       "temp": 25,
       "flow": 74.2,
       "power": 8
     },
     {
-      "time": "08:10",
+      "datetime": "2026-05-26 08:10",
       "temp": 25,
       "flow": 71.6,
       "power": 8.4
     },
     {
-      "time": "08:20",
+      "datetime": "2026-05-26 08:20",
       "temp": 25.3,
       "flow": 74,
       "power": 8
     },
     {
-      "time": "08:30",
+      "datetime": "2026-05-26 08:30",
       "temp": 25.6,
       "flow": 74.5,
       "power": 8.2
     },
     {
-      "time": "08:40",
+      "datetime": "2026-05-26 08:40",
       "temp": 26.3,
       "flow": 78.5,
       "power": 8
     },
     {
-      "time": "08:50",
+      "datetime": "2026-05-26 08:50",
       "temp": 25.4,
       "flow": 82.9,
       "power": 8
     },
     {
-      "time": "09:00",
+      "datetime": "2026-05-26 09:00",
       "temp": 25,
       "flow": 84.4,
       "power": 8
     },
     {
-      "time": "09:10",
+      "datetime": "2026-05-26 09:10",
       "temp": 25,
       "flow": 90.4,
       "power": 8.1
     },
     {
-      "time": "09:20",
+      "datetime": "2026-05-26 09:20",
       "temp": 25,
       "flow": 87.9,
       "power": 8
     },
     {
-      "time": "09:30",
+      "datetime": "2026-05-26 09:30",
       "temp": 25,
       "flow": 84.8,
       "power": 8
     },
     {
-      "time": "09:40",
+      "datetime": "2026-05-26 09:40",
       "temp": 25,
       "flow": 89.6,
       "power": 8
     },
     {
-      "time": "09:50",
+      "datetime": "2026-05-26 09:50",
       "temp": 25,
       "flow": 85.8,
       "power": 8
     },
     {
-      "time": "10:00",
+      "datetime": "2026-05-26 10:00",
       "temp": 25,
       "flow": 83.4,
       "power": 8.2
     },
     {
-      "time": "10:10",
+      "datetime": "2026-05-26 10:10",
       "temp": 25,
       "flow": 89.2,
       "power": 8.1
     },
     {
-      "time": "10:20",
+      "datetime": "2026-05-26 10:20",
       "temp": 25.5,
       "flow": 94.4,
       "power": 8
     },
     {
-      "time": "10:30",
+      "datetime": "2026-05-26 10:30",
       "temp": 25.2,
       "flow": 99,
       "power": 8.2
     },
     {
-      "time": "10:40",
+      "datetime": "2026-05-26 10:40",
       "temp": 25.4,
       "flow": 96.4,
       "power": 8.7
     },
     {
-      "time": "10:50",
+      "datetime": "2026-05-26 10:50",
       "temp": 25.4,
       "flow": 96.6,
       "power": 9.7
     },
     {
-      "time": "11:00",
+      "datetime": "2026-05-26 11:00",
       "temp": 25,
       "flow": 96.4,
       "power": 9.5
     },
     {
-      "time": "11:10",
+      "datetime": "2026-05-26 11:10",
       "temp": 25,
       "flow": 102.5,
       "power": 9.1
     },
     {
-      "time": "11:20",
+      "datetime": "2026-05-26 11:20",
       "temp": 25.1,
       "flow": 106.2,
       "power": 10.1
     },
     {
-      "time": "11:30",
+      "datetime": "2026-05-26 11:30",
       "temp": 25.8,
       "flow": 105.8,
       "power": 10.8
     },
     {
-      "time": "11:40",
+      "datetime": "2026-05-26 11:40",
       "temp": 25.1,
       "flow": 103.6,
       "power": 10.8
     },
     {
-      "time": "11:50",
+      "datetime": "2026-05-26 11:50",
       "temp": 25,
       "flow": 106.3,
       "power": 10.7
     },
     {
-      "time": "12:00",
+      "datetime": "2026-05-26 12:00",
       "temp": 25.9,
       "flow": 104,
       "power": 10.2
     },
     {
-      "time": "12:10",
+      "datetime": "2026-05-26 12:10",
       "temp": 25.3,
       "flow": 102.5,
       "power": 9.9
     },
     {
-      "time": "12:20",
+      "datetime": "2026-05-26 12:20",
       "temp": 25,
       "flow": 105.2,
       "power": 11
     },
     {
-      "time": "12:30",
+      "datetime": "2026-05-26 12:30",
       "temp": 25.4,
       "flow": 112.2,
       "power": 11.8
     },
     {
-      "time": "12:40",
+      "datetime": "2026-05-26 12:40",
       "temp": 26.2,
       "flow": 115.4,
       "power": 11.7
     },
     {
-      "time": "12:50",
+      "datetime": "2026-05-26 12:50",
       "temp": 27.4,
       "flow": 112.7,
       "power": 12
     },
     {
-      "time": "13:00",
+      "datetime": "2026-05-26 13:00",
       "temp": 27.3,
       "flow": 112.4,
       "power": 12.2
     },
     {
-      "time": "13:10",
+      "datetime": "2026-05-26 13:10",
       "temp": 27.2,
       "flow": 114.4,
       "power": 13.1
     },
     {
-      "time": "13:20",
+      "datetime": "2026-05-26 13:20",
       "temp": 28,
       "flow": 116.9,
       "power": 12.6
     },
     {
-      "time": "13:30",
+      "datetime": "2026-05-26 13:30",
       "temp": 28.5,
       "flow": 122.1,
       "power": 13.6
     },
     {
-      "time": "13:40",
+      "datetime": "2026-05-26 13:40",
       "temp": 28.8,
       "flow": 128,
       "power": 14.3
     },
     {
-      "time": "13:50",
+      "datetime": "2026-05-26 13:50",
       "temp": 29.7,
       "flow": 127.4,
       "power": 15.1
     },
     {
-      "time": "14:00",
+      "datetime": "2026-05-26 14:00",
       "temp": 28.9,
       "flow": 125.2,
       "power": 14.7
     },
     {
-      "time": "14:10",
+      "datetime": "2026-05-26 14:10",
       "temp": 30.1,
       "flow": 128.6,
       "power": 15.6
     },
     {
-      "time": "14:20",
+      "datetime": "2026-05-26 14:20",
       "temp": 29.6,
       "flow": 125.8,
       "power": 16.4
     },
     {
-      "time": "14:30",
+      "datetime": "2026-05-26 14:30",
       "temp": 30.4,
       "flow": 130.6,
       "power": 17.2
     },
     {
-      "time": "14:40",
-      "temp": 31.1,
-      "flow": 127.6,
-      "power": 17.1
+      "datetime": "2026-05-26 14:40",
+      "tempF": 31.1,
+      "flowF": 127.6,
+      "powerF": 17.1
     },
     {
-      "time": "14:50",
-      "temp": 32.1,
-      "flow": 130.8,
-      "power": 16.8
+      "datetime": "2026-05-26 14:50",
+      "tempF": 32.1,
+      "flowF": 130.8,
+      "powerF": 16.8
     },
     {
-      "time": "15:00",
-      "temp": 33.2,
-      "flow": 135,
-      "power": 17.1
+      "datetime": "2026-05-26 15:00",
+      "tempF": 33.2,
+      "flowF": 135,
+      "powerF": 17.1
     },
     {
-      "time": "15:10",
-      "temp": 32.9,
-      "flow": 133.6,
-      "power": 17.6
+      "datetime": "2026-05-26 15:10",
+      "tempF": 32.9,
+      "flowF": 133.6,
+      "powerF": 17.6
     },
     {
-      "time": "15:20",
-      "temp": 33.1,
-      "flow": 135.3,
-      "power": 17.4
+      "datetime": "2026-05-26 15:20",
+      "tempF": 33.1,
+      "flowF": 135.3,
+      "powerF": 17.4
     },
     {
-      "time": "15:30",
-      "temp": 32.7,
-      "flow": 136.7,
-      "power": 18.4
+      "datetime": "2026-05-26 15:30",
+      "tempF": 32.7,
+      "flowF": 136.7,
+      "powerF": 18.4
     },
     {
-      "time": "15:40",
-      "temp": 32.4,
-      "flow": 134.5,
-      "power": 18.5
+      "datetime": "2026-05-26 15:40",
+      "tempF": 32.4,
+      "flowF": 134.5,
+      "powerF": 18.5
     },
     {
-      "time": "15:50",
-      "temp": 31.9,
-      "flow": 136,
-      "power": 18.9
+      "datetime": "2026-05-26 15:50",
+      "tempF": 31.9,
+      "flowF": 136,
+      "powerF": 18.9
     },
     {
-      "time": "16:00",
-      "temp": 33.1,
-      "flow": 140.4,
-      "power": 18.7
+      "datetime": "2026-05-26 16:00",
+      "tempF": 33.1,
+      "flowF": 140.4,
+      "powerF": 18.7
     },
     {
-      "time": "16:10",
-      "temp": 32.5,
-      "flow": 138.6,
-      "power": 19.6
+      "datetime": "2026-05-26 16:10",
+      "tempF": 32.5,
+      "flowF": 138.6,
+      "powerF": 19.6
     },
     {
-      "time": "16:20",
-      "temp": 33,
-      "flow": 143.9,
-      "power": 19
+      "datetime": "2026-05-26 16:20",
+      "tempF": 33,
+      "flowF": 143.9,
+      "powerF": 19
     },
     {
-      "time": "16:30",
-      "temp": 34.1,
-      "flow": 147.3,
-      "power": 18.9
+      "datetime": "2026-05-26 16:30",
+      "tempF": 34.1,
+      "flowF": 147.3,
+      "powerF": 18.9
     },
     {
-      "time": "16:40",
-      "temp": 35.2,
-      "flow": 148.5,
-      "power": 19.1
+      "datetime": "2026-05-26 16:40",
+      "tempF": 35.2,
+      "flowF": 148.5,
+      "powerF": 19.1
     },
     {
-      "time": "16:50",
-      "temp": 35.8,
-      "flow": 148.7,
-      "power": 19.2
+      "datetime": "2026-05-26 16:50",
+      "tempF": 35.8,
+      "flowF": 148.7,
+      "powerF": 19.2
     },
     {
-      "time": "17:00",
-      "temp": 36.6,
-      "flow": 149.9,
-      "power": 19.4
+      "datetime": "2026-05-26 17:00",
+      "tempF": 36.6,
+      "flowF": 149.9,
+      "powerF": 19.4
     },
     {
-      "time": "17:10",
-      "temp": 37.1,
-      "flow": 146.4,
-      "power": 20.5
+      "datetime": "2026-05-26 17:10",
+      "tempF": 37.1,
+      "flowF": 146.4,
+      "powerF": 20.5
     },
     {
-      "time": "17:20",
-      "temp": 37,
-      "flow": 148.2,
-      "power": 21.3
+      "datetime": "2026-05-26 17:20",
+      "tempF": 37,
+      "flowF": 148.2,
+      "powerF": 21.3
     },
     {
-      "time": "17:30",
-      "temp": 37.4,
-      "flow": 145.3,
-      "power": 21.8
+      "datetime": "2026-05-26 17:30",
+      "tempF": 37.4,
+      "flowF": 145.3,
+      "powerF": 21.8
     },
     {
-      "time": "17:40",
-      "temp": 37.8,
-      "flow": 144.1,
-      "power": 21.6
+      "datetime": "2026-05-26 17:40",
+      "tempF": 37.8,
+      "flowF": 144.1,
+      "powerF": 21.6
     },
     {
-      "time": "17:50",
-      "temp": 37.8,
-      "flow": 145.6,
-      "power": 22.3
+      "datetime": "2026-05-26 17:50",
+      "tempF": 37.8,
+      "flowF": 145.6,
+      "powerF": 22.3
     },
     {
-      "time": "18:00",
-      "temp": 37.3,
-      "flow": 151.8,
-      "power": 22.5
+      "datetime": "2026-05-26 18:00",
+      "tempF": 37.3,
+      "flowF": 151.8,
+      "powerF": 22.5
     },
     {
-      "time": "18:10",
-      "temp": 36.6,
-      "flow": 157.1,
-      "power": 22.8
+      "datetime": "2026-05-26 18:10",
+      "tempF": 36.6,
+      "flowF": 157.1,
+      "powerF": 22.8
     },
     {
-      "time": "18:20",
-      "temp": 36.6,
-      "flow": 155,
-      "power": 22.5
+      "datetime": "2026-05-26 18:20",
+      "tempF": 36.6,
+      "flowF": 155,
+      "powerF": 22.5
     },
     {
-      "time": "18:30",
-      "temp": 37.8,
-      "flow": 156.2,
-      "power": 22.3
+      "datetime": "2026-05-26 18:30",
+      "tempF": 37.8,
+      "flowF": 156.2,
+      "powerF": 22.3
     },
     {
-      "time": "18:40",
-      "temp": 37.7,
-      "flow": 152,
-      "power": 22
+      "datetime": "2026-05-26 18:40",
+      "tempF": 37.7,
+      "flowF": 152,
+      "powerF": 22
     },
     {
-      "time": "18:50",
-      "temp": 37.8,
-      "flow": 155.4,
-      "power": 21.3
+      "datetime": "2026-05-26 18:50",
+      "tempF": 37.8,
+      "flowF": 155.4,
+      "powerF": 21.3
     },
     {
-      "time": "19:00",
-      "temp": 37.6,
-      "flow": 155.8,
-      "power": 20.9
+      "datetime": "2026-05-26 19:00",
+      "tempF": 37.6,
+      "flowF": 155.8,
+      "powerF": 20.9
     },
     {
-      "time": "19:10",
-      "temp": 37,
-      "flow": 160.3,
-      "power": 20.4
+      "datetime": "2026-05-26 19:10",
+      "tempF": 37,
+      "flowF": 160.3,
+      "powerF": 20.4
     },
     {
-      "time": "19:20",
-      "temp": 37.9,
-      "flow": 160.4,
-      "power": 20.3
+      "datetime": "2026-05-26 19:20",
+      "tempF": 37.9,
+      "flowF": 160.4,
+      "powerF": 20.3
     },
     {
-      "time": "19:30",
-      "temp": 37.8,
-      "flow": 164.3,
-      "power": 20.9
+      "datetime": "2026-05-26 19:30",
+      "tempF": 37.8,
+      "flowF": 164.3,
+      "powerF": 20.9
     },
     {
-      "time": "19:40",
-      "temp": 38.6,
-      "flow": 165.4,
-      "power": 21.1
+      "datetime": "2026-05-26 19:40",
+      "tempF": 38.6,
+      "flowF": 165.4,
+      "powerF": 21.1
     },
     {
-      "time": "19:50",
-      "temp": 38.2,
-      "flow": 163.3,
-      "power": 21.2
+      "datetime": "2026-05-26 19:50",
+      "tempF": 38.2,
+      "flowF": 163.3,
+      "powerF": 21.2
     },
     {
-      "time": "20:00",
-      "temp": 39.3,
-      "flow": 161.4,
-      "power": 20.6
+      "datetime": "2026-05-26 20:00",
+      "tempF": 39.3,
+      "flowF": 161.4,
+      "powerF": 20.6
     },
     {
-      "time": "20:10",
-      "temp": 39.3,
-      "flow": 155.8,
-      "power": 20.5
+      "datetime": "2026-05-26 20:10",
+      "tempF": 39.3,
+      "flowF": 155.8,
+      "powerF": 20.5
     },
     {
-      "time": "20:20",
-      "temp": 40,
-      "flow": 160.4,
-      "power": 21.4
+      "datetime": "2026-05-26 20:20",
+      "tempF": 40,
+      "flowF": 160.4,
+      "powerF": 21.4
     },
     {
-      "time": "20:30",
-      "temp": 40.2,
-      "flow": 163.1,
-      "power": 20.9
+      "datetime": "2026-05-26 20:30",
+      "tempF": 40.2,
+      "flowF": 163.1,
+      "powerF": 20.9
     },
     {
-      "time": "20:40",
-      "temp": 40.2,
-      "flow": 156.9,
-      "power": 21.5
+      "datetime": "2026-05-26 20:40",
+      "tempF": 40.2,
+      "flowF": 156.9,
+      "powerF": 21.5
     },
     {
-      "time": "20:50",
-      "temp": 40,
-      "flow": 159.5,
-      "power": 22.2
+      "datetime": "2026-05-26 20:50",
+      "tempF": 40,
+      "flowF": 159.5,
+      "powerF": 22.2
     },
     {
-      "time": "21:00",
-      "temp": 40,
-      "flow": 157.2,
-      "power": 22.2
+      "datetime": "2026-05-26 21:00",
+      "tempF": 40,
+      "flowF": 157.2,
+      "powerF": 22.2
     },
     {
-      "time": "21:10",
-      "temp": 40.7,
-      "flow": 153.5,
-      "power": 22.4
+      "datetime": "2026-05-26 21:10",
+      "tempF": 40.7,
+      "flowF": 153.5,
+      "powerF": 22.4
     },
     {
-      "time": "21:20",
-      "temp": 39.7,
-      "flow": 157.2,
-      "power": 21.9
+      "datetime": "2026-05-26 21:20",
+      "tempF": 39.7,
+      "flowF": 157.2,
+      "powerF": 21.9
     },
     {
-      "time": "21:30",
-      "temp": 38.7,
-      "flow": 151.9,
-      "power": 21.6
+      "datetime": "2026-05-26 21:30",
+      "tempF": 38.7,
+      "flowF": 151.9,
+      "powerF": 21.6
     },
     {
-      "time": "21:40",
-      "temp": 38.7,
-      "flow": 154.3,
-      "power": 21.9
+      "datetime": "2026-05-26 21:40",
+      "tempF": 38.7,
+      "flowF": 154.3,
+      "powerF": 21.9
     },
     {
-      "time": "21:50",
-      "temp": 39.7,
-      "flow": 156.4,
-      "power": 21.2
+      "datetime": "2026-05-26 21:50",
+      "tempF": 39.7,
+      "flowF": 156.4,
+      "powerF": 21.2
     },
     {
-      "time": "22:00",
-      "temp": 39.3,
-      "flow": 158.7,
-      "power": 21.1
+      "datetime": "2026-05-26 22:00",
+      "tempF": 39.3,
+      "flowF": 158.7,
+      "powerF": 21.1
     },
     {
-      "time": "22:10",
-      "temp": 40.3,
-      "flow": 159.1,
-      "power": 20.9
+      "datetime": "2026-05-26 22:10",
+      "tempF": 40.3,
+      "flowF": 159.1,
+      "powerF": 20.9
     },
     {
-      "time": "22:20",
-      "temp": 41,
-      "flow": 154.3,
-      "power": 20.7
+      "datetime": "2026-05-26 22:20",
+      "tempF": 41,
+      "flowF": 154.3,
+      "powerF": 20.7
     },
     {
-      "time": "22:30",
-      "temp": 41.3,
-      "flow": 150.9,
-      "power": 21.3
+      "datetime": "2026-05-26 22:30",
+      "tempF": 41.3,
+      "flowF": 150.9,
+      "powerF": 21.3
     },
     {
-      "time": "22:40",
-      "temp": 41.9,
-      "flow": 149.7,
-      "power": 20.8
+      "datetime": "2026-05-26 22:40",
+      "tempF": 41.9,
+      "flowF": 149.7,
+      "powerF": 20.8
     },
     {
-      "time": "22:50",
-      "temp": 41.8,
-      "flow": 147.1,
-      "power": 21.1
+      "datetime": "2026-05-26 22:50",
+      "tempF": 41.8,
+      "flowF": 147.1,
+      "powerF": 21.1
     },
     {
-      "time": "23:00",
-      "temp": 41.4,
-      "flow": 147.2,
-      "power": 20.8
+      "datetime": "2026-05-26 23:00",
+      "tempF": 41.4,
+      "flowF": 147.2,
+      "powerF": 20.8
     },
     {
-      "time": "23:10",
-      "temp": 40.1,
-      "flow": 140.1,
-      "power": 20.5
+      "datetime": "2026-05-26 23:10",
+      "tempF": 40.1,
+      "flowF": 140.1,
+      "powerF": 20.5
     },
     {
-      "time": "23:20",
-      "temp": 40.4,
-      "flow": 134.8,
-      "power": 20.6
+      "datetime": "2026-05-26 23:20",
+      "tempF": 40.4,
+      "flowF": 134.8,
+      "powerF": 20.6
     },
     {
-      "time": "23:30",
-      "temp": 39.3,
-      "flow": 134.9,
-      "power": 20.4
+      "datetime": "2026-05-26 23:30",
+      "tempF": 39.3,
+      "flowF": 134.9,
+      "powerF": 20.4
     },
     {
-      "time": "23:40",
-      "temp": 39.2,
-      "flow": 130.8,
-      "power": 20.3
+      "datetime": "2026-05-26 23:40",
+      "tempF": 39.2,
+      "flowF": 130.8,
+      "powerF": 20.3
     },
     {
-      "time": "23:50",
-      "temp": 38.4,
-      "flow": 130.1,
-      "power": 20.2
+      "datetime": "2026-05-26 23:50",
+      "tempF": 38.4,
+      "flowF": 130.1,
+      "powerF": 20.2
+    },
+    {
+      "datetime": "2026-05-27 00:00",
+      "tempF": 32.5,
+      "flowF": 125,
+      "powerF": 14
+    },
+    {
+      "datetime": "2026-05-27 00:10",
+      "tempF": 32.3,
+      "flowF": 123,
+      "powerF": 16
+    },
+    {
+      "datetime": "2026-05-27 00:20",
+      "tempF": 32.7,
+      "flowF": 130,
+      "powerF": 15
+    },
+    {
+      "datetime": "2026-05-27 00:30",
+      "tempF": 34.1,
+      "flowF": 122,
+      "powerF": 16
+    },
+    {
+      "datetime": "2026-05-27 00:40",
+      "tempF": 33.5,
+      "flowF": 121,
+      "powerF": 16
+    },
+    {
+      "datetime": "2026-05-27 00:50",
+      "tempF": 33.8,
+      "flowF": 117,
+      "powerF": 16
+    },
+    {
+      "datetime": "2026-05-27 01:00",
+      "tempF": 34.3,
+      "flowF": 111,
+      "powerF": 16
+    },
+    {
+      "datetime": "2026-05-27 01:10",
+      "tempF": 35.6,
+      "flowF": 111,
+      "powerF": 17
+    },
+    {
+      "datetime": "2026-05-27 01:20",
+      "tempF": 35.5,
+      "flowF": 108,
+      "powerF": 16
+    },
+    {
+      "datetime": "2026-05-27 01:30",
+      "tempF": 34.7,
+      "flowF": 115,
+      "powerF": 16
+    },
+    {
+      "datetime": "2026-05-27 01:40",
+      "tempF": 35.4,
+      "flowF": 110,
+      "powerF": 16
+    },
+    {
+      "datetime": "2026-05-27 01:50",
+      "tempF": 35.0,
+      "flowF": 109,
+      "powerF": 15
+    },
+    {
+      "datetime": "2026-05-27 02:00",
+      "tempF": 35.6,
+      "flowF": 111,
+      "powerF": 15
+    },
+    {
+      "datetime": "2026-05-27 02:10",
+      "tempF": 35.2,
+      "flowF": 100,
+      "powerF": 15
+    },
+    {
+      "datetime": "2026-05-27 02:20",
+      "tempF": 35.7,
+      "flowF": 101,
+      "powerF": 13
+    },
+    {
+      "datetime": "2026-05-27 02:30",
+      "tempF": 35.2,
+      "flowF": 101,
+      "powerF": 14
+    },
+    {
+      "datetime": "2026-05-27 02:40",
+      "tempF": 32.9,
+      "flowF": 98,
+      "powerF": 14
+    },
+    {
+      "datetime": "2026-05-27 02:50",
+      "tempF": 33.6,
+      "flowF": 101,
+      "powerF": 14
+    },
+    {
+      "datetime": "2026-05-27 03:00",
+      "tempF": 33.4,
+      "flowF": 101,
+      "powerF": 13
+    },
+    {
+      "datetime": "2026-05-27 03:10",
+      "tempF": 33.6,
+      "flowF": 105,
+      "powerF": 12
+    },
+    {
+      "datetime": "2026-05-27 03:20",
+      "tempF": 33.3,
+      "flowF": 96,
+      "powerF": 12
+    },
+    {
+      "datetime": "2026-05-27 03:30",
+      "tempF": 33.3,
+      "flowF": 94,
+      "powerF": 12
+    },
+    {
+      "datetime": "2026-05-27 03:40",
+      "tempF": 31.7,
+      "flowF": 99,
+      "powerF": 11
+    },
+    {
+      "datetime": "2026-05-27 03:50",
+      "tempF": 31.9,
+      "flowF": 85,
+      "powerF": 11
+    },
+    {
+      "datetime": "2026-05-27 04:00",
+      "tempF": 30.7,
+      "flowF": 83,
+      "powerF": 10
+    },
+    {
+      "datetime": "2026-05-27 04:10",
+      "tempF": 31.1,
+      "flowF": 81,
+      "powerF": 9
+    },
+    {
+      "datetime": "2026-05-27 04:20",
+      "tempF": 31.0,
+      "flowF": 80,
+      "powerF": 9
+    },
+    {
+      "datetime": "2026-05-27 04:30",
+      "tempF": 29.7,
+      "flowF": 79,
+      "powerF": 9
+    },
+    {
+      "datetime": "2026-05-27 04:40",
+      "tempF": 30.7,
+      "flowF": 87,
+      "powerF": 9
+    },
+    {
+      "datetime": "2026-05-27 04:50",
+      "tempF": 29.8,
+      "flowF": 89,
+      "powerF": 9
+    },
+    {
+      "datetime": "2026-05-27 05:00",
+      "tempF": 30.8,
+      "flowF": 89,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 05:10",
+      "tempF": 28.4,
+      "flowF": 83,
+      "powerF": 9
+    },
+    {
+      "datetime": "2026-05-27 05:20",
+      "tempF": 28.5,
+      "flowF": 92,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 05:30",
+      "tempF": 27.6,
+      "flowF": 90,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 05:40",
+      "tempF": 27.1,
+      "flowF": 95,
+      "powerF": 9
+    },
+    {
+      "datetime": "2026-05-27 05:50",
+      "tempF": 26.6,
+      "flowF": 83,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 06:00",
+      "tempF": 25.7,
+      "flowF": 82,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 06:10",
+      "tempF": 25.9,
+      "flowF": 76,
+      "powerF": 9
+    },
+    {
+      "datetime": "2026-05-27 06:20",
+      "tempF": 25.1,
+      "flowF": 77,
+      "powerF": 9
+    },
+    {
+      "datetime": "2026-05-27 06:30",
+      "tempF": 24.6,
+      "flowF": 83,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 06:40",
+      "tempF": 25.5,
+      "flowF": 89,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 06:50",
+      "tempF": 25.8,
+      "flowF": 84,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 07:00",
+      "tempF": 24.9,
+      "flowF": 83,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 07:10",
+      "tempF": 25.1,
+      "flowF": 87,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 07:20",
+      "tempF": 24.7,
+      "flowF": 77,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 07:30",
+      "tempF": 25.5,
+      "flowF": 78,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 07:40",
+      "tempF": 24.6,
+      "flowF": 73,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 07:50",
+      "tempF": 25.3,
+      "flowF": 77,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 08:00",
+      "tempF": 25.6,
+      "flowF": 72,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 08:10",
+      "tempF": 24.9,
+      "flowF": 75,
+      "powerF": 9
+    },
+    {
+      "datetime": "2026-05-27 08:20",
+      "tempF": 25.5,
+      "flowF": 76,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 08:30",
+      "tempF": 26.3,
+      "flowF": 74,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 08:40",
+      "tempF": 26.2,
+      "flowF": 79,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 08:50",
+      "tempF": 25.2,
+      "flowF": 88,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 09:00",
+      "tempF": 23.7,
+      "flowF": 83,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 09:10",
+      "tempF": 25.3,
+      "flowF": 96,
+      "powerF": 9
+    },
+    {
+      "datetime": "2026-05-27 09:20",
+      "tempF": 24.8,
+      "flowF": 89,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 09:30",
+      "tempF": 24.6,
+      "flowF": 87,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 09:40",
+      "tempF": 25.1,
+      "flowF": 90,
+      "powerF": 7
+    },
+    {
+      "datetime": "2026-05-27 09:50",
+      "tempF": 25.7,
+      "flowF": 88,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 10:00",
+      "tempF": 25.6,
+      "flowF": 78,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 10:10",
+      "tempF": 24.9,
+      "flowF": 93,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 10:20",
+      "tempF": 25.1,
+      "flowF": 93,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 10:30",
+      "tempF": 24.4,
+      "flowF": 95,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 10:40",
+      "tempF": 24.5,
+      "flowF": 95,
+      "powerF": 8
+    },
+    {
+      "datetime": "2026-05-27 10:50",
+      "tempF": 25.4,
+      "flowF": 99,
+      "powerF": 10
+    },
+    {
+      "datetime": "2026-05-27 11:00",
+      "tempF": 24.8,
+      "flowF": 97,
+      "powerF": 10
+    },
+    {
+      "datetime": "2026-05-27 11:10",
+      "tempF": 25.0,
+      "flowF": 103,
+      "powerF": 9
+    },
+    {
+      "datetime": "2026-05-27 11:20",
+      "tempF": 25.0,
+      "flowF": 110,
+      "powerF": 10
+    },
+    {
+      "datetime": "2026-05-27 11:30",
+      "tempF": 25.4,
+      "flowF": 106,
+      "powerF": 10
+    },
+    {
+      "datetime": "2026-05-27 11:40",
+      "tempF": 25.2,
+      "flowF": 98,
+      "powerF": 10
+    },
+    {
+      "datetime": "2026-05-27 11:50",
+      "tempF": 24.6,
+      "flowF": 104,
+      "powerF": 11
+    },
+    {
+      "datetime": "2026-05-27 12:00",
+      "tempF": 26.2,
+      "flowF": 102,
+      "powerF": 10
+    },
+    {
+      "datetime": "2026-05-27 12:10",
+      "tempF": 25.9,
+      "flowF": 99,
+      "powerF": 9
+    },
+    {
+      "datetime": "2026-05-27 12:20",
+      "tempF": 25.0,
+      "flowF": 106,
+      "powerF": 11
+    },
+    {
+      "datetime": "2026-05-27 12:30",
+      "tempF": 25.1,
+      "flowF": 113,
+      "powerF": 11
+    },
+    {
+      "datetime": "2026-05-27 12:40",
+      "tempF": 26.1,
+      "flowF": 113,
+      "powerF": 11
+    },
+    {
+      "datetime": "2026-05-27 12:50",
+      "tempF": 27.0,
+      "flowF": 112,
+      "powerF": 12
+    },
+    {
+      "datetime": "2026-05-27 13:00",
+      "tempF": 27.5,
+      "flowF": 113,
+      "powerF": 13
+    },
+    {
+      "datetime": "2026-05-27 13:10",
+      "tempF": 27.5,
+      "flowF": 110,
+      "powerF": 13
+    },
+    {
+      "datetime": "2026-05-27 13:20",
+      "tempF": 27.6,
+      "flowF": 117,
+      "powerF": 13
+    },
+    {
+      "datetime": "2026-05-27 13:30",
+      "tempF": 29.4,
+      "flowF": 130,
+      "powerF": 14
+    },
+    {
+      "datetime": "2026-05-27 13:40",
+      "tempF": 28.8,
+      "flowF": 130,
+      "powerF": 14
+    },
+    {
+      "datetime": "2026-05-27 13:50",
+      "tempF": 29.7,
+      "flowF": 128,
+      "powerF": 15
+    },
+    {
+      "datetime": "2026-05-27 14:00",
+      "tempF": 29.0,
+      "flowF": 128,
+      "powerF": 15
+    },
+    {
+      "datetime": "2026-05-27 14:10",
+      "tempF": 29.6,
+      "flowF": 125,
+      "powerF": 16
+    },
+    {
+      "datetime": "2026-05-27 14:20",
+      "tempF": 29.8,
+      "flowF": 126,
+      "powerF": 16
+    },
+    {
+      "datetime": "2026-05-27 14:30",
+      "tempF": 30.2,
+      "flowF": 130,
+      "powerF": 18
+    },
+    {
+      "datetime": "2026-05-27 14:40",
+      "tempF": 30.9,
+      "flowF": 127,
+      "powerF": 17
+    },
+    {
+      "datetime": "2026-05-27 14:50",
+      "tempF": 31.9,
+      "flowF": 130,
+      "powerF": 17
+    },
+    {
+      "datetime": "2026-05-27 15:00",
+      "tempF": 33.8,
+      "flowF": 134,
+      "powerF": 16
+    },
+    {
+      "datetime": "2026-05-27 15:10",
+      "tempF": 33.6,
+      "flowF": 134,
+      "powerF": 19
+    },
+    {
+      "datetime": "2026-05-27 15:20",
+      "tempF": 33.3,
+      "flowF": 140,
+      "powerF": 18
+    },
+    {
+      "datetime": "2026-05-27 15:30",
+      "tempF": 33.0,
+      "flowF": 137,
+      "powerF": 19
+    },
+    {
+      "datetime": "2026-05-27 15:40",
+      "tempF": 33.3,
+      "flowF": 133,
+      "powerF": 19
+    },
+    {
+      "datetime": "2026-05-27 15:50",
+      "tempF": 32.4,
+      "flowF": 136,
+      "powerF": 18
+    },
+    {
+      "datetime": "2026-05-27 16:00",
+      "tempF": 33.4,
+      "flowF": 143,
+      "powerF": 19
+    },
+    {
+      "datetime": "2026-05-27 16:10",
+      "tempF": 32.9,
+      "flowF": 143,
+      "powerF": 20
+    },
+    {
+      "datetime": "2026-05-27 16:20",
+      "tempF": 33.3,
+      "flowF": 144,
+      "powerF": 19
+    },
+    {
+      "datetime": "2026-05-27 16:30",
+      "tempF": 34.1,
+      "flowF": 148,
+      "powerF": 18
+    },
+    {
+      "datetime": "2026-05-27 16:40",
+      "tempF": 35.0,
+      "flowF": 150,
+      "powerF": 20
+    },
+    {
+      "datetime": "2026-05-27 16:50",
+      "tempF": 35.7,
+      "flowF": 147,
+      "powerF": 19
+    },
+    {
+      "datetime": "2026-05-27 17:00",
+      "tempF": 37.0,
+      "flowF": 154,
+      "powerF": 19
+    },
+    {
+      "datetime": "2026-05-27 17:10",
+      "tempF": 37.6,
+      "flowF": 145,
+      "powerF": 20
+    },
+    {
+      "datetime": "2026-05-27 17:20",
+      "tempF": 37.7,
+      "flowF": 147,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 17:30",
+      "tempF": 37.5,
+      "flowF": 147,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 17:40",
+      "tempF": 38.2,
+      "flowF": 146,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 17:50",
+      "tempF": 38.3,
+      "flowF": 144,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 18:00",
+      "tempF": 37.8,
+      "flowF": 149,
+      "powerF": 23
+    },
+    {
+      "datetime": "2026-05-27 18:10",
+      "tempF": 36.7,
+      "flowF": 157,
+      "powerF": 23
+    },
+    {
+      "datetime": "2026-05-27 18:20",
+      "tempF": 37.2,
+      "flowF": 156,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 18:30",
+      "tempF": 37.6,
+      "flowF": 152,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 18:40",
+      "tempF": 37.4,
+      "flowF": 151,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 18:50",
+      "tempF": 38.0,
+      "flowF": 151,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 19:00",
+      "tempF": 37.9,
+      "flowF": 159,
+      "powerF": 20
+    },
+    {
+      "datetime": "2026-05-27 19:10",
+      "tempF": 37.2,
+      "flowF": 157,
+      "powerF": 20
+    },
+    {
+      "datetime": "2026-05-27 19:20",
+      "tempF": 38.0,
+      "flowF": 157,
+      "powerF": 20
+    },
+    {
+      "datetime": "2026-05-27 19:30",
+      "tempF": 37.0,
+      "flowF": 162,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 19:40",
+      "tempF": 38.3,
+      "flowF": 164,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 19:50",
+      "tempF": 38.6,
+      "flowF": 164,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 20:00",
+      "tempF": 39.0,
+      "flowF": 157,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 20:10",
+      "tempF": 39.6,
+      "flowF": 154,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 20:20",
+      "tempF": 40.5,
+      "flowF": 163,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 20:30",
+      "tempF": 40.5,
+      "flowF": 163,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 20:40",
+      "tempF": 40.4,
+      "flowF": 158,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 20:50",
+      "tempF": 40.1,
+      "flowF": 157,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 21:00",
+      "tempF": 39.6,
+      "flowF": 154,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 21:10",
+      "tempF": 40.8,
+      "flowF": 153,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 21:20",
+      "tempF": 40.2,
+      "flowF": 155,
+      "powerF": 23
+    },
+    {
+      "datetime": "2026-05-27 21:30",
+      "tempF": 38.4,
+      "flowF": 148,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 21:40",
+      "tempF": 38.3,
+      "flowF": 158,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 21:50",
+      "tempF": 39.2,
+      "flowF": 157,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 22:00",
+      "tempF": 38.9,
+      "flowF": 156,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 22:10",
+      "tempF": 39.5,
+      "flowF": 161,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 22:20",
+      "tempF": 40.8,
+      "flowF": 154,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 22:30",
+      "tempF": 41.7,
+      "flowF": 152,
+      "powerF": 22
+    },
+    {
+      "datetime": "2026-05-27 22:40",
+      "tempF": 41.0,
+      "flowF": 147,
+      "powerF": 20
+    },
+    {
+      "datetime": "2026-05-27 22:50",
+      "tempF": 41.6,
+      "flowF": 147,
+      "powerF": 20
+    },
+    {
+      "datetime": "2026-05-27 23:00",
+      "tempF": 40.9,
+      "flowF": 145,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 23:10",
+      "tempF": 39.7,
+      "flowF": 144,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 23:20",
+      "tempF": 39.9,
+      "flowF": 134,
+      "powerF": 20
+    },
+    {
+      "datetime": "2026-05-27 23:30",
+      "tempF": 38.9,
+      "flowF": 129,
+      "powerF": 20
+    },
+    {
+      "datetime": "2026-05-27 23:40",
+      "tempF": 39.6,
+      "flowF": 129,
+      "powerF": 21
+    },
+    {
+      "datetime": "2026-05-27 23:50",
+      "tempF": 38.4,
+      "flowF": 126,
+      "powerF": 20
     }
+  ],
+  "multiDay": true,
+  "lastActual": "2026-05-26 14:30",
+  "forecastKeys": [
+    "temp",
+    "flow",
+    "power"
   ]
 }

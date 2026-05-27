@@ -33,1012 +33,2028 @@
   ],
   "data": [
     {
-      "time": "00:00",
+      "datetime": "2026-05-26 00:00",
       "temp": 23.4,
       "humidity": 54,
       "co2": 512,
       "illuminance": 422
     },
     {
-      "time": "00:10",
+      "datetime": "2026-05-26 00:10",
       "temp": 23.3,
       "humidity": 52,
       "co2": 518,
       "illuminance": 410
     },
     {
-      "time": "00:20",
+      "datetime": "2026-05-26 00:20",
       "temp": 23.8,
       "humidity": 51,
       "co2": 535,
       "illuminance": 433
     },
     {
-      "time": "00:30",
+      "datetime": "2026-05-26 00:30",
       "temp": 23.8,
       "humidity": 51,
       "co2": 532,
       "illuminance": 450
     },
     {
-      "time": "00:40",
+      "datetime": "2026-05-26 00:40",
       "temp": 24,
       "humidity": 51,
       "co2": 528,
       "illuminance": 457
     },
     {
-      "time": "00:50",
+      "datetime": "2026-05-26 00:50",
       "temp": 23.7,
       "humidity": 50,
       "co2": 550,
       "illuminance": 430
     },
     {
-      "time": "01:00",
+      "datetime": "2026-05-26 01:00",
       "temp": 24.2,
       "humidity": 50,
       "co2": 533,
       "illuminance": 416
     },
     {
-      "time": "01:10",
+      "datetime": "2026-05-26 01:10",
       "temp": 24.1,
       "humidity": 50,
       "co2": 546,
       "illuminance": 425
     },
     {
-      "time": "01:20",
+      "datetime": "2026-05-26 01:20",
       "temp": 24.1,
       "humidity": 51,
       "co2": 530,
       "illuminance": 436
     },
     {
-      "time": "01:30",
+      "datetime": "2026-05-26 01:30",
       "temp": 24.1,
       "humidity": 51,
       "co2": 542,
       "illuminance": 433
     },
     {
-      "time": "01:40",
+      "datetime": "2026-05-26 01:40",
       "temp": 23.9,
       "humidity": 50,
       "co2": 555,
       "illuminance": 390
     },
     {
-      "time": "01:50",
+      "datetime": "2026-05-26 01:50",
       "temp": 23.4,
       "humidity": 50,
       "co2": 520,
       "illuminance": 345
     },
     {
-      "time": "02:00",
+      "datetime": "2026-05-26 02:00",
       "temp": 23.6,
       "humidity": 50,
       "co2": 505,
       "illuminance": 316
     },
     {
-      "time": "02:10",
+      "datetime": "2026-05-26 02:10",
       "temp": 23.6,
       "humidity": 52,
       "co2": 506,
       "illuminance": 321
     },
     {
-      "time": "02:20",
+      "datetime": "2026-05-26 02:20",
       "temp": 23.5,
       "humidity": 53,
       "co2": 473,
       "illuminance": 326
     },
     {
-      "time": "02:30",
+      "datetime": "2026-05-26 02:30",
       "temp": 23.3,
       "humidity": 53,
       "co2": 474,
       "illuminance": 311
     },
     {
-      "time": "02:40",
+      "datetime": "2026-05-26 02:40",
       "temp": 23.4,
       "humidity": 54,
       "co2": 470,
       "illuminance": 279
     },
     {
-      "time": "02:50",
+      "datetime": "2026-05-26 02:50",
       "temp": 23.4,
       "humidity": 54,
       "co2": 477,
       "illuminance": 264
     },
     {
-      "time": "03:00",
+      "datetime": "2026-05-26 03:00",
       "temp": 23.2,
       "humidity": 56,
       "co2": 485,
       "illuminance": 268
     },
     {
-      "time": "03:10",
+      "datetime": "2026-05-26 03:10",
       "temp": 23.1,
       "humidity": 57,
       "co2": 488,
       "illuminance": 223
     },
     {
-      "time": "03:20",
+      "datetime": "2026-05-26 03:20",
       "temp": 23.2,
       "humidity": 58,
       "co2": 489,
       "illuminance": 211
     },
     {
-      "time": "03:30",
+      "datetime": "2026-05-26 03:30",
       "temp": 23.3,
       "humidity": 58,
       "co2": 469,
       "illuminance": 224
     },
     {
-      "time": "03:40",
+      "datetime": "2026-05-26 03:40",
       "temp": 23.5,
       "humidity": 59,
       "co2": 464,
       "illuminance": 188
     },
     {
-      "time": "03:50",
+      "datetime": "2026-05-26 03:50",
       "temp": 23.6,
       "humidity": 58,
       "co2": 463,
       "illuminance": 161
     },
     {
-      "time": "04:00",
+      "datetime": "2026-05-26 04:00",
       "temp": 23.7,
       "humidity": 59,
       "co2": 461,
       "illuminance": 134
     },
     {
-      "time": "04:10",
+      "datetime": "2026-05-26 04:10",
       "temp": 23.9,
       "humidity": 59,
       "co2": 435,
       "illuminance": 127
     },
     {
-      "time": "04:20",
+      "datetime": "2026-05-26 04:20",
       "temp": 23.9,
       "humidity": 58,
       "co2": 414,
       "illuminance": 106
     },
     {
-      "time": "04:30",
+      "datetime": "2026-05-26 04:30",
       "temp": 23.6,
       "humidity": 57,
       "co2": 415,
       "illuminance": 110
     },
     {
-      "time": "04:40",
+      "datetime": "2026-05-26 04:40",
       "temp": 22.8,
       "humidity": 58,
       "co2": 415,
       "illuminance": 120
     },
     {
-      "time": "04:50",
+      "datetime": "2026-05-26 04:50",
       "temp": 22.1,
       "humidity": 60,
       "co2": 410,
       "illuminance": 114
     },
     {
-      "time": "05:00",
+      "datetime": "2026-05-26 05:00",
       "temp": 21.6,
       "humidity": 60,
       "co2": 383,
       "illuminance": 115
     },
     {
-      "time": "05:10",
+      "datetime": "2026-05-26 05:10",
       "temp": 21.6,
       "humidity": 61,
       "co2": 380,
       "illuminance": 131
     },
     {
-      "time": "05:20",
+      "datetime": "2026-05-26 05:20",
       "temp": 21.9,
       "humidity": 62,
       "co2": 380,
       "illuminance": 107
     },
     {
-      "time": "05:30",
+      "datetime": "2026-05-26 05:30",
       "temp": 22,
       "humidity": 62,
       "co2": 380,
       "illuminance": 126
     },
     {
-      "time": "05:40",
+      "datetime": "2026-05-26 05:40",
       "temp": 21.9,
       "humidity": 62,
       "co2": 380,
       "illuminance": 98
     },
     {
-      "time": "05:50",
+      "datetime": "2026-05-26 05:50",
       "temp": 22,
       "humidity": 63,
       "co2": 380,
       "illuminance": 88
     },
     {
-      "time": "06:00",
+      "datetime": "2026-05-26 06:00",
       "temp": 22.1,
       "humidity": 64,
       "co2": 380,
       "illuminance": 63
     },
     {
-      "time": "06:10",
+      "datetime": "2026-05-26 06:10",
       "temp": 22,
       "humidity": 64,
       "co2": 380,
       "illuminance": 68
     },
     {
-      "time": "06:20",
+      "datetime": "2026-05-26 06:20",
       "temp": 21.8,
       "humidity": 63,
       "co2": 380,
       "illuminance": 35
     },
     {
-      "time": "06:30",
+      "datetime": "2026-05-26 06:30",
       "temp": 21.1,
       "humidity": 62,
       "co2": 380,
       "illuminance": 14
     },
     {
-      "time": "06:40",
+      "datetime": "2026-05-26 06:40",
       "temp": 20.7,
       "humidity": 62,
       "co2": 380,
       "illuminance": 34
     },
     {
-      "time": "06:50",
+      "datetime": "2026-05-26 06:50",
       "temp": 20.7,
       "humidity": 63,
       "co2": 380,
       "illuminance": 15
     },
     {
-      "time": "07:00",
+      "datetime": "2026-05-26 07:00",
       "temp": 20.4,
       "humidity": 63,
       "co2": 380,
       "illuminance": 33
     },
     {
-      "time": "07:10",
+      "datetime": "2026-05-26 07:10",
       "temp": 20.2,
       "humidity": 64,
       "co2": 380,
       "illuminance": 44
     },
     {
-      "time": "07:20",
+      "datetime": "2026-05-26 07:20",
       "temp": 20.4,
       "humidity": 63,
       "co2": 380,
       "illuminance": 61
     },
     {
-      "time": "07:30",
+      "datetime": "2026-05-26 07:30",
       "temp": 20,
       "humidity": 63,
       "co2": 380,
       "illuminance": 51
     },
     {
-      "time": "07:40",
+      "datetime": "2026-05-26 07:40",
       "temp": 20.3,
       "humidity": 65,
       "co2": 380,
       "illuminance": 40
     },
     {
-      "time": "07:50",
+      "datetime": "2026-05-26 07:50",
       "temp": 19.7,
       "humidity": 65,
       "co2": 382,
       "illuminance": 25
     },
     {
-      "time": "08:00",
+      "datetime": "2026-05-26 08:00",
       "temp": 19.5,
       "humidity": 66,
       "co2": 380,
       "illuminance": 54
     },
     {
-      "time": "08:10",
+      "datetime": "2026-05-26 08:10",
       "temp": 19.9,
       "humidity": 66,
       "co2": 380,
       "illuminance": 65
     },
     {
-      "time": "08:20",
+      "datetime": "2026-05-26 08:20",
       "temp": 19.9,
       "humidity": 64,
       "co2": 380,
       "illuminance": 59
     },
     {
-      "time": "08:30",
+      "datetime": "2026-05-26 08:30",
       "temp": 19.3,
       "humidity": 64,
       "co2": 380,
       "illuminance": 34
     },
     {
-      "time": "08:40",
+      "datetime": "2026-05-26 08:40",
       "temp": 19,
       "humidity": 63,
       "co2": 380,
       "illuminance": 36
     },
     {
-      "time": "08:50",
+      "datetime": "2026-05-26 08:50",
       "temp": 18.6,
       "humidity": 63,
       "co2": 380,
       "illuminance": 70
     },
     {
-      "time": "09:00",
+      "datetime": "2026-05-26 09:00",
       "temp": 19,
       "humidity": 64,
       "co2": 380,
       "illuminance": 101
     },
     {
-      "time": "09:10",
+      "datetime": "2026-05-26 09:10",
       "temp": 19.5,
       "humidity": 66,
       "co2": 380,
       "illuminance": 130
     },
     {
-      "time": "09:20",
+      "datetime": "2026-05-26 09:20",
       "temp": 19.2,
       "humidity": 66,
       "co2": 380,
       "illuminance": 144
     },
     {
-      "time": "09:30",
+      "datetime": "2026-05-26 09:30",
       "temp": 19,
       "humidity": 66,
       "co2": 380,
       "illuminance": 169
     },
     {
-      "time": "09:40",
+      "datetime": "2026-05-26 09:40",
       "temp": 19.2,
       "humidity": 65,
       "co2": 380,
       "illuminance": 193
     },
     {
-      "time": "09:50",
+      "datetime": "2026-05-26 09:50",
       "temp": 19.6,
       "humidity": 66,
       "co2": 380,
       "illuminance": 217
     },
     {
-      "time": "10:00",
+      "datetime": "2026-05-26 10:00",
       "temp": 19.2,
       "humidity": 67,
       "co2": 380,
       "illuminance": 236
     },
     {
-      "time": "10:10",
+      "datetime": "2026-05-26 10:10",
       "temp": 18.9,
       "humidity": 66,
       "co2": 380,
       "illuminance": 248
     },
     {
-      "time": "10:20",
+      "datetime": "2026-05-26 10:20",
       "temp": 19.1,
       "humidity": 66,
       "co2": 380,
       "illuminance": 254
     },
     {
-      "time": "10:30",
+      "datetime": "2026-05-26 10:30",
       "temp": 18.7,
       "humidity": 65,
       "co2": 393,
       "illuminance": 270
     },
     {
-      "time": "10:40",
+      "datetime": "2026-05-26 10:40",
       "temp": 18.6,
       "humidity": 65,
       "co2": 395,
       "illuminance": 248
     },
     {
-      "time": "10:50",
+      "datetime": "2026-05-26 10:50",
       "temp": 18.5,
       "humidity": 64,
       "co2": 380,
       "illuminance": 261
     },
     {
-      "time": "11:00",
+      "datetime": "2026-05-26 11:00",
       "temp": 18.9,
       "humidity": 65,
       "co2": 395,
       "illuminance": 270
     },
     {
-      "time": "11:10",
+      "datetime": "2026-05-26 11:10",
       "temp": 19.5,
       "humidity": 65,
       "co2": 398,
       "illuminance": 274
     },
     {
-      "time": "11:20",
+      "datetime": "2026-05-26 11:20",
       "temp": 19.5,
       "humidity": 65,
       "co2": 391,
       "illuminance": 296
     },
     {
-      "time": "11:30",
+      "datetime": "2026-05-26 11:30",
       "temp": 19.8,
       "humidity": 63,
       "co2": 380,
       "illuminance": 295
     },
     {
-      "time": "11:40",
+      "datetime": "2026-05-26 11:40",
       "temp": 19.5,
       "humidity": 62,
       "co2": 382,
       "illuminance": 316
     },
     {
-      "time": "11:50",
+      "datetime": "2026-05-26 11:50",
       "temp": 19.9,
       "humidity": 62,
       "co2": 397,
       "illuminance": 349
     },
     {
-      "time": "12:00",
+      "datetime": "2026-05-26 12:00",
       "temp": 20.4,
       "humidity": 61,
       "co2": 408,
       "illuminance": 333
     },
     {
-      "time": "12:10",
+      "datetime": "2026-05-26 12:10",
       "temp": 20.5,
       "humidity": 60,
       "co2": 409,
       "illuminance": 362
     },
     {
-      "time": "12:20",
+      "datetime": "2026-05-26 12:20",
       "temp": 21,
       "humidity": 62,
       "co2": 426,
       "illuminance": 349
     },
     {
-      "time": "12:30",
+      "datetime": "2026-05-26 12:30",
       "temp": 20.9,
       "humidity": 62,
       "co2": 404,
       "illuminance": 356
     },
     {
-      "time": "12:40",
+      "datetime": "2026-05-26 12:40",
       "temp": 20.5,
       "humidity": 61,
       "co2": 396,
       "illuminance": 382
     },
     {
-      "time": "12:50",
+      "datetime": "2026-05-26 12:50",
       "temp": 21.1,
       "humidity": 61,
       "co2": 387,
       "illuminance": 397
     },
     {
-      "time": "13:00",
+      "datetime": "2026-05-26 13:00",
       "temp": 21.5,
       "humidity": 60,
       "co2": 394,
       "illuminance": 422
     },
     {
-      "time": "13:10",
+      "datetime": "2026-05-26 13:10",
       "temp": 21.6,
       "humidity": 61,
       "co2": 421,
       "illuminance": 415
     },
     {
-      "time": "13:20",
+      "datetime": "2026-05-26 13:20",
       "temp": 21.3,
       "humidity": 61,
       "co2": 451,
       "illuminance": 424
     },
     {
-      "time": "13:30",
+      "datetime": "2026-05-26 13:30",
       "temp": 20.9,
       "humidity": 61,
       "co2": 480,
       "illuminance": 433
     },
     {
-      "time": "13:40",
+      "datetime": "2026-05-26 13:40",
       "temp": 21.4,
       "humidity": 60,
       "co2": 471,
       "illuminance": 454
     },
     {
-      "time": "13:50",
+      "datetime": "2026-05-26 13:50",
       "temp": 21.7,
       "humidity": 61,
       "co2": 500,
       "illuminance": 444
     },
     {
-      "time": "14:00",
+      "datetime": "2026-05-26 14:00",
       "temp": 21.7,
       "humidity": 61,
       "co2": 513,
       "illuminance": 443
     },
     {
-      "time": "14:10",
+      "datetime": "2026-05-26 14:10",
       "temp": 21.6,
       "humidity": 60,
       "co2": 503,
       "illuminance": 437
     },
     {
-      "time": "14:20",
+      "datetime": "2026-05-26 14:20",
       "temp": 21.8,
       "humidity": 59,
       "co2": 527,
       "illuminance": 469
     },
     {
-      "time": "14:30",
+      "datetime": "2026-05-26 14:30",
       "temp": 22.4,
       "humidity": 58,
       "co2": 523,
       "illuminance": 519
     },
     {
-      "time": "14:40",
-      "temp": 22.3,
-      "humidity": 57,
-      "co2": 510,
-      "illuminance": 543
+      "datetime": "2026-05-26 14:40",
+      "tempF": 22.3,
+      "humidityF": 57,
+      "co2F": 510,
+      "illuminanceF": 543
     },
     {
-      "time": "14:50",
-      "temp": 22.6,
-      "humidity": 56,
-      "co2": 494,
-      "illuminance": 561
+      "datetime": "2026-05-26 14:50",
+      "tempF": 22.6,
+      "humidityF": 56,
+      "co2F": 494,
+      "illuminanceF": 561
     },
     {
-      "time": "15:00",
-      "temp": 22.5,
-      "humidity": 55,
-      "co2": 511,
-      "illuminance": 566
+      "datetime": "2026-05-26 15:00",
+      "tempF": 22.5,
+      "humidityF": 55,
+      "co2F": 511,
+      "illuminanceF": 566
     },
     {
-      "time": "15:10",
-      "temp": 23.2,
-      "humidity": 54,
-      "co2": 547,
-      "illuminance": 579
+      "datetime": "2026-05-26 15:10",
+      "tempF": 23.2,
+      "humidityF": 54,
+      "co2F": 547,
+      "illuminanceF": 579
     },
     {
-      "time": "15:20",
-      "temp": 22.8,
-      "humidity": 54,
-      "co2": 552,
-      "illuminance": 596
+      "datetime": "2026-05-26 15:20",
+      "tempF": 22.8,
+      "humidityF": 54,
+      "co2F": 552,
+      "illuminanceF": 596
     },
     {
-      "time": "15:30",
-      "temp": 23.4,
-      "humidity": 55,
-      "co2": 571,
-      "illuminance": 633
+      "datetime": "2026-05-26 15:30",
+      "tempF": 23.4,
+      "humidityF": 55,
+      "co2F": 571,
+      "illuminanceF": 633
     },
     {
-      "time": "15:40",
-      "temp": 23.3,
-      "humidity": 54,
-      "co2": 570,
-      "illuminance": 669
+      "datetime": "2026-05-26 15:40",
+      "tempF": 23.3,
+      "humidityF": 54,
+      "co2F": 570,
+      "illuminanceF": 669
     },
     {
-      "time": "15:50",
-      "temp": 23.5,
-      "humidity": 55,
-      "co2": 589,
-      "illuminance": 669
+      "datetime": "2026-05-26 15:50",
+      "tempF": 23.5,
+      "humidityF": 55,
+      "co2F": 589,
+      "illuminanceF": 669
     },
     {
-      "time": "16:00",
-      "temp": 24.1,
-      "humidity": 53,
-      "co2": 588,
-      "illuminance": 670
+      "datetime": "2026-05-26 16:00",
+      "tempF": 24.1,
+      "humidityF": 53,
+      "co2F": 588,
+      "illuminanceF": 670
     },
     {
-      "time": "16:10",
-      "temp": 23.8,
-      "humidity": 54,
-      "co2": 620,
-      "illuminance": 683
+      "datetime": "2026-05-26 16:10",
+      "tempF": 23.8,
+      "humidityF": 54,
+      "co2F": 620,
+      "illuminanceF": 683
     },
     {
-      "time": "16:20",
-      "temp": 24.2,
-      "humidity": 53,
-      "co2": 611,
-      "illuminance": 678
+      "datetime": "2026-05-26 16:20",
+      "tempF": 24.2,
+      "humidityF": 53,
+      "co2F": 611,
+      "illuminanceF": 678
     },
     {
-      "time": "16:30",
-      "temp": 24.5,
-      "humidity": 51,
-      "co2": 639,
-      "illuminance": 674
+      "datetime": "2026-05-26 16:30",
+      "tempF": 24.5,
+      "humidityF": 51,
+      "co2F": 639,
+      "illuminanceF": 674
     },
     {
-      "time": "16:40",
-      "temp": 24.3,
-      "humidity": 51,
-      "co2": 653,
-      "illuminance": 713
+      "datetime": "2026-05-26 16:40",
+      "tempF": 24.3,
+      "humidityF": 51,
+      "co2F": 653,
+      "illuminanceF": 713
     },
     {
-      "time": "16:50",
-      "temp": 24.6,
-      "humidity": 51,
-      "co2": 656,
-      "illuminance": 699
+      "datetime": "2026-05-26 16:50",
+      "tempF": 24.6,
+      "humidityF": 51,
+      "co2F": 656,
+      "illuminanceF": 699
     },
     {
-      "time": "17:00",
-      "temp": 24.6,
-      "humidity": 49,
-      "co2": 659,
-      "illuminance": 696
+      "datetime": "2026-05-26 17:00",
+      "tempF": 24.6,
+      "humidityF": 49,
+      "co2F": 659,
+      "illuminanceF": 696
     },
     {
-      "time": "17:10",
-      "temp": 24.3,
-      "humidity": 48,
-      "co2": 667,
-      "illuminance": 682
+      "datetime": "2026-05-26 17:10",
+      "tempF": 24.3,
+      "humidityF": 48,
+      "co2F": 667,
+      "illuminanceF": 682
     },
     {
-      "time": "17:20",
-      "temp": 24.9,
-      "humidity": 47,
-      "co2": 661,
-      "illuminance": 665
+      "datetime": "2026-05-26 17:20",
+      "tempF": 24.9,
+      "humidityF": 47,
+      "co2F": 661,
+      "illuminanceF": 665
     },
     {
-      "time": "17:30",
-      "temp": 25.4,
-      "humidity": 47,
-      "co2": 682,
-      "illuminance": 702
+      "datetime": "2026-05-26 17:30",
+      "tempF": 25.4,
+      "humidityF": 47,
+      "co2F": 682,
+      "illuminanceF": 702
     },
     {
-      "time": "17:40",
-      "temp": 25.5,
-      "humidity": 49,
-      "co2": 679,
-      "illuminance": 716
+      "datetime": "2026-05-26 17:40",
+      "tempF": 25.5,
+      "humidityF": 49,
+      "co2F": 679,
+      "illuminanceF": 716
     },
     {
-      "time": "17:50",
-      "temp": 25.5,
-      "humidity": 49,
-      "co2": 697,
-      "illuminance": 738
+      "datetime": "2026-05-26 17:50",
+      "tempF": 25.5,
+      "humidityF": 49,
+      "co2F": 697,
+      "illuminanceF": 738
     },
     {
-      "time": "18:00",
-      "temp": 26,
-      "humidity": 49,
-      "co2": 722,
-      "illuminance": 751
+      "datetime": "2026-05-26 18:00",
+      "tempF": 26,
+      "humidityF": 49,
+      "co2F": 722,
+      "illuminanceF": 751
     },
     {
-      "time": "18:10",
-      "temp": 26.5,
-      "humidity": 49,
-      "co2": 706,
-      "illuminance": 732
+      "datetime": "2026-05-26 18:10",
+      "tempF": 26.5,
+      "humidityF": 49,
+      "co2F": 706,
+      "illuminanceF": 732
     },
     {
-      "time": "18:20",
-      "temp": 26.6,
-      "humidity": 48,
-      "co2": 722,
-      "illuminance": 763
+      "datetime": "2026-05-26 18:20",
+      "tempF": 26.6,
+      "humidityF": 48,
+      "co2F": 722,
+      "illuminanceF": 763
     },
     {
-      "time": "18:30",
-      "temp": 26.6,
-      "humidity": 48,
-      "co2": 737,
-      "illuminance": 764
+      "datetime": "2026-05-26 18:30",
+      "tempF": 26.6,
+      "humidityF": 48,
+      "co2F": 737,
+      "illuminanceF": 764
     },
     {
-      "time": "18:40",
-      "temp": 26.6,
-      "humidity": 48,
-      "co2": 712,
-      "illuminance": 790
+      "datetime": "2026-05-26 18:40",
+      "tempF": 26.6,
+      "humidityF": 48,
+      "co2F": 712,
+      "illuminanceF": 790
     },
     {
-      "time": "18:50",
-      "temp": 26.8,
-      "humidity": 46,
-      "co2": 702,
-      "illuminance": 761
+      "datetime": "2026-05-26 18:50",
+      "tempF": 26.8,
+      "humidityF": 46,
+      "co2F": 702,
+      "illuminanceF": 761
     },
     {
-      "time": "19:00",
-      "temp": 26.9,
-      "humidity": 46,
-      "co2": 695,
-      "illuminance": 784
+      "datetime": "2026-05-26 19:00",
+      "tempF": 26.9,
+      "humidityF": 46,
+      "co2F": 695,
+      "illuminanceF": 784
     },
     {
-      "time": "19:10",
-      "temp": 27.1,
-      "humidity": 47,
-      "co2": 709,
-      "illuminance": 796
+      "datetime": "2026-05-26 19:10",
+      "tempF": 27.1,
+      "humidityF": 47,
+      "co2F": 709,
+      "illuminanceF": 796
     },
     {
-      "time": "19:20",
-      "temp": 26.6,
-      "humidity": 46,
-      "co2": 704,
-      "illuminance": 793
+      "datetime": "2026-05-26 19:20",
+      "tempF": 26.6,
+      "humidityF": 46,
+      "co2F": 704,
+      "illuminanceF": 793
     },
     {
-      "time": "19:30",
-      "temp": 26.6,
-      "humidity": 46,
-      "co2": 686,
-      "illuminance": 768
+      "datetime": "2026-05-26 19:30",
+      "tempF": 26.6,
+      "humidityF": 46,
+      "co2F": 686,
+      "illuminanceF": 768
     },
     {
-      "time": "19:40",
-      "temp": 26.2,
-      "humidity": 46,
-      "co2": 703,
-      "illuminance": 755
+      "datetime": "2026-05-26 19:40",
+      "tempF": 26.2,
+      "humidityF": 46,
+      "co2F": 703,
+      "illuminanceF": 755
     },
     {
-      "time": "19:50",
-      "temp": 26.2,
-      "humidity": 46,
-      "co2": 699,
-      "illuminance": 753
+      "datetime": "2026-05-26 19:50",
+      "tempF": 26.2,
+      "humidityF": 46,
+      "co2F": 699,
+      "illuminanceF": 753
     },
     {
-      "time": "20:00",
-      "temp": 26.1,
-      "humidity": 47,
-      "co2": 680,
-      "illuminance": 735
+      "datetime": "2026-05-26 20:00",
+      "tempF": 26.1,
+      "humidityF": 47,
+      "co2F": 680,
+      "illuminanceF": 735
     },
     {
-      "time": "20:10",
-      "temp": 26.6,
-      "humidity": 47,
-      "co2": 695,
-      "illuminance": 752
+      "datetime": "2026-05-26 20:10",
+      "tempF": 26.6,
+      "humidityF": 47,
+      "co2F": 695,
+      "illuminanceF": 752
     },
     {
-      "time": "20:20",
-      "temp": 26.4,
-      "humidity": 46,
-      "co2": 683,
-      "illuminance": 724
+      "datetime": "2026-05-26 20:20",
+      "tempF": 26.4,
+      "humidityF": 46,
+      "co2F": 683,
+      "illuminanceF": 724
     },
     {
-      "time": "20:30",
-      "temp": 26.1,
-      "humidity": 46,
-      "co2": 668,
-      "illuminance": 745
+      "datetime": "2026-05-26 20:30",
+      "tempF": 26.1,
+      "humidityF": 46,
+      "co2F": 668,
+      "illuminanceF": 745
     },
     {
-      "time": "20:40",
-      "temp": 26.3,
-      "humidity": 47,
-      "co2": 665,
-      "illuminance": 742
+      "datetime": "2026-05-26 20:40",
+      "tempF": 26.3,
+      "humidityF": 47,
+      "co2F": 665,
+      "illuminanceF": 742
     },
     {
-      "time": "20:50",
-      "temp": 26.7,
-      "humidity": 45,
-      "co2": 655,
-      "illuminance": 753
+      "datetime": "2026-05-26 20:50",
+      "tempF": 26.7,
+      "humidityF": 45,
+      "co2F": 655,
+      "illuminanceF": 753
     },
     {
-      "time": "21:00",
-      "temp": 26.4,
-      "humidity": 46,
-      "co2": 672,
-      "illuminance": 742
+      "datetime": "2026-05-26 21:00",
+      "tempF": 26.4,
+      "humidityF": 46,
+      "co2F": 672,
+      "illuminanceF": 742
     },
     {
-      "time": "21:10",
-      "temp": 26.7,
-      "humidity": 46,
-      "co2": 680,
-      "illuminance": 750
+      "datetime": "2026-05-26 21:10",
+      "tempF": 26.7,
+      "humidityF": 46,
+      "co2F": 680,
+      "illuminanceF": 750
     },
     {
-      "time": "21:20",
-      "temp": 26.5,
-      "humidity": 45,
-      "co2": 673,
-      "illuminance": 716
+      "datetime": "2026-05-26 21:20",
+      "tempF": 26.5,
+      "humidityF": 45,
+      "co2F": 673,
+      "illuminanceF": 716
     },
     {
-      "time": "21:30",
-      "temp": 26.7,
-      "humidity": 44,
-      "co2": 664,
-      "illuminance": 735
+      "datetime": "2026-05-26 21:30",
+      "tempF": 26.7,
+      "humidityF": 44,
+      "co2F": 664,
+      "illuminanceF": 735
     },
     {
-      "time": "21:40",
-      "temp": 26.3,
-      "humidity": 44,
-      "co2": 652,
-      "illuminance": 734
+      "datetime": "2026-05-26 21:40",
+      "tempF": 26.3,
+      "humidityF": 44,
+      "co2F": 652,
+      "illuminanceF": 734
     },
     {
-      "time": "21:50",
-      "temp": 26.3,
-      "humidity": 44,
-      "co2": 660,
-      "illuminance": 713
+      "datetime": "2026-05-26 21:50",
+      "tempF": 26.3,
+      "humidityF": 44,
+      "co2F": 660,
+      "illuminanceF": 713
     },
     {
-      "time": "22:00",
-      "temp": 26.6,
-      "humidity": 45,
-      "co2": 679,
-      "illuminance": 699
+      "datetime": "2026-05-26 22:00",
+      "tempF": 26.6,
+      "humidityF": 45,
+      "co2F": 679,
+      "illuminanceF": 699
     },
     {
-      "time": "22:10",
-      "temp": 26.1,
-      "humidity": 46,
-      "co2": 664,
-      "illuminance": 699
+      "datetime": "2026-05-26 22:10",
+      "tempF": 26.1,
+      "humidityF": 46,
+      "co2F": 664,
+      "illuminanceF": 699
     },
     {
-      "time": "22:20",
-      "temp": 26.1,
-      "humidity": 47,
-      "co2": 646,
-      "illuminance": 695
+      "datetime": "2026-05-26 22:20",
+      "tempF": 26.1,
+      "humidityF": 47,
+      "co2F": 646,
+      "illuminanceF": 695
     },
     {
-      "time": "22:30",
-      "temp": 26.4,
-      "humidity": 46,
-      "co2": 666,
-      "illuminance": 688
+      "datetime": "2026-05-26 22:30",
+      "tempF": 26.4,
+      "humidityF": 46,
+      "co2F": 666,
+      "illuminanceF": 688
     },
     {
-      "time": "22:40",
-      "temp": 26.4,
-      "humidity": 46,
-      "co2": 652,
-      "illuminance": 673
+      "datetime": "2026-05-26 22:40",
+      "tempF": 26.4,
+      "humidityF": 46,
+      "co2F": 652,
+      "illuminanceF": 673
     },
     {
-      "time": "22:50",
-      "temp": 26.5,
-      "humidity": 46,
-      "co2": 663,
-      "illuminance": 660
+      "datetime": "2026-05-26 22:50",
+      "tempF": 26.5,
+      "humidityF": 46,
+      "co2F": 663,
+      "illuminanceF": 660
     },
     {
-      "time": "23:00",
-      "temp": 26.6,
-      "humidity": 46,
-      "co2": 656,
-      "illuminance": 639
+      "datetime": "2026-05-26 23:00",
+      "tempF": 26.6,
+      "humidityF": 46,
+      "co2F": 656,
+      "illuminanceF": 639
     },
     {
-      "time": "23:10",
-      "temp": 26.5,
-      "humidity": 47,
-      "co2": 675,
-      "illuminance": 595
+      "datetime": "2026-05-26 23:10",
+      "tempF": 26.5,
+      "humidityF": 47,
+      "co2F": 675,
+      "illuminanceF": 595
     },
     {
-      "time": "23:20",
-      "temp": 26.2,
-      "humidity": 47,
-      "co2": 658,
-      "illuminance": 556
+      "datetime": "2026-05-26 23:20",
+      "tempF": 26.2,
+      "humidityF": 47,
+      "co2F": 658,
+      "illuminanceF": 556
     },
     {
-      "time": "23:30",
-      "temp": 26.4,
-      "humidity": 48,
-      "co2": 658,
-      "illuminance": 560
+      "datetime": "2026-05-26 23:30",
+      "tempF": 26.4,
+      "humidityF": 48,
+      "co2F": 658,
+      "illuminanceF": 560
     },
     {
-      "time": "23:40",
-      "temp": 26,
-      "humidity": 48,
-      "co2": 641,
-      "illuminance": 559
+      "datetime": "2026-05-26 23:40",
+      "tempF": 26,
+      "humidityF": 48,
+      "co2F": 641,
+      "illuminanceF": 559
     },
     {
-      "time": "23:50",
-      "temp": 25.9,
-      "humidity": 48,
-      "co2": 654,
-      "illuminance": 512
+      "datetime": "2026-05-26 23:50",
+      "tempF": 25.9,
+      "humidityF": 48,
+      "co2F": 654,
+      "illuminanceF": 512
+    },
+    {
+      "datetime": "2026-05-27 00:00",
+      "tempF": 24,
+      "humidityF": 54,
+      "co2F": 487,
+      "illuminanceF": 443
+    },
+    {
+      "datetime": "2026-05-27 00:10",
+      "tempF": 24,
+      "humidityF": 50,
+      "co2F": 534,
+      "illuminanceF": 386
+    },
+    {
+      "datetime": "2026-05-27 00:20",
+      "tempF": 24,
+      "humidityF": 49,
+      "co2F": 522,
+      "illuminanceF": 419
+    },
+    {
+      "datetime": "2026-05-27 00:30",
+      "tempF": 24,
+      "humidityF": 52,
+      "co2F": 538,
+      "illuminanceF": 461
+    },
+    {
+      "datetime": "2026-05-27 00:40",
+      "tempF": 24,
+      "humidityF": 50,
+      "co2F": 530,
+      "illuminanceF": 467
+    },
+    {
+      "datetime": "2026-05-27 00:50",
+      "tempF": 24,
+      "humidityF": 51,
+      "co2F": 578,
+      "illuminanceF": 448
+    },
+    {
+      "datetime": "2026-05-27 01:00",
+      "tempF": 25,
+      "humidityF": 47,
+      "co2F": 551,
+      "illuminanceF": 420
+    },
+    {
+      "datetime": "2026-05-27 01:10",
+      "tempF": 24,
+      "humidityF": 49,
+      "co2F": 537,
+      "illuminanceF": 432
+    },
+    {
+      "datetime": "2026-05-27 01:20",
+      "tempF": 24,
+      "humidityF": 49,
+      "co2F": 534,
+      "illuminanceF": 426
+    },
+    {
+      "datetime": "2026-05-27 01:30",
+      "tempF": 24,
+      "humidityF": 52,
+      "co2F": 535,
+      "illuminanceF": 422
+    },
+    {
+      "datetime": "2026-05-27 01:40",
+      "tempF": 24,
+      "humidityF": 50,
+      "co2F": 555,
+      "illuminanceF": 373
+    },
+    {
+      "datetime": "2026-05-27 01:50",
+      "tempF": 23,
+      "humidityF": 50,
+      "co2F": 528,
+      "illuminanceF": 331
+    },
+    {
+      "datetime": "2026-05-27 02:00",
+      "tempF": 24,
+      "humidityF": 49,
+      "co2F": 560,
+      "illuminanceF": 304
+    },
+    {
+      "datetime": "2026-05-27 02:10",
+      "tempF": 23,
+      "humidityF": 52,
+      "co2F": 488,
+      "illuminanceF": 332
+    },
+    {
+      "datetime": "2026-05-27 02:20",
+      "tempF": 24,
+      "humidityF": 52,
+      "co2F": 476,
+      "illuminanceF": 319
+    },
+    {
+      "datetime": "2026-05-27 02:30",
+      "tempF": 23,
+      "humidityF": 55,
+      "co2F": 492,
+      "illuminanceF": 300
+    },
+    {
+      "datetime": "2026-05-27 02:40",
+      "tempF": 24,
+      "humidityF": 56,
+      "co2F": 480,
+      "illuminanceF": 272
+    },
+    {
+      "datetime": "2026-05-27 02:50",
+      "tempF": 23,
+      "humidityF": 53,
+      "co2F": 486,
+      "illuminanceF": 261
+    },
+    {
+      "datetime": "2026-05-27 03:00",
+      "tempF": 22,
+      "humidityF": 57,
+      "co2F": 489,
+      "illuminanceF": 280
+    },
+    {
+      "datetime": "2026-05-27 03:10",
+      "tempF": 23,
+      "humidityF": 57,
+      "co2F": 510,
+      "illuminanceF": 226
+    },
+    {
+      "datetime": "2026-05-27 03:20",
+      "tempF": 23,
+      "humidityF": 63,
+      "co2F": 486,
+      "illuminanceF": 212
+    },
+    {
+      "datetime": "2026-05-27 03:30",
+      "tempF": 24,
+      "humidityF": 57,
+      "co2F": 448,
+      "illuminanceF": 211
+    },
+    {
+      "datetime": "2026-05-27 03:40",
+      "tempF": 24,
+      "humidityF": 60,
+      "co2F": 479,
+      "illuminanceF": 178
+    },
+    {
+      "datetime": "2026-05-27 03:50",
+      "tempF": 24,
+      "humidityF": 60,
+      "co2F": 461,
+      "illuminanceF": 161
+    },
+    {
+      "datetime": "2026-05-27 04:00",
+      "tempF": 24,
+      "humidityF": 60,
+      "co2F": 474,
+      "illuminanceF": 128
+    },
+    {
+      "datetime": "2026-05-27 04:10",
+      "tempF": 24,
+      "humidityF": 57,
+      "co2F": 448,
+      "illuminanceF": 130
+    },
+    {
+      "datetime": "2026-05-27 04:20",
+      "tempF": 24,
+      "humidityF": 58,
+      "co2F": 383,
+      "illuminanceF": 110
+    },
+    {
+      "datetime": "2026-05-27 04:30",
+      "tempF": 23,
+      "humidityF": 57,
+      "co2F": 437,
+      "illuminanceF": 107
+    },
+    {
+      "datetime": "2026-05-27 04:40",
+      "tempF": 23,
+      "humidityF": 58,
+      "co2F": 416,
+      "illuminanceF": 123
+    },
+    {
+      "datetime": "2026-05-27 04:50",
+      "tempF": 22,
+      "humidityF": 61,
+      "co2F": 411,
+      "illuminanceF": 119
+    },
+    {
+      "datetime": "2026-05-27 05:00",
+      "tempF": 22,
+      "humidityF": 59,
+      "co2F": 390,
+      "illuminanceF": 115
+    },
+    {
+      "datetime": "2026-05-27 05:10",
+      "tempF": 21,
+      "humidityF": 61,
+      "co2F": 405,
+      "illuminanceF": 131
+    },
+    {
+      "datetime": "2026-05-27 05:20",
+      "tempF": 22,
+      "humidityF": 63,
+      "co2F": 343,
+      "illuminanceF": 98
+    },
+    {
+      "datetime": "2026-05-27 05:30",
+      "tempF": 22,
+      "humidityF": 62,
+      "co2F": 384,
+      "illuminanceF": 122
+    },
+    {
+      "datetime": "2026-05-27 05:40",
+      "tempF": 22,
+      "humidityF": 60,
+      "co2F": 384,
+      "illuminanceF": 92
+    },
+    {
+      "datetime": "2026-05-27 05:50",
+      "tempF": 22,
+      "humidityF": 63,
+      "co2F": 345,
+      "illuminanceF": 86
+    },
+    {
+      "datetime": "2026-05-27 06:00",
+      "tempF": 22,
+      "humidityF": 66,
+      "co2F": 350,
+      "illuminanceF": 64
+    },
+    {
+      "datetime": "2026-05-27 06:10",
+      "tempF": 22,
+      "humidityF": 62,
+      "co2F": 412,
+      "illuminanceF": 70
+    },
+    {
+      "datetime": "2026-05-27 06:20",
+      "tempF": 21,
+      "humidityF": 63,
+      "co2F": 393,
+      "illuminanceF": 35
+    },
+    {
+      "datetime": "2026-05-27 06:30",
+      "tempF": 22,
+      "humidityF": 63,
+      "co2F": 320,
+      "illuminanceF": 14
+    },
+    {
+      "datetime": "2026-05-27 06:40",
+      "tempF": 20,
+      "humidityF": 62,
+      "co2F": 380,
+      "illuminanceF": 33
+    },
+    {
+      "datetime": "2026-05-27 06:50",
+      "tempF": 20,
+      "humidityF": 65,
+      "co2F": 392,
+      "illuminanceF": 15
+    },
+    {
+      "datetime": "2026-05-27 07:00",
+      "tempF": 21,
+      "humidityF": 64,
+      "co2F": 405,
+      "illuminanceF": 32
+    },
+    {
+      "datetime": "2026-05-27 07:10",
+      "tempF": 21,
+      "humidityF": 63,
+      "co2F": 403,
+      "illuminanceF": 44
+    },
+    {
+      "datetime": "2026-05-27 07:20",
+      "tempF": 19,
+      "humidityF": 63,
+      "co2F": 344,
+      "illuminanceF": 60
+    },
+    {
+      "datetime": "2026-05-27 07:30",
+      "tempF": 20,
+      "humidityF": 62,
+      "co2F": 350,
+      "illuminanceF": 49
+    },
+    {
+      "datetime": "2026-05-27 07:40",
+      "tempF": 20,
+      "humidityF": 65,
+      "co2F": 406,
+      "illuminanceF": 41
+    },
+    {
+      "datetime": "2026-05-27 07:50",
+      "tempF": 20,
+      "humidityF": 67,
+      "co2F": 355,
+      "illuminanceF": 26
+    },
+    {
+      "datetime": "2026-05-27 08:00",
+      "tempF": 19,
+      "humidityF": 66,
+      "co2F": 393,
+      "illuminanceF": 53
+    },
+    {
+      "datetime": "2026-05-27 08:10",
+      "tempF": 20,
+      "humidityF": 66,
+      "co2F": 428,
+      "illuminanceF": 64
+    },
+    {
+      "datetime": "2026-05-27 08:20",
+      "tempF": 20,
+      "humidityF": 65,
+      "co2F": 357,
+      "illuminanceF": 62
+    },
+    {
+      "datetime": "2026-05-27 08:30",
+      "tempF": 19,
+      "humidityF": 61,
+      "co2F": 397,
+      "illuminanceF": 35
+    },
+    {
+      "datetime": "2026-05-27 08:40",
+      "tempF": 19,
+      "humidityF": 63,
+      "co2F": 412,
+      "illuminanceF": 37
+    },
+    {
+      "datetime": "2026-05-27 08:50",
+      "tempF": 18,
+      "humidityF": 64,
+      "co2F": 355,
+      "illuminanceF": 68
+    },
+    {
+      "datetime": "2026-05-27 09:00",
+      "tempF": 19,
+      "humidityF": 61,
+      "co2F": 356,
+      "illuminanceF": 106
+    },
+    {
+      "datetime": "2026-05-27 09:10",
+      "tempF": 19,
+      "humidityF": 65,
+      "co2F": 357,
+      "illuminanceF": 135
+    },
+    {
+      "datetime": "2026-05-27 09:20",
+      "tempF": 19,
+      "humidityF": 67,
+      "co2F": 378,
+      "illuminanceF": 137
+    },
+    {
+      "datetime": "2026-05-27 09:30",
+      "tempF": 19,
+      "humidityF": 67,
+      "co2F": 379,
+      "illuminanceF": 174
+    },
+    {
+      "datetime": "2026-05-27 09:40",
+      "tempF": 18,
+      "humidityF": 67,
+      "co2F": 370,
+      "illuminanceF": 210
+    },
+    {
+      "datetime": "2026-05-27 09:50",
+      "tempF": 19,
+      "humidityF": 66,
+      "co2F": 393,
+      "illuminanceF": 209
+    },
+    {
+      "datetime": "2026-05-27 10:00",
+      "tempF": 20,
+      "humidityF": 66,
+      "co2F": 406,
+      "illuminanceF": 243
+    },
+    {
+      "datetime": "2026-05-27 10:10",
+      "tempF": 19,
+      "humidityF": 65,
+      "co2F": 376,
+      "illuminanceF": 251
+    },
+    {
+      "datetime": "2026-05-27 10:20",
+      "tempF": 18,
+      "humidityF": 65,
+      "co2F": 399,
+      "illuminanceF": 241
+    },
+    {
+      "datetime": "2026-05-27 10:30",
+      "tempF": 19,
+      "humidityF": 64,
+      "co2F": 399,
+      "illuminanceF": 258
+    },
+    {
+      "datetime": "2026-05-27 10:40",
+      "tempF": 19,
+      "humidityF": 66,
+      "co2F": 418,
+      "illuminanceF": 261
+    },
+    {
+      "datetime": "2026-05-27 10:50",
+      "tempF": 19,
+      "humidityF": 64,
+      "co2F": 355,
+      "illuminanceF": 275
+    },
+    {
+      "datetime": "2026-05-27 11:00",
+      "tempF": 18,
+      "humidityF": 64,
+      "co2F": 410,
+      "illuminanceF": 275
+    },
+    {
+      "datetime": "2026-05-27 11:10",
+      "tempF": 20,
+      "humidityF": 65,
+      "co2F": 364,
+      "illuminanceF": 271
+    },
+    {
+      "datetime": "2026-05-27 11:20",
+      "tempF": 20,
+      "humidityF": 64,
+      "co2F": 419,
+      "illuminanceF": 293
+    },
+    {
+      "datetime": "2026-05-27 11:30",
+      "tempF": 19,
+      "humidityF": 64,
+      "co2F": 357,
+      "illuminanceF": 315
+    },
+    {
+      "datetime": "2026-05-27 11:40",
+      "tempF": 20,
+      "humidityF": 60,
+      "co2F": 404,
+      "illuminanceF": 346
+    },
+    {
+      "datetime": "2026-05-27 11:50",
+      "tempF": 19,
+      "humidityF": 63,
+      "co2F": 407,
+      "illuminanceF": 351
+    },
+    {
+      "datetime": "2026-05-27 12:00",
+      "tempF": 21,
+      "humidityF": 62,
+      "co2F": 394,
+      "illuminanceF": 352
+    },
+    {
+      "datetime": "2026-05-27 12:10",
+      "tempF": 20,
+      "humidityF": 63,
+      "co2F": 440,
+      "illuminanceF": 345
+    },
+    {
+      "datetime": "2026-05-27 12:20",
+      "tempF": 21,
+      "humidityF": 64,
+      "co2F": 416,
+      "illuminanceF": 347
+    },
+    {
+      "datetime": "2026-05-27 12:30",
+      "tempF": 21,
+      "humidityF": 64,
+      "co2F": 392,
+      "illuminanceF": 356
+    },
+    {
+      "datetime": "2026-05-27 12:40",
+      "tempF": 21,
+      "humidityF": 61,
+      "co2F": 379,
+      "illuminanceF": 362
+    },
+    {
+      "datetime": "2026-05-27 12:50",
+      "tempF": 20,
+      "humidityF": 59,
+      "co2F": 353,
+      "illuminanceF": 385
+    },
+    {
+      "datetime": "2026-05-27 13:00",
+      "tempF": 22,
+      "humidityF": 60,
+      "co2F": 377,
+      "illuminanceF": 405
+    },
+    {
+      "datetime": "2026-05-27 13:10",
+      "tempF": 21,
+      "humidityF": 59,
+      "co2F": 396,
+      "illuminanceF": 427
+    },
+    {
+      "datetime": "2026-05-27 13:20",
+      "tempF": 21,
+      "humidityF": 61,
+      "co2F": 439,
+      "illuminanceF": 465
+    },
+    {
+      "datetime": "2026-05-27 13:30",
+      "tempF": 20,
+      "humidityF": 61,
+      "co2F": 473,
+      "illuminanceF": 420
+    },
+    {
+      "datetime": "2026-05-27 13:40",
+      "tempF": 22,
+      "humidityF": 60,
+      "co2F": 450,
+      "illuminanceF": 462
+    },
+    {
+      "datetime": "2026-05-27 13:50",
+      "tempF": 22,
+      "humidityF": 63,
+      "co2F": 488,
+      "illuminanceF": 470
+    },
+    {
+      "datetime": "2026-05-27 14:00",
+      "tempF": 22,
+      "humidityF": 58,
+      "co2F": 523,
+      "illuminanceF": 442
+    },
+    {
+      "datetime": "2026-05-27 14:10",
+      "tempF": 21,
+      "humidityF": 61,
+      "co2F": 494,
+      "illuminanceF": 455
+    },
+    {
+      "datetime": "2026-05-27 14:20",
+      "tempF": 22,
+      "humidityF": 60,
+      "co2F": 541,
+      "illuminanceF": 478
+    },
+    {
+      "datetime": "2026-05-27 14:30",
+      "tempF": 22,
+      "humidityF": 59,
+      "co2F": 523,
+      "illuminanceF": 561
+    },
+    {
+      "datetime": "2026-05-27 14:40",
+      "tempF": 22,
+      "humidityF": 58,
+      "co2F": 495,
+      "illuminanceF": 534
+    },
+    {
+      "datetime": "2026-05-27 14:50",
+      "tempF": 23,
+      "humidityF": 54,
+      "co2F": 471,
+      "illuminanceF": 559
+    },
+    {
+      "datetime": "2026-05-27 15:00",
+      "tempF": 22,
+      "humidityF": 55,
+      "co2F": 533,
+      "illuminanceF": 557
+    },
+    {
+      "datetime": "2026-05-27 15:10",
+      "tempF": 23,
+      "humidityF": 54,
+      "co2F": 543,
+      "illuminanceF": 585
+    },
+    {
+      "datetime": "2026-05-27 15:20",
+      "tempF": 22,
+      "humidityF": 54,
+      "co2F": 539,
+      "illuminanceF": 574
+    },
+    {
+      "datetime": "2026-05-27 15:30",
+      "tempF": 23,
+      "humidityF": 54,
+      "co2F": 533,
+      "illuminanceF": 655
+    },
+    {
+      "datetime": "2026-05-27 15:40",
+      "tempF": 23,
+      "humidityF": 51,
+      "co2F": 557,
+      "illuminanceF": 689
+    },
+    {
+      "datetime": "2026-05-27 15:50",
+      "tempF": 23,
+      "humidityF": 55,
+      "co2F": 582,
+      "illuminanceF": 666
+    },
+    {
+      "datetime": "2026-05-27 16:00",
+      "tempF": 23,
+      "humidityF": 53,
+      "co2F": 577,
+      "illuminanceF": 749
+    },
+    {
+      "datetime": "2026-05-27 16:10",
+      "tempF": 24,
+      "humidityF": 53,
+      "co2F": 640,
+      "illuminanceF": 679
+    },
+    {
+      "datetime": "2026-05-27 16:20",
+      "tempF": 24,
+      "humidityF": 52,
+      "co2F": 642,
+      "illuminanceF": 661
+    },
+    {
+      "datetime": "2026-05-27 16:30",
+      "tempF": 25,
+      "humidityF": 53,
+      "co2F": 633,
+      "illuminanceF": 674
+    },
+    {
+      "datetime": "2026-05-27 16:40",
+      "tempF": 25,
+      "humidityF": 52,
+      "co2F": 631,
+      "illuminanceF": 718
+    },
+    {
+      "datetime": "2026-05-27 16:50",
+      "tempF": 24,
+      "humidityF": 50,
+      "co2F": 643,
+      "illuminanceF": 733
+    },
+    {
+      "datetime": "2026-05-27 17:00",
+      "tempF": 25,
+      "humidityF": 53,
+      "co2F": 658,
+      "illuminanceF": 673
+    },
+    {
+      "datetime": "2026-05-27 17:10",
+      "tempF": 24,
+      "humidityF": 50,
+      "co2F": 636,
+      "illuminanceF": 673
+    },
+    {
+      "datetime": "2026-05-27 17:20",
+      "tempF": 25,
+      "humidityF": 50,
+      "co2F": 641,
+      "illuminanceF": 694
+    },
+    {
+      "datetime": "2026-05-27 17:30",
+      "tempF": 26,
+      "humidityF": 47,
+      "co2F": 691,
+      "illuminanceF": 659
+    },
+    {
+      "datetime": "2026-05-27 17:40",
+      "tempF": 25,
+      "humidityF": 49,
+      "co2F": 627,
+      "illuminanceF": 728
+    },
+    {
+      "datetime": "2026-05-27 17:50",
+      "tempF": 26,
+      "humidityF": 46,
+      "co2F": 669,
+      "illuminanceF": 716
+    },
+    {
+      "datetime": "2026-05-27 18:00",
+      "tempF": 26,
+      "humidityF": 49,
+      "co2F": 703,
+      "illuminanceF": 721
+    },
+    {
+      "datetime": "2026-05-27 18:10",
+      "tempF": 27,
+      "humidityF": 48,
+      "co2F": 704,
+      "illuminanceF": 725
+    },
+    {
+      "datetime": "2026-05-27 18:20",
+      "tempF": 27,
+      "humidityF": 48,
+      "co2F": 739,
+      "illuminanceF": 766
+    },
+    {
+      "datetime": "2026-05-27 18:30",
+      "tempF": 27,
+      "humidityF": 50,
+      "co2F": 708,
+      "illuminanceF": 792
+    },
+    {
+      "datetime": "2026-05-27 18:40",
+      "tempF": 27,
+      "humidityF": 47,
+      "co2F": 711,
+      "illuminanceF": 779
+    },
+    {
+      "datetime": "2026-05-27 18:50",
+      "tempF": 27,
+      "humidityF": 47,
+      "co2F": 689,
+      "illuminanceF": 801
+    },
+    {
+      "datetime": "2026-05-27 19:00",
+      "tempF": 27,
+      "humidityF": 46,
+      "co2F": 715,
+      "illuminanceF": 845
+    },
+    {
+      "datetime": "2026-05-27 19:10",
+      "tempF": 27,
+      "humidityF": 48,
+      "co2F": 713,
+      "illuminanceF": 746
+    },
+    {
+      "datetime": "2026-05-27 19:20",
+      "tempF": 26,
+      "humidityF": 44,
+      "co2F": 694,
+      "illuminanceF": 780
+    },
+    {
+      "datetime": "2026-05-27 19:30",
+      "tempF": 27,
+      "humidityF": 48,
+      "co2F": 694,
+      "illuminanceF": 850
+    },
+    {
+      "datetime": "2026-05-27 19:40",
+      "tempF": 26,
+      "humidityF": 47,
+      "co2F": 711,
+      "illuminanceF": 800
+    },
+    {
+      "datetime": "2026-05-27 19:50",
+      "tempF": 26,
+      "humidityF": 47,
+      "co2F": 732,
+      "illuminanceF": 731
+    },
+    {
+      "datetime": "2026-05-27 20:00",
+      "tempF": 26,
+      "humidityF": 48,
+      "co2F": 671,
+      "illuminanceF": 709
+    },
+    {
+      "datetime": "2026-05-27 20:10",
+      "tempF": 27,
+      "humidityF": 47,
+      "co2F": 730,
+      "illuminanceF": 737
+    },
+    {
+      "datetime": "2026-05-27 20:20",
+      "tempF": 26,
+      "humidityF": 47,
+      "co2F": 679,
+      "illuminanceF": 698
+    },
+    {
+      "datetime": "2026-05-27 20:30",
+      "tempF": 26,
+      "humidityF": 46,
+      "co2F": 655,
+      "illuminanceF": 748
+    },
+    {
+      "datetime": "2026-05-27 20:40",
+      "tempF": 25,
+      "humidityF": 46,
+      "co2F": 661,
+      "illuminanceF": 727
+    },
+    {
+      "datetime": "2026-05-27 20:50",
+      "tempF": 26,
+      "humidityF": 44,
+      "co2F": 656,
+      "illuminanceF": 798
+    },
+    {
+      "datetime": "2026-05-27 21:00",
+      "tempF": 26,
+      "humidityF": 46,
+      "co2F": 692,
+      "illuminanceF": 752
+    },
+    {
+      "datetime": "2026-05-27 21:10",
+      "tempF": 27,
+      "humidityF": 45,
+      "co2F": 680,
+      "illuminanceF": 747
+    },
+    {
+      "datetime": "2026-05-27 21:20",
+      "tempF": 26,
+      "humidityF": 44,
+      "co2F": 634,
+      "illuminanceF": 753
+    },
+    {
+      "datetime": "2026-05-27 21:30",
+      "tempF": 27,
+      "humidityF": 43,
+      "co2F": 680,
+      "illuminanceF": 807
+    },
+    {
+      "datetime": "2026-05-27 21:40",
+      "tempF": 26,
+      "humidityF": 46,
+      "co2F": 659,
+      "illuminanceF": 727
+    },
+    {
+      "datetime": "2026-05-27 21:50",
+      "tempF": 26,
+      "humidityF": 43,
+      "co2F": 652,
+      "illuminanceF": 647
+    },
+    {
+      "datetime": "2026-05-27 22:00",
+      "tempF": 27,
+      "humidityF": 45,
+      "co2F": 688,
+      "illuminanceF": 687
+    },
+    {
+      "datetime": "2026-05-27 22:10",
+      "tempF": 27,
+      "humidityF": 44,
+      "co2F": 645,
+      "illuminanceF": 719
+    },
+    {
+      "datetime": "2026-05-27 22:20",
+      "tempF": 27,
+      "humidityF": 46,
+      "co2F": 683,
+      "illuminanceF": 670
+    },
+    {
+      "datetime": "2026-05-27 22:30",
+      "tempF": 27,
+      "humidityF": 46,
+      "co2F": 711,
+      "illuminanceF": 737
+    },
+    {
+      "datetime": "2026-05-27 22:40",
+      "tempF": 26,
+      "humidityF": 50,
+      "co2F": 630,
+      "illuminanceF": 665
+    },
+    {
+      "datetime": "2026-05-27 22:50",
+      "tempF": 27,
+      "humidityF": 45,
+      "co2F": 650,
+      "illuminanceF": 663
+    },
+    {
+      "datetime": "2026-05-27 23:00",
+      "tempF": 27,
+      "humidityF": 47,
+      "co2F": 641,
+      "illuminanceF": 644
+    },
+    {
+      "datetime": "2026-05-27 23:10",
+      "tempF": 27,
+      "humidityF": 49,
+      "co2F": 682,
+      "illuminanceF": 565
+    },
+    {
+      "datetime": "2026-05-27 23:20",
+      "tempF": 26,
+      "humidityF": 46,
+      "co2F": 684,
+      "illuminanceF": 519
+    },
+    {
+      "datetime": "2026-05-27 23:30",
+      "tempF": 27,
+      "humidityF": 46,
+      "co2F": 683,
+      "illuminanceF": 577
+    },
+    {
+      "datetime": "2026-05-27 23:40",
+      "tempF": 26,
+      "humidityF": 49,
+      "co2F": 634,
+      "illuminanceF": 574
+    },
+    {
+      "datetime": "2026-05-27 23:50",
+      "tempF": 26,
+      "humidityF": 49,
+      "co2F": 655,
+      "illuminanceF": 461
     }
+  ],
+  "multiDay": true,
+  "lastActual": "2026-05-26 14:30",
+  "forecastKeys": [
+    "temp",
+    "humidity",
+    "co2",
+    "illuminance"
   ]
 }

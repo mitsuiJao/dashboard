@@ -68,14 +68,22 @@ const chartConfig: ChartConfig = {
   pressureF:   { label: "気圧 予測",    color: "var(--chart-3)" },
   co2:         { label: "CO₂ (ppm)",   color: "var(--chart-5)" },
   co2F:        { label: "CO₂ 予測",    color: "var(--chart-5)" },
-  windSpeed:   { label: "風速 (m/s)",   color: "var(--chart-3)" },
-  rainfall:    { label: "雨量 (mm)",    color: "var(--chart-4)" },
-  illuminance: { label: "照度 (lux)",   color: "var(--chart-4)" },
-  uvIndex:     { label: "UV指数",       color: "var(--chart-5)" },
-  flow:        { label: "流量 (L/min)", color: "var(--chart-2)" },
-  solarRad:    { label: "日射量 (W/m²)", color: "var(--chart-4)" },
-  occupancy:   { label: "在室数 (人)",  color: "var(--chart-5)" },
-  power:       { label: "消費電力 (kW)", color: "var(--chart-3)" },
+  windSpeed:    { label: "風速 (m/s)",    color: "var(--chart-3)" },
+  windSpeedF:   { label: "風速 予測",    color: "var(--chart-3)" },
+  rainfall:     { label: "雨量 (mm)",    color: "var(--chart-4)" },
+  rainfallF:    { label: "雨量 予測",    color: "var(--chart-4)" },
+  illuminance:  { label: "照度 (lux)",   color: "var(--chart-4)" },
+  illuminanceF: { label: "照度 予測",    color: "var(--chart-4)" },
+  uvIndex:      { label: "UV指数",       color: "var(--chart-5)" },
+  uvIndexF:     { label: "UV指数 予測",  color: "var(--chart-5)" },
+  flow:         { label: "流量 (L/min)", color: "var(--chart-2)" },
+  flowF:        { label: "流量 予測",    color: "var(--chart-2)" },
+  solarRad:     { label: "日射量 (W/m²)", color: "var(--chart-4)" },
+  solarRadF:    { label: "日射量 予測",  color: "var(--chart-4)" },
+  occupancy:    { label: "在室数 (人)",  color: "var(--chart-5)" },
+  occupancyF:   { label: "在室数 予測",  color: "var(--chart-5)" },
+  power:        { label: "消費電力 (kW)", color: "var(--chart-3)" },
+  powerF:       { label: "消費電力 予測", color: "var(--chart-3)" },
 }
 
 const PAGE_SIZE = 10
@@ -210,14 +218,14 @@ export default function DataView() {
 
   return (
     <div className="p-6 space-y-4">
-      <h2 className="text-base font-semibold">データ閲覧</h2>
+      <h2 className="text-[15px] font-semibold tracking-tight">データ閲覧</h2>
 
       {/* Filter bar */}
       <div className="border border-border rounded-lg bg-card px-4 py-3 space-y-2.5">
 
         {/* Group tag filter */}
         <div className="flex items-center gap-3">
-          <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-widest w-[68px] flex-shrink-0">グループ</span>
+          <span className="text-[11px] text-muted-foreground font-medium w-[68px] flex-shrink-0">グループ</span>
           <div className="flex gap-1.5 flex-wrap">
             <button onClick={() => setSelectedTag(null)} className={pillClass(selectedTag === null)}>
               すべて
@@ -236,7 +244,7 @@ export default function DataView() {
 
         {/* Device selector */}
         <div className="flex items-center gap-3">
-          <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-widest w-[68px] flex-shrink-0">デバイス</span>
+          <span className="text-[11px] text-muted-foreground font-medium w-[68px] flex-shrink-0">デバイス</span>
           <div className="flex items-center gap-2">
             <div className="relative">
               <select
@@ -265,7 +273,7 @@ export default function DataView() {
 
         {/* Period */}
         <div className="flex items-center gap-3">
-          <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-widest w-[68px] flex-shrink-0">期間</span>
+          <span className="text-[11px] text-muted-foreground font-medium w-[68px] flex-shrink-0">期間</span>
           <div className="flex items-center gap-1.5 flex-wrap">
             {(["今日", "今週", "今月"] as const).map(p => (
               <button
@@ -353,7 +361,7 @@ export default function DataView() {
                       </div>
                       <ChartContainer config={cfg} className="aspect-auto h-[160px]">
                         <LineChart data={filteredGraphData}>
-                          <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border)" />
+                          <CartesianGrid strokeDasharray="4 6" vertical={false} stroke="var(--border)" strokeOpacity={0.5} />
                           <XAxis
                             dataKey={xKey}
                             tick={{ fontSize: 10 }}
