@@ -1,5 +1,6 @@
 import { useState } from "react"
-import { LayoutDashboard, TrendingUp, Cpu, Bell, FileDown, Settings, Activity } from "lucide-react"
+import { LayoutDashboard, TrendingUp, Cpu, Bell, FileDown, Settings, Activity, ChevronRight } from "lucide-react"
+import devicesData from "../data/devices.json"
 import Dashboard from "./pages/Dashboard"
 import DataView from "./pages/DataView"
 import Devices from "./pages/Devices"
@@ -45,7 +46,7 @@ function NavItem({
       <Icon size={15} className="flex-shrink-0" />
       <span className={`flex-1 text-left text-[13px] ${active ? "font-medium" : ""}`}>{label}</span>
       {badge != null && badge > 0 && (
-        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-orange-500 text-white font-medium leading-none tabular-nums">
+        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-red-500 text-white font-medium leading-none tabular-nums">
           {badge}
         </span>
       )}
@@ -53,8 +54,16 @@ function NavItem({
   )
 }
 
+const ACCOUNT = {
+  name: "管理者 A",
+  email: "admin@example.com",
+  role: "管理者",
+  initial: "A",
+}
+
 export default function App() {
   const [page, setPage] = useState<PageId>("dashboard")
+  const onlineCount = devicesData.filter(d => d.status === "online").length
 
   return (
     <div className="flex h-screen overflow-hidden bg-background">
@@ -65,7 +74,7 @@ export default function App() {
             <Activity size={15} className="text-sidebar-primary flex-shrink-0" strokeWidth={2.5} />
             <p className="text-[13px] font-semibold text-sidebar-foreground tracking-tight">DataLogger</p>
           </div>
-          <p className="text-[10px] text-sidebar-foreground/40 pl-[23px]">センサー監視システム</p>
+          <p className="text-[10px] text-sidebar-foreground/40 pl-[23px]">センサー監視システムデモ</p>
         </div>
 
         {/* ナビゲーション */}
@@ -93,11 +102,26 @@ export default function App() {
           />
         </div>
 
-        {/* フッター: 接続状況サマリー */}
-        <div className="px-4 py-3 border-t border-border">
-          <div className="flex items-center gap-1.5">
+        {/* フッター: アカウント情報 + 接続状況 */}
+        <div className="px-3 py-3 border-t border-border space-y-2.5">
+          <button
+            onClick={() => setPage("settings")}
+            className="w-full flex items-center gap-2.5 rounded px-1 py-1 hover:bg-sidebar-accent/60 transition-colors group"
+          >
+            <div className="w-7 h-7 rounded-full bg-sidebar-primary/15 flex items-center justify-center flex-shrink-0">
+              <span className="text-[12px] font-bold text-sidebar-primary">{ACCOUNT.initial}</span>
+            </div>
+            <div className="flex-1 min-w-0 text-left">
+              <p className="text-[12px] font-medium text-sidebar-foreground leading-tight truncate">{ACCOUNT.name}</p>
+              <p className="text-[10px] text-sidebar-foreground/40 leading-tight truncate">{ACCOUNT.role}</p>
+            </div>
+            <ChevronRight size={12} className="text-sidebar-foreground/25 group-hover:text-sidebar-foreground/50 flex-shrink-0 transition-colors" />
+          </button>
+          <div className="flex items-center gap-1.5 pl-1">
             <span className="w-1.5 h-1.5 rounded-full bg-green-500 flex-shrink-0" />
-            <p className="text-[10px] text-sidebar-foreground/45 tabular-nums">接続中 2 / 4 台</p>
+            <p className="text-[10px] text-sidebar-foreground/40 tabular-nums">
+              接続中 {onlineCount} / {devicesData.length} 台
+            </p>
           </div>
         </div>
       </nav>

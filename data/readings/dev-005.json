@@ -1,0 +1,1044 @@
+{
+  "deviceId": "DEV-005",
+  "date": "2026-05-26",
+  "stats": [
+    {
+      "channel": "温度 (°C)",
+      "min": "18.5",
+      "max": "27.1",
+      "avg": "23.1",
+      "std": "2.6"
+    },
+    {
+      "channel": "湿度 (%)",
+      "min": "44",
+      "max": "67",
+      "avg": "55.5",
+      "std": "7.2"
+    },
+    {
+      "channel": "CO₂ (ppm)",
+      "min": "380",
+      "max": "737",
+      "avg": "518",
+      "std": "122.4"
+    },
+    {
+      "channel": "照度 (lux)",
+      "min": "14",
+      "max": "796",
+      "avg": "416.3",
+      "std": "252"
+    }
+  ],
+  "data": [
+    {
+      "time": "00:00",
+      "temp": 23.4,
+      "humidity": 54,
+      "co2": 512,
+      "illuminance": 422
+    },
+    {
+      "time": "00:10",
+      "temp": 23.3,
+      "humidity": 52,
+      "co2": 518,
+      "illuminance": 410
+    },
+    {
+      "time": "00:20",
+      "temp": 23.8,
+      "humidity": 51,
+      "co2": 535,
+      "illuminance": 433
+    },
+    {
+      "time": "00:30",
+      "temp": 23.8,
+      "humidity": 51,
+      "co2": 532,
+      "illuminance": 450
+    },
+    {
+      "time": "00:40",
+      "temp": 24,
+      "humidity": 51,
+      "co2": 528,
+      "illuminance": 457
+    },
+    {
+      "time": "00:50",
+      "temp": 23.7,
+      "humidity": 50,
+      "co2": 550,
+      "illuminance": 430
+    },
+    {
+      "time": "01:00",
+      "temp": 24.2,
+      "humidity": 50,
+      "co2": 533,
+      "illuminance": 416
+    },
+    {
+      "time": "01:10",
+      "temp": 24.1,
+      "humidity": 50,
+      "co2": 546,
+      "illuminance": 425
+    },
+    {
+      "time": "01:20",
+      "temp": 24.1,
+      "humidity": 51,
+      "co2": 530,
+      "illuminance": 436
+    },
+    {
+      "time": "01:30",
+      "temp": 24.1,
+      "humidity": 51,
+      "co2": 542,
+      "illuminance": 433
+    },
+    {
+      "time": "01:40",
+      "temp": 23.9,
+      "humidity": 50,
+      "co2": 555,
+      "illuminance": 390
+    },
+    {
+      "time": "01:50",
+      "temp": 23.4,
+      "humidity": 50,
+      "co2": 520,
+      "illuminance": 345
+    },
+    {
+      "time": "02:00",
+      "temp": 23.6,
+      "humidity": 50,
+      "co2": 505,
+      "illuminance": 316
+    },
+    {
+      "time": "02:10",
+      "temp": 23.6,
+      "humidity": 52,
+      "co2": 506,
+      "illuminance": 321
+    },
+    {
+      "time": "02:20",
+      "temp": 23.5,
+      "humidity": 53,
+      "co2": 473,
+      "illuminance": 326
+    },
+    {
+      "time": "02:30",
+      "temp": 23.3,
+      "humidity": 53,
+      "co2": 474,
+      "illuminance": 311
+    },
+    {
+      "time": "02:40",
+      "temp": 23.4,
+      "humidity": 54,
+      "co2": 470,
+      "illuminance": 279
+    },
+    {
+      "time": "02:50",
+      "temp": 23.4,
+      "humidity": 54,
+      "co2": 477,
+      "illuminance": 264
+    },
+    {
+      "time": "03:00",
+      "temp": 23.2,
+      "humidity": 56,
+      "co2": 485,
+      "illuminance": 268
+    },
+    {
+      "time": "03:10",
+      "temp": 23.1,
+      "humidity": 57,
+      "co2": 488,
+      "illuminance": 223
+    },
+    {
+      "time": "03:20",
+      "temp": 23.2,
+      "humidity": 58,
+      "co2": 489,
+      "illuminance": 211
+    },
+    {
+      "time": "03:30",
+      "temp": 23.3,
+      "humidity": 58,
+      "co2": 469,
+      "illuminance": 224
+    },
+    {
+      "time": "03:40",
+      "temp": 23.5,
+      "humidity": 59,
+      "co2": 464,
+      "illuminance": 188
+    },
+    {
+      "time": "03:50",
+      "temp": 23.6,
+      "humidity": 58,
+      "co2": 463,
+      "illuminance": 161
+    },
+    {
+      "time": "04:00",
+      "temp": 23.7,
+      "humidity": 59,
+      "co2": 461,
+      "illuminance": 134
+    },
+    {
+      "time": "04:10",
+      "temp": 23.9,
+      "humidity": 59,
+      "co2": 435,
+      "illuminance": 127
+    },
+    {
+      "time": "04:20",
+      "temp": 23.9,
+      "humidity": 58,
+      "co2": 414,
+      "illuminance": 106
+    },
+    {
+      "time": "04:30",
+      "temp": 23.6,
+      "humidity": 57,
+      "co2": 415,
+      "illuminance": 110
+    },
+    {
+      "time": "04:40",
+      "temp": 22.8,
+      "humidity": 58,
+      "co2": 415,
+      "illuminance": 120
+    },
+    {
+      "time": "04:50",
+      "temp": 22.1,
+      "humidity": 60,
+      "co2": 410,
+      "illuminance": 114
+    },
+    {
+      "time": "05:00",
+      "temp": 21.6,
+      "humidity": 60,
+      "co2": 383,
+      "illuminance": 115
+    },
+    {
+      "time": "05:10",
+      "temp": 21.6,
+      "humidity": 61,
+      "co2": 380,
+      "illuminance": 131
+    },
+    {
+      "time": "05:20",
+      "temp": 21.9,
+      "humidity": 62,
+      "co2": 380,
+      "illuminance": 107
+    },
+    {
+      "time": "05:30",
+      "temp": 22,
+      "humidity": 62,
+      "co2": 380,
+      "illuminance": 126
+    },
+    {
+      "time": "05:40",
+      "temp": 21.9,
+      "humidity": 62,
+      "co2": 380,
+      "illuminance": 98
+    },
+    {
+      "time": "05:50",
+      "temp": 22,
+      "humidity": 63,
+      "co2": 380,
+      "illuminance": 88
+    },
+    {
+      "time": "06:00",
+      "temp": 22.1,
+      "humidity": 64,
+      "co2": 380,
+      "illuminance": 63
+    },
+    {
+      "time": "06:10",
+      "temp": 22,
+      "humidity": 64,
+      "co2": 380,
+      "illuminance": 68
+    },
+    {
+      "time": "06:20",
+      "temp": 21.8,
+      "humidity": 63,
+      "co2": 380,
+      "illuminance": 35
+    },
+    {
+      "time": "06:30",
+      "temp": 21.1,
+      "humidity": 62,
+      "co2": 380,
+      "illuminance": 14
+    },
+    {
+      "time": "06:40",
+      "temp": 20.7,
+      "humidity": 62,
+      "co2": 380,
+      "illuminance": 34
+    },
+    {
+      "time": "06:50",
+      "temp": 20.7,
+      "humidity": 63,
+      "co2": 380,
+      "illuminance": 15
+    },
+    {
+      "time": "07:00",
+      "temp": 20.4,
+      "humidity": 63,
+      "co2": 380,
+      "illuminance": 33
+    },
+    {
+      "time": "07:10",
+      "temp": 20.2,
+      "humidity": 64,
+      "co2": 380,
+      "illuminance": 44
+    },
+    {
+      "time": "07:20",
+      "temp": 20.4,
+      "humidity": 63,
+      "co2": 380,
+      "illuminance": 61
+    },
+    {
+      "time": "07:30",
+      "temp": 20,
+      "humidity": 63,
+      "co2": 380,
+      "illuminance": 51
+    },
+    {
+      "time": "07:40",
+      "temp": 20.3,
+      "humidity": 65,
+      "co2": 380,
+      "illuminance": 40
+    },
+    {
+      "time": "07:50",
+      "temp": 19.7,
+      "humidity": 65,
+      "co2": 382,
+      "illuminance": 25
+    },
+    {
+      "time": "08:00",
+      "temp": 19.5,
+      "humidity": 66,
+      "co2": 380,
+      "illuminance": 54
+    },
+    {
+      "time": "08:10",
+      "temp": 19.9,
+      "humidity": 66,
+      "co2": 380,
+      "illuminance": 65
+    },
+    {
+      "time": "08:20",
+      "temp": 19.9,
+      "humidity": 64,
+      "co2": 380,
+      "illuminance": 59
+    },
+    {
+      "time": "08:30",
+      "temp": 19.3,
+      "humidity": 64,
+      "co2": 380,
+      "illuminance": 34
+    },
+    {
+      "time": "08:40",
+      "temp": 19,
+      "humidity": 63,
+      "co2": 380,
+      "illuminance": 36
+    },
+    {
+      "time": "08:50",
+      "temp": 18.6,
+      "humidity": 63,
+      "co2": 380,
+      "illuminance": 70
+    },
+    {
+      "time": "09:00",
+      "temp": 19,
+      "humidity": 64,
+      "co2": 380,
+      "illuminance": 101
+    },
+    {
+      "time": "09:10",
+      "temp": 19.5,
+      "humidity": 66,
+      "co2": 380,
+      "illuminance": 130
+    },
+    {
+      "time": "09:20",
+      "temp": 19.2,
+      "humidity": 66,
+      "co2": 380,
+      "illuminance": 144
+    },
+    {
+      "time": "09:30",
+      "temp": 19,
+      "humidity": 66,
+      "co2": 380,
+      "illuminance": 169
+    },
+    {
+      "time": "09:40",
+      "temp": 19.2,
+      "humidity": 65,
+      "co2": 380,
+      "illuminance": 193
+    },
+    {
+      "time": "09:50",
+      "temp": 19.6,
+      "humidity": 66,
+      "co2": 380,
+      "illuminance": 217
+    },
+    {
+      "time": "10:00",
+      "temp": 19.2,
+      "humidity": 67,
+      "co2": 380,
+      "illuminance": 236
+    },
+    {
+      "time": "10:10",
+      "temp": 18.9,
+      "humidity": 66,
+      "co2": 380,
+      "illuminance": 248
+    },
+    {
+      "time": "10:20",
+      "temp": 19.1,
+      "humidity": 66,
+      "co2": 380,
+      "illuminance": 254
+    },
+    {
+      "time": "10:30",
+      "temp": 18.7,
+      "humidity": 65,
+      "co2": 393,
+      "illuminance": 270
+    },
+    {
+      "time": "10:40",
+      "temp": 18.6,
+      "humidity": 65,
+      "co2": 395,
+      "illuminance": 248
+    },
+    {
+      "time": "10:50",
+      "temp": 18.5,
+      "humidity": 64,
+      "co2": 380,
+      "illuminance": 261
+    },
+    {
+      "time": "11:00",
+      "temp": 18.9,
+      "humidity": 65,
+      "co2": 395,
+      "illuminance": 270
+    },
+    {
+      "time": "11:10",
+      "temp": 19.5,
+      "humidity": 65,
+      "co2": 398,
+      "illuminance": 274
+    },
+    {
+      "time": "11:20",
+      "temp": 19.5,
+      "humidity": 65,
+      "co2": 391,
+      "illuminance": 296
+    },
+    {
+      "time": "11:30",
+      "temp": 19.8,
+      "humidity": 63,
+      "co2": 380,
+      "illuminance": 295
+    },
+    {
+      "time": "11:40",
+      "temp": 19.5,
+      "humidity": 62,
+      "co2": 382,
+      "illuminance": 316
+    },
+    {
+      "time": "11:50",
+      "temp": 19.9,
+      "humidity": 62,
+      "co2": 397,
+      "illuminance": 349
+    },
+    {
+      "time": "12:00",
+      "temp": 20.4,
+      "humidity": 61,
+      "co2": 408,
+      "illuminance": 333
+    },
+    {
+      "time": "12:10",
+      "temp": 20.5,
+      "humidity": 60,
+      "co2": 409,
+      "illuminance": 362
+    },
+    {
+      "time": "12:20",
+      "temp": 21,
+      "humidity": 62,
+      "co2": 426,
+      "illuminance": 349
+    },
+    {
+      "time": "12:30",
+      "temp": 20.9,
+      "humidity": 62,
+      "co2": 404,
+      "illuminance": 356
+    },
+    {
+      "time": "12:40",
+      "temp": 20.5,
+      "humidity": 61,
+      "co2": 396,
+      "illuminance": 382
+    },
+    {
+      "time": "12:50",
+      "temp": 21.1,
+      "humidity": 61,
+      "co2": 387,
+      "illuminance": 397
+    },
+    {
+      "time": "13:00",
+      "temp": 21.5,
+      "humidity": 60,
+      "co2": 394,
+      "illuminance": 422
+    },
+    {
+      "time": "13:10",
+      "temp": 21.6,
+      "humidity": 61,
+      "co2": 421,
+      "illuminance": 415
+    },
+    {
+      "time": "13:20",
+      "temp": 21.3,
+      "humidity": 61,
+      "co2": 451,
+      "illuminance": 424
+    },
+    {
+      "time": "13:30",
+      "temp": 20.9,
+      "humidity": 61,
+      "co2": 480,
+      "illuminance": 433
+    },
+    {
+      "time": "13:40",
+      "temp": 21.4,
+      "humidity": 60,
+      "co2": 471,
+      "illuminance": 454
+    },
+    {
+      "time": "13:50",
+      "temp": 21.7,
+      "humidity": 61,
+      "co2": 500,
+      "illuminance": 444
+    },
+    {
+      "time": "14:00",
+      "temp": 21.7,
+      "humidity": 61,
+      "co2": 513,
+      "illuminance": 443
+    },
+    {
+      "time": "14:10",
+      "temp": 21.6,
+      "humidity": 60,
+      "co2": 503,
+      "illuminance": 437
+    },
+    {
+      "time": "14:20",
+      "temp": 21.8,
+      "humidity": 59,
+      "co2": 527,
+      "illuminance": 469
+    },
+    {
+      "time": "14:30",
+      "temp": 22.4,
+      "humidity": 58,
+      "co2": 523,
+      "illuminance": 519
+    },
+    {
+      "time": "14:40",
+      "temp": 22.3,
+      "humidity": 57,
+      "co2": 510,
+      "illuminance": 543
+    },
+    {
+      "time": "14:50",
+      "temp": 22.6,
+      "humidity": 56,
+      "co2": 494,
+      "illuminance": 561
+    },
+    {
+      "time": "15:00",
+      "temp": 22.5,
+      "humidity": 55,
+      "co2": 511,
+      "illuminance": 566
+    },
+    {
+      "time": "15:10",
+      "temp": 23.2,
+      "humidity": 54,
+      "co2": 547,
+      "illuminance": 579
+    },
+    {
+      "time": "15:20",
+      "temp": 22.8,
+      "humidity": 54,
+      "co2": 552,
+      "illuminance": 596
+    },
+    {
+      "time": "15:30",
+      "temp": 23.4,
+      "humidity": 55,
+      "co2": 571,
+      "illuminance": 633
+    },
+    {
+      "time": "15:40",
+      "temp": 23.3,
+      "humidity": 54,
+      "co2": 570,
+      "illuminance": 669
+    },
+    {
+      "time": "15:50",
+      "temp": 23.5,
+      "humidity": 55,
+      "co2": 589,
+      "illuminance": 669
+    },
+    {
+      "time": "16:00",
+      "temp": 24.1,
+      "humidity": 53,
+      "co2": 588,
+      "illuminance": 670
+    },
+    {
+      "time": "16:10",
+      "temp": 23.8,
+      "humidity": 54,
+      "co2": 620,
+      "illuminance": 683
+    },
+    {
+      "time": "16:20",
+      "temp": 24.2,
+      "humidity": 53,
+      "co2": 611,
+      "illuminance": 678
+    },
+    {
+      "time": "16:30",
+      "temp": 24.5,
+      "humidity": 51,
+      "co2": 639,
+      "illuminance": 674
+    },
+    {
+      "time": "16:40",
+      "temp": 24.3,
+      "humidity": 51,
+      "co2": 653,
+      "illuminance": 713
+    },
+    {
+      "time": "16:50",
+      "temp": 24.6,
+      "humidity": 51,
+      "co2": 656,
+      "illuminance": 699
+    },
+    {
+      "time": "17:00",
+      "temp": 24.6,
+      "humidity": 49,
+      "co2": 659,
+      "illuminance": 696
+    },
+    {
+      "time": "17:10",
+      "temp": 24.3,
+      "humidity": 48,
+      "co2": 667,
+      "illuminance": 682
+    },
+    {
+      "time": "17:20",
+      "temp": 24.9,
+      "humidity": 47,
+      "co2": 661,
+      "illuminance": 665
+    },
+    {
+      "time": "17:30",
+      "temp": 25.4,
+      "humidity": 47,
+      "co2": 682,
+      "illuminance": 702
+    },
+    {
+      "time": "17:40",
+      "temp": 25.5,
+      "humidity": 49,
+      "co2": 679,
+      "illuminance": 716
+    },
+    {
+      "time": "17:50",
+      "temp": 25.5,
+      "humidity": 49,
+      "co2": 697,
+      "illuminance": 738
+    },
+    {
+      "time": "18:00",
+      "temp": 26,
+      "humidity": 49,
+      "co2": 722,
+      "illuminance": 751
+    },
+    {
+      "time": "18:10",
+      "temp": 26.5,
+      "humidity": 49,
+      "co2": 706,
+      "illuminance": 732
+    },
+    {
+      "time": "18:20",
+      "temp": 26.6,
+      "humidity": 48,
+      "co2": 722,
+      "illuminance": 763
+    },
+    {
+      "time": "18:30",
+      "temp": 26.6,
+      "humidity": 48,
+      "co2": 737,
+      "illuminance": 764
+    },
+    {
+      "time": "18:40",
+      "temp": 26.6,
+      "humidity": 48,
+      "co2": 712,
+      "illuminance": 790
+    },
+    {
+      "time": "18:50",
+      "temp": 26.8,
+      "humidity": 46,
+      "co2": 702,
+      "illuminance": 761
+    },
+    {
+      "time": "19:00",
+      "temp": 26.9,
+      "humidity": 46,
+      "co2": 695,
+      "illuminance": 784
+    },
+    {
+      "time": "19:10",
+      "temp": 27.1,
+      "humidity": 47,
+      "co2": 709,
+      "illuminance": 796
+    },
+    {
+      "time": "19:20",
+      "temp": 26.6,
+      "humidity": 46,
+      "co2": 704,
+      "illuminance": 793
+    },
+    {
+      "time": "19:30",
+      "temp": 26.6,
+      "humidity": 46,
+      "co2": 686,
+      "illuminance": 768
+    },
+    {
+      "time": "19:40",
+      "temp": 26.2,
+      "humidity": 46,
+      "co2": 703,
+      "illuminance": 755
+    },
+    {
+      "time": "19:50",
+      "temp": 26.2,
+      "humidity": 46,
+      "co2": 699,
+      "illuminance": 753
+    },
+    {
+      "time": "20:00",
+      "temp": 26.1,
+      "humidity": 47,
+      "co2": 680,
+      "illuminance": 735
+    },
+    {
+      "time": "20:10",
+      "temp": 26.6,
+      "humidity": 47,
+      "co2": 695,
+      "illuminance": 752
+    },
+    {
+      "time": "20:20",
+      "temp": 26.4,
+      "humidity": 46,
+      "co2": 683,
+      "illuminance": 724
+    },
+    {
+      "time": "20:30",
+      "temp": 26.1,
+      "humidity": 46,
+      "co2": 668,
+      "illuminance": 745
+    },
+    {
+      "time": "20:40",
+      "temp": 26.3,
+      "humidity": 47,
+      "co2": 665,
+      "illuminance": 742
+    },
+    {
+      "time": "20:50",
+      "temp": 26.7,
+      "humidity": 45,
+      "co2": 655,
+      "illuminance": 753
+    },
+    {
+      "time": "21:00",
+      "temp": 26.4,
+      "humidity": 46,
+      "co2": 672,
+      "illuminance": 742
+    },
+    {
+      "time": "21:10",
+      "temp": 26.7,
+      "humidity": 46,
+      "co2": 680,
+      "illuminance": 750
+    },
+    {
+      "time": "21:20",
+      "temp": 26.5,
+      "humidity": 45,
+      "co2": 673,
+      "illuminance": 716
+    },
+    {
+      "time": "21:30",
+      "temp": 26.7,
+      "humidity": 44,
+      "co2": 664,
+      "illuminance": 735
+    },
+    {
+      "time": "21:40",
+      "temp": 26.3,
+      "humidity": 44,
+      "co2": 652,
+      "illuminance": 734
+    },
+    {
+      "time": "21:50",
+      "temp": 26.3,
+      "humidity": 44,
+      "co2": 660,
+      "illuminance": 713
+    },
+    {
+      "time": "22:00",
+      "temp": 26.6,
+      "humidity": 45,
+      "co2": 679,
+      "illuminance": 699
+    },
+    {
+      "time": "22:10",
+      "temp": 26.1,
+      "humidity": 46,
+      "co2": 664,
+      "illuminance": 699
+    },
+    {
+      "time": "22:20",
+      "temp": 26.1,
+      "humidity": 47,
+      "co2": 646,
+      "illuminance": 695
+    },
+    {
+      "time": "22:30",
+      "temp": 26.4,
+      "humidity": 46,
+      "co2": 666,
+      "illuminance": 688
+    },
+    {
+      "time": "22:40",
+      "temp": 26.4,
+      "humidity": 46,
+      "co2": 652,
+      "illuminance": 673
+    },
+    {
+      "time": "22:50",
+      "temp": 26.5,
+      "humidity": 46,
+      "co2": 663,
+      "illuminance": 660
+    },
+    {
+      "time": "23:00",
+      "temp": 26.6,
+      "humidity": 46,
+      "co2": 656,
+      "illuminance": 639
+    },
+    {
+      "time": "23:10",
+      "temp": 26.5,
+      "humidity": 47,
+      "co2": 675,
+      "illuminance": 595
+    },
+    {
+      "time": "23:20",
+      "temp": 26.2,
+      "humidity": 47,
+      "co2": 658,
+      "illuminance": 556
+    },
+    {
+      "time": "23:30",
+      "temp": 26.4,
+      "humidity": 48,
+      "co2": 658,
+      "illuminance": 560
+    },
+    {
+      "time": "23:40",
+      "temp": 26,
+      "humidity": 48,
+      "co2": 641,
+      "illuminance": 559
+    },
+    {
+      "time": "23:50",
+      "temp": 25.9,
+      "humidity": 48,
+      "co2": 654,
+      "illuminance": 512
+    }
+  ]
+}

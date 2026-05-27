@@ -136,7 +136,7 @@ export default function Alerts({ onNavigate }: { onNavigate: (page: PageId) => v
         >
           アクティブ
           {unacked > 0 && (
-            <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-orange-500 text-white font-medium leading-none">
+            <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-red-500 text-white font-medium leading-none">
               {unacked}
             </span>
           )}
@@ -201,8 +201,8 @@ export default function Alerts({ onNavigate }: { onNavigate: (page: PageId) => v
                         </span>
                       ) : (
                         <span className="flex items-center gap-1.5">
-                          <span className="w-1.5 h-1.5 rounded-full bg-orange-400 flex-shrink-0" />
-                          <span className="text-[11px] text-orange-600 dark:text-orange-400 font-medium">未対応</span>
+                          <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0" />
+                          <span className="text-[11px] text-red-600 dark:text-red-400 font-medium">未対応</span>
                         </span>
                       )}
                     </td>

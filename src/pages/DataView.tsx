@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react"
-import { LineChart, Line, XAxis, YAxis, CartesianGrid } from "recharts"
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, ReferenceArea } from "recharts"
 import {
   ChartContainer,
   ChartTooltip,
@@ -13,13 +13,22 @@ import dev001 from "../../data/readings/dev-001.json"
 import dev002 from "../../data/readings/dev-002.json"
 import dev003 from "../../data/readings/dev-003.json"
 import dev004 from "../../data/readings/dev-004.json"
+import dev005 from "../../data/readings/dev-005.json"
+import dev006 from "../../data/readings/dev-006.json"
+import dev007 from "../../data/readings/dev-007.json"
+import dev008 from "../../data/readings/dev-008.json"
+import dev009 from "../../data/readings/dev-009.json"
+import dev010 from "../../data/readings/dev-010.json"
 
 interface StatRow { channel: string; min: string; max: string; avg: string; std: string }
 interface DeviceReadings {
   deviceId: string
-  date: string
+  date?: string
+  multiDay?: boolean
+  lastActual?: string     // "YYYY-MM-DD HH:MM" — where actual data ends
+  forecastKeys?: string[] // channel keys that have a forecast variant (e.g. "temp" → "tempF")
   stats: StatRow[]
-  data: Record<string, number | string>[]
+  data: Record<string, number | string | undefined>[]
 }
 
 const readingsMap: Record<string, DeviceReadings> = {
@@ -27,27 +36,50 @@ const readingsMap: Record<string, DeviceReadings> = {
   "センサー B": dev002 as unknown as DeviceReadings,
   "センサー C": dev003 as unknown as DeviceReadings,
   "センサー D": dev004 as unknown as DeviceReadings,
+  "センサー E": dev005 as unknown as DeviceReadings,
+  "センサー F": dev006 as unknown as DeviceReadings,
+  "センサー G": dev007 as unknown as DeviceReadings,
+  "センサー H": dev008 as unknown as DeviceReadings,
+  "センサー I": dev009 as unknown as DeviceReadings,
+  "センサー J": dev010 as unknown as DeviceReadings,
 }
 
 const ALL_CHANNELS = [
-  { key: "temp",      label: "温度",  unit: "°C",  chartIdx: 1 },
-  { key: "humidity",  label: "湿度",  unit: "%",   chartIdx: 2 },
-  { key: "pressure",  label: "気圧",  unit: "hPa", chartIdx: 3 },
-  { key: "co2",       label: "CO₂", unit: "ppm", chartIdx: 5 },
-  { key: "windSpeed", label: "風速",  unit: "m/s", chartIdx: 3 },
-  { key: "rainfall",  label: "雨量",  unit: "mm",  chartIdx: 4 },
+  { key: "temp",        label: "温度",     unit: "°C",    chartIdx: 1 },
+  { key: "humidity",    label: "湿度",     unit: "%",     chartIdx: 2 },
+  { key: "pressure",    label: "気圧",     unit: "hPa",   chartIdx: 3 },
+  { key: "co2",         label: "CO₂",    unit: "ppm",   chartIdx: 5 },
+  { key: "windSpeed",   label: "風速",     unit: "m/s",   chartIdx: 3 },
+  { key: "rainfall",    label: "雨量",     unit: "mm",    chartIdx: 4 },
+  { key: "illuminance", label: "照度",     unit: "lux",   chartIdx: 4 },
+  { key: "uvIndex",     label: "UV指数",   unit: "",      chartIdx: 5 },
+  { key: "flow",        label: "流量",     unit: "L/min", chartIdx: 2 },
+  { key: "solarRad",    label: "日射量",   unit: "W/m²",  chartIdx: 4 },
+  { key: "occupancy",   label: "在室数",   unit: "人",    chartIdx: 5 },
+  { key: "power",       label: "消費電力", unit: "kW",    chartIdx: 3 },
 ]
 
 const chartConfig: ChartConfig = {
-  temp:      { label: "温度 (°C)",   color: "var(--chart-1)" },
-  humidity:  { label: "湿度 (%)",    color: "var(--chart-2)" },
-  pressure:  { label: "気圧 (hPa)", color: "var(--chart-3)" },
-  co2:       { label: "CO₂ (ppm)", color: "var(--chart-5)" },
-  windSpeed: { label: "風速 (m/s)", color: "var(--chart-3)" },
-  rainfall:  { label: "雨量 (mm)",  color: "var(--chart-4)" },
+  temp:        { label: "温度 (°C)",     color: "var(--chart-1)" },
+  tempF:       { label: "温度 予測",     color: "var(--chart-1)" },
+  humidity:    { label: "湿度 (%)",      color: "var(--chart-2)" },
+  humidityF:   { label: "湿度 予測",     color: "var(--chart-2)" },
+  pressure:    { label: "気圧 (hPa)",   color: "var(--chart-3)" },
+  pressureF:   { label: "気圧 予測",    color: "var(--chart-3)" },
+  co2:         { label: "CO₂ (ppm)",   color: "var(--chart-5)" },
+  co2F:        { label: "CO₂ 予測",    color: "var(--chart-5)" },
+  windSpeed:   { label: "風速 (m/s)",   color: "var(--chart-3)" },
+  rainfall:    { label: "雨量 (mm)",    color: "var(--chart-4)" },
+  illuminance: { label: "照度 (lux)",   color: "var(--chart-4)" },
+  uvIndex:     { label: "UV指数",       color: "var(--chart-5)" },
+  flow:        { label: "流量 (L/min)", color: "var(--chart-2)" },
+  solarRad:    { label: "日射量 (W/m²)", color: "var(--chart-4)" },
+  occupancy:   { label: "在室数 (人)",  color: "var(--chart-5)" },
+  power:       { label: "消費電力 (kW)", color: "var(--chart-3)" },
 }
 
 const PAGE_SIZE = 10
+const TODAY     = "2026-05-26"
 
 const pillClass = (active: boolean) =>
   `text-[11px] px-2.5 py-1 rounded border transition-colors ${
@@ -56,19 +88,19 @@ const pillClass = (active: boolean) =>
       : "border-border text-muted-foreground hover:text-foreground hover:border-foreground/40"
   }`
 
-// Collect all unique tags across devices
 const ALL_TAGS = Array.from(
   new Set(devicesJson.flatMap(d => (d as typeof d & { tags?: string[] }).tags ?? []))
 )
 
 export default function DataView() {
-  const [activeTab, setActiveTab] = useState<"graph" | "table" | "stats">("graph")
-  const [selectedTag, setSelectedTag] = useState<string | null>(null)
-  const [selectedDevice, setSelectedDevice] = useState<string>("センサー A")
-  const [selectedPeriod, setSelectedPeriod] = useState<"今日" | "今週" | "今月">("今日")
-  const [tablePage, setTablePage] = useState(0)
+  const [activeTab,       setActiveTab]       = useState<"graph" | "table" | "stats">("graph")
+  const [selectedTag,     setSelectedTag]     = useState<string | null>(null)
+  const [selectedDevice,  setSelectedDevice]  = useState<string>("センサー A")
+  const [selectedPeriod,  setSelectedPeriod]  = useState<"今日" | "今週" | "今月" | null>("今日")
+  const [dateFrom,        setDateFrom]        = useState(TODAY)
+  const [dateTo,          setDateTo]          = useState(TODAY)
+  const [tablePage,       setTablePage]       = useState(0)
 
-  // Devices filtered by selected tag
   const filteredDevices = useMemo(() => {
     if (!selectedTag) return devicesJson.map(d => d.name)
     return devicesJson
@@ -76,32 +108,105 @@ export default function DataView() {
       .map(d => d.name)
   }, [selectedTag])
 
-  // When tag filter changes, reset device if current one isn't in filtered list
   useEffect(() => {
     if (!filteredDevices.includes(selectedDevice)) {
       setSelectedDevice(filteredDevices[0] ?? "センサー A")
     }
   }, [filteredDevices, selectedDevice])
 
-  const currentDevice = devicesJson.find(d => d.name === selectedDevice)
-  const currentTags = (currentDevice as typeof currentDevice & { tags?: string[] })?.tags ?? []
-
+  const currentDevice  = devicesJson.find(d => d.name === selectedDevice)
+  const currentTags    = (currentDevice as typeof currentDevice & { tags?: string[] })?.tags ?? []
   const currentReading = readingsMap[selectedDevice]
-  const graphData      = currentReading?.data ?? []
-  const statsData      = currentReading?.stats ?? []
+  const isMultiDay     = currentReading?.multiDay ?? false
+  const forecastKeys   = currentReading?.forecastKeys ?? []
 
-  const availableKeys = useMemo(
-    () => graphData.length > 0 ? Object.keys(graphData[0]).filter(k => k !== "time") : [],
-    [graphData]
-  )
+  // ── Period picker: sync pill → date inputs ───────────────────────────────
+  function applyPeriod(p: "今日" | "今週" | "今月") {
+    setSelectedPeriod(p)
+    if (p === "今日") {
+      setDateFrom(TODAY)
+      setDateTo(TODAY)
+    } else if (p === "今週") {
+      setDateFrom("2026-05-20")
+      setDateTo(TODAY)
+    } else {
+      setDateFrom("2026-05-01")
+      setDateTo(TODAY)
+    }
+  }
+
+  function handleDateFrom(v: string) { setDateFrom(v); setSelectedPeriod(null) }
+  function handleDateTo(v: string)   { setDateTo(v);   setSelectedPeriod(null) }
+
+  // ── Data filtering ────────────────────────────────────────────────────────
+  const filteredGraphData = useMemo(() => {
+    const raw = currentReading?.data ?? []
+    if (!isMultiDay || !raw.length) return raw
+
+    return raw.filter(d => {
+      const date = String(d.datetime ?? "").split(" ")[0]
+      return date >= dateFrom && date <= dateTo
+    })
+  }, [currentReading, isMultiDay, dateFrom, dateTo])
+
+  const statsData = currentReading?.stats ?? []
+
+  // Keys present in the data (excluding time/datetime and *F forecast keys)
+  const availableKeys = useMemo(() => {
+    const data = filteredGraphData
+    if (!data.length) return []
+    // Sample 20 points spread across the dataset to catch all keys
+    const step = Math.max(1, Math.floor(data.length / 20))
+    const keys = new Set<string>()
+    for (let i = 0; i < data.length; i += step) {
+      Object.keys(data[i] as Record<string, unknown>).forEach(k => keys.add(k))
+    }
+    return Array.from(keys).filter(k => k !== "time" && k !== "datetime" && !k.endsWith("F"))
+  }, [filteredGraphData])
+
   const CHANNELS = ALL_CHANNELS.filter(c => availableKeys.includes(c.key))
 
-  useEffect(() => {
-    setTablePage(0)
-  }, [selectedDevice])
+  // ── X-axis ticks and formatter ────────────────────────────────────────────
+  const xKey = isMultiDay ? "datetime" : "time"
 
-  const totalPages = Math.ceil(graphData.length / PAGE_SIZE)
-  const pageRows   = graphData.slice(tablePage * PAGE_SIZE, (tablePage + 1) * PAGE_SIZE)
+  const xAxisTicks = useMemo<string[] | undefined>(() => {
+    if (!isMultiDay || !filteredGraphData.length) return undefined
+
+    const isSingleDay = dateFrom === dateTo
+    return filteredGraphData
+      .map(d => String(d.datetime ?? ""))
+      .filter(dt => {
+        const time = dt.split(" ")[1] ?? ""
+        const [hh, mm] = time.split(":")
+        if (isSingleDay) return mm === "00" && parseInt(hh) % 2 === 0
+        return time === "00:00"
+      })
+  }, [filteredGraphData, isMultiDay, dateFrom, dateTo])
+
+  function xTickFormatter(v: string) {
+    if (!isMultiDay) return v
+    const [date, time] = v.split(" ")
+    if (!date || !time) return ""
+    if (dateFrom === dateTo) return time
+    const [, m, d] = date.split("-")
+    return `${parseInt(m)}/${parseInt(d)}`
+  }
+
+  // Forecast zone boundaries (for ReferenceArea)
+  const forecastStart = currentReading?.lastActual
+  const forecastEnd   = isMultiDay && filteredGraphData.length > 0
+    ? String(filteredGraphData[filteredGraphData.length - 1].datetime)
+    : undefined
+
+  useEffect(() => { setTablePage(0) }, [selectedDevice, dateFrom, dateTo])
+
+  const totalPages = Math.ceil(filteredGraphData.length / PAGE_SIZE)
+  const pageRows   = filteredGraphData.slice(tablePage * PAGE_SIZE, (tablePage + 1) * PAGE_SIZE)
+
+  // ── Period label for graph header ─────────────────────────────────────────
+  const periodLabel = dateFrom === dateTo
+    ? dateFrom
+    : `${dateFrom} 〜 ${dateTo}`
 
   return (
     <div className="p-6 space-y-4">
@@ -114,10 +219,7 @@ export default function DataView() {
         <div className="flex items-center gap-3">
           <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-widest w-[68px] flex-shrink-0">グループ</span>
           <div className="flex gap-1.5 flex-wrap">
-            <button
-              onClick={() => setSelectedTag(null)}
-              className={pillClass(selectedTag === null)}
-            >
+            <button onClick={() => setSelectedTag(null)} className={pillClass(selectedTag === null)}>
               すべて
             </button>
             {ALL_TAGS.map(tag => (
@@ -148,7 +250,6 @@ export default function DataView() {
               </select>
               <ChevronDown size={12} className="absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none text-muted-foreground" />
             </div>
-            {/* Current device tags */}
             <div className="flex gap-1">
               {currentTags.map(tag => (
                 <span
@@ -165,16 +266,30 @@ export default function DataView() {
         {/* Period */}
         <div className="flex items-center gap-3">
           <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-widest w-[68px] flex-shrink-0">期間</span>
-          <div className="flex items-center gap-1.5">
+          <div className="flex items-center gap-1.5 flex-wrap">
             {(["今日", "今週", "今月"] as const).map(p => (
-              <button key={p} onClick={() => setSelectedPeriod(p)} className={pillClass(selectedPeriod === p)}>
+              <button
+                key={p}
+                onClick={() => applyPeriod(p)}
+                className={pillClass(selectedPeriod === p)}
+              >
                 {p}
               </button>
             ))}
             <span className="mx-1 h-3.5 w-px bg-border" />
-            <input type="date" defaultValue="2026-05-26" className="text-xs border border-border rounded px-2 py-1 bg-background focus:outline-none focus:ring-1 focus:ring-ring" />
+            <input
+              type="date"
+              value={dateFrom}
+              onChange={e => handleDateFrom(e.target.value)}
+              className="text-xs border border-border rounded px-2 py-1 bg-background focus:outline-none focus:ring-1 focus:ring-ring"
+            />
             <span className="text-[11px] text-muted-foreground/60">〜</span>
-            <input type="date" defaultValue="2026-05-26" className="text-xs border border-border rounded px-2 py-1 bg-background focus:outline-none focus:ring-1 focus:ring-ring" />
+            <input
+              type="date"
+              value={dateTo}
+              onChange={e => handleDateTo(e.target.value)}
+              className="text-xs border border-border rounded px-2 py-1 bg-background focus:outline-none focus:ring-1 focus:ring-ring"
+            />
           </div>
         </div>
       </div>
@@ -201,16 +316,31 @@ export default function DataView() {
         </div>
 
         <div className="pt-4">
-          {/* Graph tab — one chart per channel */}
+          {/* ── Graph tab ──────────────────────────────────────────────────── */}
           {activeTab === "graph" && (
             <div className="space-y-3">
               <div className="flex items-baseline justify-between">
                 <p className="text-[13px] font-medium">{selectedDevice}</p>
-                <p className="text-[11px] text-muted-foreground font-mono">{currentReading?.date}  00:00 〜 23:00</p>
+                <div className="flex items-center gap-3">
+                  {forecastKeys.length > 0 && dateFrom === dateTo && (
+                    <div className="flex items-center gap-1.5">
+                      <span className="w-5 border-t border-dashed border-muted-foreground" />
+                      <span className="text-[10px] text-muted-foreground">予測</span>
+                    </div>
+                  )}
+                  <p className="text-[11px] text-muted-foreground font-mono">{periodLabel}</p>
+                </div>
               </div>
+
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-3">
                 {CHANNELS.map(c => {
-                  const cfg: ChartConfig = { [c.key]: chartConfig[c.key] }
+                  const hasForecast = forecastKeys.includes(c.key) && dateFrom === dateTo
+                  const fKey = `${c.key}F`
+                  const cfg: ChartConfig = {
+                    [c.key]: chartConfig[c.key as keyof typeof chartConfig],
+                    ...(hasForecast ? { [fKey]: chartConfig[fKey as keyof typeof chartConfig] } : {}),
+                  }
+
                   return (
                     <div key={c.key} className="border border-border rounded-lg p-4 bg-card">
                       <div className="flex items-center gap-2 mb-3">
@@ -222,14 +352,15 @@ export default function DataView() {
                         <span className="text-[11px] text-muted-foreground font-mono">{c.unit}</span>
                       </div>
                       <ChartContainer config={cfg} className="aspect-auto h-[160px]">
-                        <LineChart data={graphData}>
+                        <LineChart data={filteredGraphData}>
                           <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border)" />
                           <XAxis
-                            dataKey="time"
+                            dataKey={xKey}
                             tick={{ fontSize: 10 }}
                             tickLine={false}
                             axisLine={false}
-                            interval={3}
+                            ticks={xAxisTicks}
+                            tickFormatter={xTickFormatter}
                           />
                           <YAxis
                             tick={{ fontSize: 10 }}
@@ -238,13 +369,39 @@ export default function DataView() {
                             width={44}
                           />
                           <ChartTooltip content={<ChartTooltipContent indicator="line" />} />
+
+                          {/* Forecast shading */}
+                          {hasForecast && forecastStart && forecastEnd && (
+                            <ReferenceArea
+                              x1={forecastStart}
+                              x2={forecastEnd}
+                              fill="var(--muted)"
+                              fillOpacity={0.35}
+                            />
+                          )}
+
+                          {/* Actual data line */}
                           <Line
                             type="monotone"
                             dataKey={c.key}
                             stroke={`var(--color-${c.key})`}
                             strokeWidth={1.5}
                             dot={false}
+                            connectNulls={false}
                           />
+
+                          {/* Forecast line (dashed) */}
+                          {hasForecast && (
+                            <Line
+                              type="monotone"
+                              dataKey={fKey}
+                              stroke={`var(--color-${c.key})`}
+                              strokeWidth={1.5}
+                              strokeDasharray="5 3"
+                              dot={false}
+                              connectNulls
+                            />
+                          )}
                         </LineChart>
                       </ChartContainer>
                     </div>
@@ -254,7 +411,7 @@ export default function DataView() {
             </div>
           )}
 
-          {/* Table tab */}
+          {/* ── Table tab ──────────────────────────────────────────────────── */}
           {activeTab === "table" && (
             <div className="border border-border rounded-lg bg-card overflow-hidden">
               <table className="w-full">
@@ -262,28 +419,47 @@ export default function DataView() {
                   <tr className="text-[11px] text-muted-foreground">
                     <th className="text-left px-4 py-2.5 font-medium">タイムスタンプ</th>
                     {CHANNELS.map(c => (
-                      <th key={c.key} className="text-right px-4 py-2.5 font-medium">{c.label} ({c.unit})</th>
+                      <th key={c.key} className="text-right px-4 py-2.5 font-medium">
+                        {c.label}{c.unit ? ` (${c.unit})` : ""}
+                      </th>
                     ))}
                   </tr>
                 </thead>
                 <tbody>
-                  {pageRows.map((row, i) => (
-                    <tr key={i} className="border-t border-border/50 even:bg-muted/20 hover:bg-muted/40 transition-colors">
-                      <td className="px-4 py-2 font-mono text-xs text-muted-foreground">
-                        {currentReading?.date} {row["time"]}
-                      </td>
-                      {CHANNELS.map(c => (
-                        <td key={c.key} className="px-4 py-2 text-right tabular-nums font-mono text-xs">
-                          {row[c.key] != null ? String(row[c.key]) : "—"}
+                  {pageRows.map((row, i) => {
+                    const isPredicted = CHANNELS.every(c => row[c.key] == null) && CHANNELS.some(c => row[`${c.key}F`] != null)
+                    return (
+                      <tr
+                        key={i}
+                        className={`border-t border-border/50 even:bg-muted/20 hover:bg-muted/40 transition-colors ${isPredicted ? "opacity-60" : ""}`}
+                      >
+                        <td className="px-4 py-2 font-mono text-xs text-muted-foreground">
+                          {isMultiDay
+                            ? String(row.datetime ?? "")
+                            : `${currentReading?.date} ${row.time}`
+                          }
+                          {isPredicted && (
+                            <span className="ml-1.5 text-[9px] border border-border/60 rounded px-1 text-muted-foreground">予測</span>
+                          )}
                         </td>
-                      ))}
-                    </tr>
-                  ))}
+                        {CHANNELS.map(c => {
+                          const actual = row[c.key]
+                          const forecast = row[`${c.key}F`]
+                          const display = actual != null ? actual : forecast
+                          return (
+                            <td key={c.key} className="px-4 py-2 text-right tabular-nums font-mono text-xs">
+                              {display != null ? String(display) : "—"}
+                            </td>
+                          )
+                        })}
+                      </tr>
+                    )
+                  })}
                 </tbody>
               </table>
               <div className="flex items-center justify-between px-4 py-3 border-t border-border bg-muted/30">
                 <span className="text-xs text-muted-foreground tabular-nums">
-                  {tablePage * PAGE_SIZE + 1}–{Math.min((tablePage + 1) * PAGE_SIZE, graphData.length)} / {graphData.length} 件
+                  {tablePage * PAGE_SIZE + 1}–{Math.min((tablePage + 1) * PAGE_SIZE, filteredGraphData.length)} / {filteredGraphData.length} 件
                 </span>
                 <div className="flex gap-1">
                   <Button variant="outline" size="sm" onClick={() => setTablePage(p => Math.max(0, p - 1))} disabled={tablePage === 0} className="h-7 w-7 p-0">
@@ -297,9 +473,14 @@ export default function DataView() {
             </div>
           )}
 
-          {/* Stats tab */}
+          {/* ── Stats tab ──────────────────────────────────────────────────── */}
           {activeTab === "stats" && (
             <div className="border border-border rounded-lg bg-card overflow-hidden">
+              {isMultiDay && (
+                <div className="px-4 py-2 border-b border-border bg-muted/30">
+                  <span className="text-[10px] text-muted-foreground">統計: {TODAY} 実測値 (00:00〜14:30)</span>
+                </div>
+              )}
               <table className="w-full">
                 <thead className="bg-muted/50">
                   <tr className="text-[11px] text-muted-foreground">

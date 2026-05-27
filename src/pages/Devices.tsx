@@ -35,7 +35,7 @@ const devices: Device[] = devicesJson as Device[]
 const statusConfig = {
   online:  { label: "接続中", dot: "bg-green-500", text: "text-green-700 dark:text-green-400",  ping: true  },
   offline: { label: "切断",   dot: "bg-slate-400", text: "text-muted-foreground",               ping: false },
-  error:   { label: "エラー", dot: "bg-amber-400", text: "text-amber-600 dark:text-amber-400",  ping: false },
+  error:   { label: "エラー", dot: "bg-red-500",   text: "text-red-600 dark:text-red-400",     ping: false },
 }
 
 const logLevel = {

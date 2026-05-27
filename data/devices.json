@@ -82,5 +82,134 @@
       { "time": "14:01:40", "message": "データ受信成功",                "level": "info"  },
       { "time": "14:01:35", "message": "ポーリング実行",                "level": "info"  }
     ]
+  },
+  {
+    "id": "DEV-005",
+    "name": "センサー E",
+    "model": "DL-3000",
+    "firmware": "v2.4.1",
+    "location": "3F 会議室",
+    "status": "online",
+    "lastComm": "2026-05-26 14:31:50",
+    "lastCommRelative": "3分前",
+    "tags": ["室内", "3F"],
+    "channels": [
+      { "name": "温度",   "unit": "°C",   "min": 0,   "max": 50   },
+      { "name": "湿度",   "unit": "%",    "min": 0,   "max": 100  },
+      { "name": "CO₂",  "unit": "ppm",  "min": 0,   "max": 5000 },
+      { "name": "照度",   "unit": "lux",  "min": 0,   "max": 2000 }
+    ],
+    "logs": [
+      { "time": "14:31:50", "message": "データ受信成功",  "level": "info" },
+      { "time": "14:31:45", "message": "ポーリング実行",  "level": "info" },
+      { "time": "14:31:40", "message": "接続確認 OK",    "level": "info" }
+    ]
+  },
+  {
+    "id": "DEV-006",
+    "name": "センサー F",
+    "model": "DL-2500",
+    "firmware": "v2.3.2",
+    "location": "屋外 南側",
+    "status": "online",
+    "lastComm": "2026-05-26 14:30:55",
+    "lastCommRelative": "4分前",
+    "tags": ["屋外"],
+    "channels": [
+      { "name": "温度",   "unit": "°C",   "min": -20, "max": 60  },
+      { "name": "湿度",   "unit": "%",    "min": 0,   "max": 100 },
+      { "name": "風速",   "unit": "m/s",  "min": 0,   "max": 50  },
+      { "name": "雨量",   "unit": "mm",   "min": 0,   "max": 100 },
+      { "name": "UV指数", "unit": "",     "min": 0,   "max": 11  }
+    ],
+    "logs": [
+      { "time": "14:30:55", "message": "データ受信成功", "level": "info" },
+      { "time": "14:30:50", "message": "ポーリング実行", "level": "info" }
+    ]
+  },
+  {
+    "id": "DEV-007",
+    "name": "センサー G",
+    "model": "DL-4000",
+    "firmware": "v3.1.0",
+    "location": "B1 ポンプ室",
+    "status": "online",
+    "lastComm": "2026-05-26 14:32:10",
+    "lastCommRelative": "1分前",
+    "tags": ["地下", "設備"],
+    "channels": [
+      { "name": "温度", "unit": "°C",   "min": 0,   "max": 80   },
+      { "name": "圧力", "unit": "kPa",  "min": 100, "max": 400  },
+      { "name": "流量", "unit": "L/min","min": 0,   "max": 200  }
+    ],
+    "logs": [
+      { "time": "14:32:10", "message": "データ受信成功", "level": "info" },
+      { "time": "14:32:05", "message": "ポーリング実行", "level": "info" },
+      { "time": "14:32:00", "message": "接続確認 OK",   "level": "info" }
+    ]
+  },
+  {
+    "id": "DEV-008",
+    "name": "センサー H",
+    "model": "DL-3000",
+    "firmware": "v2.4.0",
+    "location": "1F 受付",
+    "status": "online",
+    "lastComm": "2026-05-26 14:31:20",
+    "lastCommRelative": "4分前",
+    "tags": ["室内", "1F"],
+    "channels": [
+      { "name": "温度",   "unit": "°C",  "min": 0,   "max": 50   },
+      { "name": "湿度",   "unit": "%",   "min": 0,   "max": 100  },
+      { "name": "CO₂",  "unit": "ppm", "min": 0,   "max": 5000 },
+      { "name": "在室数", "unit": "人",  "min": 0,   "max": 50   }
+    ],
+    "logs": [
+      { "time": "14:31:20", "message": "データ受信成功", "level": "info" },
+      { "time": "14:31:15", "message": "ポーリング実行", "level": "info" }
+    ]
+  },
+  {
+    "id": "DEV-009",
+    "name": "センサー I",
+    "model": "DL-2500",
+    "firmware": "v2.3.1",
+    "location": "屋上",
+    "status": "offline",
+    "lastComm": "2026-05-26 11:44:00",
+    "lastCommRelative": "3時間前",
+    "tags": ["屋外"],
+    "channels": [
+      { "name": "温度",   "unit": "°C",   "min": -20, "max": 60   },
+      { "name": "湿度",   "unit": "%",    "min": 0,   "max": 100  },
+      { "name": "日射量", "unit": "W/m²", "min": 0,   "max": 1200 },
+      { "name": "風速",   "unit": "m/s",  "min": 0,   "max": 50   }
+    ],
+    "logs": [
+      { "time": "11:44:00", "message": "接続タイムアウト",  "level": "error" },
+      { "time": "11:43:55", "message": "再接続試行 (3/3)", "level": "warn"  },
+      { "time": "11:43:50", "message": "再接続試行 (2/3)", "level": "warn"  }
+    ]
+  },
+  {
+    "id": "DEV-010",
+    "name": "センサー J",
+    "model": "DL-4000",
+    "firmware": "v3.0.8",
+    "location": "屋上 冷却塔",
+    "status": "online",
+    "lastComm": "2026-05-26 14:32:00",
+    "lastCommRelative": "2分前",
+    "tags": ["屋外", "設備"],
+    "channels": [
+      { "name": "温度",     "unit": "°C",    "min": 0,  "max": 80  },
+      { "name": "流量",     "unit": "L/min", "min": 0,  "max": 250 },
+      { "name": "消費電力", "unit": "kW",    "min": 0,  "max": 50  }
+    ],
+    "logs": [
+      { "time": "14:32:00", "message": "データ受信成功", "level": "info" },
+      { "time": "14:31:55", "message": "ポーリング実行", "level": "info" },
+      { "time": "14:31:50", "message": "接続確認 OK",   "level": "info" }
+    ]
   }
 ]

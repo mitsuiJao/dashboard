@@ -19,7 +19,7 @@ const chartConfig = {
 const statusConfig = {
   online:  { label: "接続中", dot: "bg-green-500", text: "text-green-700 dark:text-green-400",  ping: true  },
   offline: { label: "切断",   dot: "bg-slate-400", text: "text-muted-foreground",               ping: false },
-  error:   { label: "エラー", dot: "bg-amber-400", text: "text-amber-600 dark:text-amber-400",  ping: false },
+  error:   { label: "エラー", dot: "bg-red-500",   text: "text-red-600 dark:text-red-400",     ping: false },
 }
 
 function StatCard({
@@ -27,27 +27,45 @@ function StatCard({
   value,
   sub,
   onClick,
-  accent = false,
+  critical = false,
 }: {
   label: string
   value: React.ReactNode
   sub: React.ReactNode
   onClick?: () => void
-  accent?: boolean
+  critical?: boolean
 }) {
   return (
     <div
-      className={`border border-border rounded-lg p-4 bg-card relative overflow-hidden transition-colors ${
-        onClick ? "cursor-pointer hover:bg-muted/30" : ""
-      } ${accent ? "border-l-[3px] border-l-orange-400" : ""}`}
+      className={`border rounded-lg p-4 relative overflow-hidden transition-colors ${
+        critical
+          ? "border-red-200 dark:border-red-900 border-l-[3px] border-l-red-500 bg-red-500/[0.03] dark:bg-red-950/20 cursor-pointer hover:bg-red-500/[0.07]"
+          : "border-border bg-card" + (onClick ? " cursor-pointer hover:bg-muted/30" : "")
+      }`}
       onClick={onClick}
     >
-      <p className="text-[10px] text-muted-foreground font-medium mb-2 uppercase tracking-widest">{label}</p>
+      {critical && (
+        <div className="absolute top-3 right-3 flex items-center gap-1.5">
+          <span className="relative flex h-2 w-2">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500" />
+          </span>
+          <span className="text-[9px] font-bold text-red-500 uppercase tracking-widest">緊急</span>
+        </div>
+      )}
+      <p className={`text-[10px] font-medium mb-2 uppercase tracking-widest ${critical ? "text-red-700/60 dark:text-red-400/50" : "text-muted-foreground"}`}>
+        {label}
+      </p>
       <p className="text-[28px] font-semibold leading-none mb-2 tabular-nums">{value}</p>
-      <p className="text-[11px] text-muted-foreground">{sub}</p>
+      <p className={`text-[11px] ${critical ? "text-red-500/60" : "text-muted-foreground"}`}>{sub}</p>
     </div>
   )
 }
+
+// Today's actual data only (dev001 is multi-day; filter to 2026-05-26 actual rows)
+const todayChartData = (dev001.data as { datetime?: string; time?: string; temp?: number; humidity?: number }[])
+  .filter(d => typeof d.datetime === "string" && d.datetime.startsWith("2026-05-26") && d.temp != null)
+  .map(d => ({ time: d.datetime!.split(" ")[1], temp: d.temp, humidity: d.humidity }))
 
 export default function Dashboard({ onNavigate }: { onNavigate: (page: PageId) => void }) {
   const onlineCount  = devicesData.filter(d => d.status === "online").length
@@ -66,16 +84,16 @@ export default function Dashboard({ onNavigate }: { onNavigate: (page: PageId) =
             <>
               接続中 <span className="text-green-600 dark:text-green-400 font-medium">{onlineCount}</span>
               {" / "}切断中 <span className="text-red-500 font-medium">{offlineCount}</span>
-              {" / "}エラー <span className="text-amber-600 dark:text-amber-400 font-medium">{errorCount}</span>
+              {" / "}エラー <span className="text-red-600 dark:text-red-400 font-medium">{errorCount}</span>
             </>
           }
         />
         <StatCard
           label="アクティブアラート"
-          value={<span className="text-orange-500">3</span>}
+          value={<span className="text-red-500 font-bold">3</span>}
           sub="クリックでアラートページへ →"
           onClick={() => onNavigate("alerts")}
-          accent
+          critical
         />
         <StatCard
           label="最終受信時刻"
@@ -89,9 +107,9 @@ export default function Dashboard({ onNavigate }: { onNavigate: (page: PageId) =
           <p className="text-sm font-medium mb-1">全体トレンド</p>
           <p className="text-xs text-muted-foreground mb-3">直近 24h — センサー A (1F 機械室)</p>
           <ChartContainer config={chartConfig} className="aspect-auto h-[200px]">
-            <LineChart data={dev001.data}>
+            <LineChart data={todayChartData}>
               <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border)" />
-              <XAxis dataKey="time" tick={{ fontSize: 10 }} tickLine={false} axisLine={false} interval={5} />
+              <XAxis dataKey="time" tick={{ fontSize: 10 }} tickLine={false} axisLine={false} interval={11} />
               <YAxis tick={{ fontSize: 10 }} tickLine={false} axisLine={false} width={30} />
               <ChartTooltip content={<ChartTooltipContent indicator="line" />} />
               <ChartLegend content={<ChartLegendContent />} />
